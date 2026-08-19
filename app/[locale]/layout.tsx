@@ -1,9 +1,10 @@
 import type React from "react"
 import type { Metadata, Viewport } from "next"
+import { notFound } from "next/navigation"
 import { NextIntlClientProvider } from 'next-intl'
 import { getMessages, setRequestLocale } from 'next-intl/server'
 import { Analytics } from "@vercel/analytics/next"
-import { locales } from '@/i18n/config'
+import { locales, type Locale } from '@/i18n/config'
 import "../globals.css"
 
 export function generateStaticParams() {
@@ -44,6 +45,11 @@ export default async function LocaleLayout({ children, params }: Props) {
   // Next.js 14+ puede pasar params como Promise
   const resolvedParams = await params;
   const locale = resolvedParams.locale;
+
+  if (!locales.includes(locale as Locale)) {
+    notFound();
+  }
+
   const messages = await getMessages({ locale });
 
   return (

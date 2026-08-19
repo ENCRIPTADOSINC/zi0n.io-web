@@ -1,9 +1,11 @@
 import type React from "react"
 import type { Metadata, Viewport } from "next"
 import { Analytics } from "@vercel/analytics/next"
+import { BASE_URL } from "@/lib/seo"
 import "./globals.css"
 
 export const metadata: Metadata = {
+  metadataBase: new URL(BASE_URL),
   title: "Zi0n - Seguridad Móvil Avanzada",
   description:
     "Transforma tu Android en un dispositivo encriptado, seguro, controlado y protegido con Zi0n. Gestión de apps verificadas y seguridad avanzada.",
