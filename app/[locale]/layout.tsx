@@ -4,6 +4,7 @@ import { notFound } from "next/navigation"
 import { NextIntlClientProvider } from 'next-intl'
 import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server'
 import { Analytics } from "@vercel/analytics/next"
+import Script from "next/script"
 import { locales, type Locale } from '@/i18n/config'
 import { getLocalizedUrl } from "@/lib/seo"
 import { getOgLocale, getOrganizationJsonLd } from "@/lib/structured-data"
@@ -90,6 +91,15 @@ export default async function LocaleLayout({ children, params }: Props) {
         />
       </head>
       <body className="font-sans antialiased">
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-5GDPQ7KERE" strategy="afterInteractive" />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-5GDPQ7KERE');
+          `}
+        </Script>
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>
