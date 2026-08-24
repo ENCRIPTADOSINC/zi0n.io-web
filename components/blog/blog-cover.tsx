@@ -22,6 +22,7 @@ export function BlogCover({ src, alt, priority, variant = "card" }: BlogCoverPro
     return (
       <div style={wrapperStyle}>
         <Image src={src} alt={alt} fill sizes={sizes} quality={quality} style={styles.image} priority={priority} />
+        <div style={styles.overlay} />
       </div>
     )
   }
@@ -57,6 +58,12 @@ const styles = {
   },
   image: {
     objectFit: "cover",
+  },
+  overlay: {
+    position: "absolute",
+    inset: 0,
+    background: "linear-gradient(135deg, rgba(4, 14, 46, 0.75) 0%, rgba(7, 28, 89, 0.4) 30%, rgba(7, 28, 89, 0) 65%)",
+    pointerEvents: "none",
   },
   placeholder: {
     position: "absolute",
