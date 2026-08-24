@@ -2,32 +2,47 @@ import type React from "react"
 import type { Metadata, Viewport } from "next"
 import { notFound } from "next/navigation"
 import { NextIntlClientProvider } from 'next-intl'
-import { getMessages, setRequestLocale } from 'next-intl/server'
+import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server'
 import { Analytics } from "@vercel/analytics/next"
 import { locales, type Locale } from '@/i18n/config'
+import { getLocalizedUrl } from "@/lib/seo"
+import { getOgLocale, getOrganizationJsonLd } from "@/lib/structured-data"
 import "../globals.css"
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }))
 }
 
-export const metadata: Metadata = {
-  title: "Zi0n - Advanced Mobile Security",
-  description:
-    "Transform your Android into an encrypted, secure, controlled and protected device with Zi0n.",
-  generator: "v0.app",
-  keywords: ["mobile security", "encryption", "Android", "MDM", "privacy", "Zi0n"],
-  authors: [{ name: "Zi0n" }],
-  openGraph: {
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params
+  const url = getLocalizedUrl(locale as Locale, "")
+
+  return {
     title: "Zi0n - Advanced Mobile Security",
-    description: "Transform your Android into an encrypted, secure, controlled and protected device.",
-    type: "website",
-  },
-  icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
-    apple: "/favicon.ico",
-  },
+    description:
+      "Transform your Android into an encrypted, secure, controlled and protected device with Zi0n.",
+    generator: "v0.app",
+    keywords: ["mobile security", "encryption", "Android", "MDM", "privacy", "Zi0n"],
+    authors: [{ name: "Zi0n" }],
+    openGraph: {
+      title: "Zi0n - Advanced Mobile Security",
+      description: "Transform your Android into an encrypted, secure, controlled and protected device.",
+      type: "website",
+      url,
+      siteName: "Zi0n",
+      locale: getOgLocale(locale as Locale),
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "Zi0n - Advanced Mobile Security",
+      description: "Transform your Android into an encrypted, secure, controlled and protected device.",
+    },
+    icons: {
+      icon: "/favicon.ico",
+      shortcut: "/favicon.ico",
+      apple: "/favicon.ico",
+    },
+  }
 }
 
 export const viewport: Viewport = {
@@ -53,6 +68,8 @@ export default async function LocaleLayout({ children, params }: Props) {
   setRequestLocale(locale);
 
   const messages = await getMessages({ locale });
+  const footerT = await getTranslations({ locale, namespace: "footer" });
+  const organizationJsonLd = getOrganizationJsonLd(footerT("description"));
 
   return (
     <html lang={locale} className="scroll-smooth">
@@ -66,6 +83,10 @@ export default async function LocaleLayout({ children, params }: Props) {
         <link
           href="https://fonts.cdnfonts.com/css/mona-sans"
           rel="stylesheet"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
         />
       </head>
       <body className="font-sans antialiased">
