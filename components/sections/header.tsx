@@ -7,7 +7,12 @@ import { useLocale, useTranslations } from "next-intl"
 import { LanguageSelector } from "@/components/shared/language-selector"
 import { useIsMobile } from "@/hooks/use-mobile"
 
-export function Header() {
+type HeaderProps = {
+  /** Forces the opaque white background, e.g. on pages without a dark hero behind the header. */
+  solid?: boolean
+}
+
+export function Header({ solid = false }: HeaderProps) {
   const t = useTranslations('header')
   const locale = useLocale()
   const isCompact = useIsMobile(1100)
@@ -15,9 +20,10 @@ export function Header() {
   const [menuOpen, setMenuOpen] = useState(false)
 
   const navLinks = [
-    { label: t('nav.whatIs'), href: "#crypto-dilemma" },
-    { label: t('nav.whatIncludes'), href: "#features" },
-    { label: t('nav.apps'), href: "#apps" },
+    { label: t('nav.whatIs'), href: `/${locale}#crypto-dilemma` },
+    { label: t('nav.whatIncludes'), href: `/${locale}#features` },
+    { label: t('nav.apps'), href: `/${locale}#apps` },
+    { label: t('nav.blog'), href: `/${locale}/blog` },
   ]
 
   useEffect(() => {
@@ -34,7 +40,7 @@ export function Header() {
   return (
     <header style={{
       ...styles.header,
-      ...(isScrolled || menuOpen ? styles.headerScrolled : styles.headerTop),
+      ...(solid || isScrolled || menuOpen ? styles.headerScrolled : styles.headerTop),
       ...(menuOpen && { backdropFilter: "none", backgroundColor: "#FFFFFF" }),
     }}>
       <div style={styles.container}>

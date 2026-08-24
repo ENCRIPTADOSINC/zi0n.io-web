@@ -3,7 +3,8 @@
     "nav": {
       "whatIs": "Was ist es?",
       "whatIncludes": "Was ist enthalten?",
-      "apps": "Anwendungen"
+      "apps": "Anwendungen",
+      "blog": "Blog"
     },
     "cta": "Jetzt starten"
   },
@@ -255,6 +256,25 @@
       "cookies": "Cookie-Richtlinie"
     },
     "rights": "Alle Rechte vorbehalten."
+  },
+  "blog": {
+    "hero": {
+      "title": "Die Bedrohung greift nicht mehr das System an,",
+      "titleHighlight": "sie greift denjenigen an, der es nutzt.",
+      "subtitle": "Leitfäden, reale Fälle und Updates zu den physischen und digitalen Bedrohungen, denen alle ausgesetzt sind, die mit Geld, Informationen oder sensiblen Zugängen umgehen, und wie man ihnen zuvorkommt."
+    },
+    "latestPostsTitle": "Neueste Beiträge",
+    "allPostsTitle": "Alle Beiträge",
+    "relatedPostsTitle": "Weitere Beiträge",
+    "emptyState": "Es sind noch keine Beiträge verfügbar.",
+    "backToBlog": "Zurück zum Blog",
+    "readingTime": "{minutes} Min. Lesezeit",
+    "pagination": {
+      "first": "Erste",
+      "back": "Zurück",
+      "next": "Weiter",
+      "last": "Letzte"
+    }
   },
   "legalPages": {
     "backToHome": "Zurück zur Startseite",

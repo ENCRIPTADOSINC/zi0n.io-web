@@ -3,7 +3,8 @@
     "nav": {
       "whatIs": "Qu'est-ce que c'est ?",
       "whatIncludes": "Que comprend-il ?",
-      "apps": "Applications"
+      "apps": "Applications",
+      "blog": "Blog"
     },
     "cta": "Commencer maintenant"
   },
@@ -255,6 +256,25 @@
       "cookies": "Politique de cookies"
     },
     "rights": "Tous droits réservés."
+  },
+  "blog": {
+    "hero": {
+      "title": "La menace ne s'attaque plus au système,",
+      "titleHighlight": "elle s'attaque à celui qui l'utilise.",
+      "subtitle": "Guides, cas réels et actualités sur les menaces physiques et numériques auxquelles fait face toute personne qui gère de l'argent, des informations ou des accès sensibles, et comment les anticiper."
+    },
+    "latestPostsTitle": "Dernières publications",
+    "allPostsTitle": "Toutes les publications",
+    "relatedPostsTitle": "Autres publications",
+    "emptyState": "Aucune publication disponible pour le moment.",
+    "backToBlog": "Retour au blog",
+    "readingTime": "{minutes} min de lecture",
+    "pagination": {
+      "first": "Première",
+      "back": "Précédent",
+      "next": "Suivant",
+      "last": "Dernière"
+    }
   },
   "legalPages": {
     "backToHome": "Retour à l'accueil",

@@ -3,7 +3,8 @@
     "nav": {
       "whatIs": "Wat is het?",
       "whatIncludes": "Wat is inbegrepen?",
-      "apps": "Applicaties"
+      "apps": "Applicaties",
+      "blog": "Blog"
     },
     "cta": "Nu beginnen"
   },
@@ -255,6 +256,25 @@
       "cookies": "Cookiebeleid"
     },
     "rights": "Alle rechten voorbehouden."
+  },
+  "blog": {
+    "hero": {
+      "title": "De dreiging valt niet langer het systeem aan,",
+      "titleHighlight": "ze valt aan wie het gebruikt.",
+      "subtitle": "Gidsen, praktijkvoorbeelden en updates over de fysieke en digitale dreigingen waarmee iedereen die geld, informatie of gevoelige toegang beheert te maken krijgt, en hoe je ze voor kunt blijven."
+    },
+    "latestPostsTitle": "Laatste publicaties",
+    "allPostsTitle": "Alle publicaties",
+    "relatedPostsTitle": "Andere publicaties",
+    "emptyState": "Er zijn nog geen publicaties beschikbaar.",
+    "backToBlog": "Terug naar blog",
+    "readingTime": "{minutes} min leestijd",
+    "pagination": {
+      "first": "Eerste",
+      "back": "Vorige",
+      "next": "Volgende",
+      "last": "Laatste"
+    }
   },
   "legalPages": {
     "backToHome": "Terug naar home",

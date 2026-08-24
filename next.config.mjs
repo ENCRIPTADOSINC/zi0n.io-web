@@ -45,7 +45,9 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  images: {},
+  images: {
+    qualities: [75, 90],
+  },
   async headers() {
     return [
       {

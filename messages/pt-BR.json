@@ -3,7 +3,8 @@
     "nav": {
       "whatIs": "O que é?",
       "whatIncludes": "O que inclui?",
-      "apps": "Aplicativos"
+      "apps": "Aplicativos",
+      "blog": "Blog"
     },
     "cta": "Começar agora"
   },
@@ -255,6 +256,25 @@
       "cookies": "Política de cookies"
     },
     "rights": "Todos os direitos reservados."
+  },
+  "blog": {
+    "hero": {
+      "title": "A ameaça não ataca mais o sistema,",
+      "titleHighlight": "ataca quem o usa.",
+      "subtitle": "Guias, casos reais e atualizações sobre as ameaças físicas e digitais enfrentadas por quem lida com dinheiro, informações ou acessos sensíveis, e como se antecipar a elas."
+    },
+    "latestPostsTitle": "Últimas publicações",
+    "allPostsTitle": "Todas as publicações",
+    "relatedPostsTitle": "Outras publicações",
+    "emptyState": "Ainda não há publicações disponíveis.",
+    "backToBlog": "Voltar ao blog",
+    "readingTime": "{minutes} min de leitura",
+    "pagination": {
+      "first": "Primeira",
+      "back": "Voltar",
+      "next": "Próxima",
+      "last": "Última"
+    }
   },
   "legalPages": {
     "backToHome": "Voltar ao início",

@@ -3,7 +3,8 @@
     "nav": {
       "whatIs": "What is it?",
       "whatIncludes": "What's included?",
-      "apps": "Apps"
+      "apps": "Apps",
+      "blog": "Blog"
     },
     "cta": "Get started"
   },
@@ -255,6 +256,25 @@
       "cookies": "Cookie Policy"
     },
     "rights": "All rights reserved."
+  },
+  "blog": {
+    "hero": {
+      "title": "The threat no longer attacks the system,",
+      "titleHighlight": "it attacks whoever uses it.",
+      "subtitle": "Guides, real cases, and updates on the physical and digital threats faced by anyone who handles money, information, or sensitive access, and how to stay ahead of them."
+    },
+    "latestPostsTitle": "Latest posts",
+    "allPostsTitle": "All posts",
+    "relatedPostsTitle": "Other posts",
+    "emptyState": "There are no posts available yet.",
+    "backToBlog": "Back to blog",
+    "readingTime": "{minutes} min read",
+    "pagination": {
+      "first": "First",
+      "back": "Back",
+      "next": "Next",
+      "last": "Last"
+    }
   },
   "legalPages": {
     "backToHome": "Back to home",
