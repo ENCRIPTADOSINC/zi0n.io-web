@@ -354,5 +354,95 @@
       },
       "footer": "本政策与我们的个人数据处理政策及"
     }
+  },
+  "revendedores": {
+    "metaTitle": "经销商计划 | Zi0n",
+    "hero": {
+      "title": "成为 ZiOn 经销商",
+      "subtitle": "加入 ZiOn 经销商计划，享受最高 40% 的折扣。"
+    },
+    "pricing": {
+      "title": "选择您的最大权益",
+      "recommendedBadge": "推荐",
+      "depositLabel": "最低存款",
+      "discountLabel": "经销商折扣",
+      "programs": {
+        "program1": {
+          "name": "方案 1",
+          "deposit": "USD $5.000",
+          "discount": "30%"
+        },
+        "program2": {
+          "name": "方案 2",
+          "deposit": "USD $10.000",
+          "discount": "40%"
+        }
+      },
+      "table": {
+        "plan": "套餐",
+        "r30": "经销商 30%",
+        "r40": "经销商 40%",
+        "final": "最终客户价格",
+        "planShort": "套餐",
+        "r30Short": "30% 折扣",
+        "r40Short": "40% 折扣",
+        "finalShort": "最终价",
+        "rows": {
+          "m3": {
+            "plan": "3 个月",
+            "r30": "USD $105",
+            "r40": "USD $90",
+            "final": "USD $150"
+          },
+          "m6": {
+            "plan": "6 个月",
+            "r30": "USD $195",
+            "r40": "USD $165",
+            "final": "USD $275"
+          },
+          "m12": {
+            "plan": "12 个月",
+            "r30": "USD $350",
+            "r40": "USD $300",
+            "final": "USD $500"
+          }
+        }
+      }
+    },
+    "credit": {
+      "title": "经销商信用额度",
+      "balanceLabel": "可用余额",
+      "balanceAmount": "USD $5,000",
+      "balanceTag": "应用内",
+      "steps": {
+        "deposit": {
+          "title": "存款",
+          "description": "根据所选级别进行存款，使用 USDT 支付。"
+        },
+        "receive": {
+          "title": "获得余额",
+          "description": "资金将存入您的管理后台。"
+        },
+        "manage": {
+          "title": "管理许可证",
+          "description": "使用您的余额购买和管理许可证。"
+        }
+      }
+    },
+    "conditions": {
+      "title": "计划条款",
+      "items": {
+        "c1": "存入的资金将计入您的管理后台。",
+        "c2": "存款不可累计，也不可转让。",
+        "c3": "升级到 40% 需要新存入 USD $10.000。",
+        "c4": "必须按商业规定遵守最终客户价格；违反规定可能导致处罚。"
+      }
+    },
+    "cta": {
+      "title": "准备好销售 ZiOn 了吗？",
+      "subtitleLine1": "扫描二维码或联系我们。",
+      "subtitleLine2": "我们的团队将通过 Signal 与您联系。",
+      "button": "通过 Signal 聊天"
+    }
   }
 }

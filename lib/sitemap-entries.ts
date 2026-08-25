@@ -21,11 +21,16 @@ const ROUTE_TUNING: Record<string, { changeFrequency: SitemapEntry["changeFreque
 }
 const DEFAULT_ROUTE_TUNING = { changeFrequency: "monthly" as const, priority: 0.5 }
 
+/** Static routes that exist but must stay out of the sitemap (e.g. noindex pages). */
+const EXCLUDED_ROUTES = new Set(["revendedores"])
+
 const buildTime = new Date()
 
 export function getSitemapEntries(): SitemapEntry[] {
   const staticEntries = locales.flatMap((locale) =>
-    getStaticPagePaths().map((path) => ({
+    getStaticPagePaths()
+      .filter((path) => !EXCLUDED_ROUTES.has(path))
+      .map((path) => ({
       url: getLocalizedUrl(locale, path),
       lastModified: buildTime,
       ...(ROUTE_TUNING[path] ?? DEFAULT_ROUTE_TUNING),

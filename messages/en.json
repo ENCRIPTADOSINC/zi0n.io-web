@@ -354,5 +354,95 @@
       },
       "footer": "This Policy is integrated with our Personal Data Treatment Policy and"
     }
+  },
+  "revendedores": {
+    "metaTitle": "Reseller Program | Zi0n",
+    "hero": {
+      "title": "Become a ZiOn Reseller",
+      "subtitle": "Join the ZiOn reseller program and access discounts of up to 40%."
+    },
+    "pricing": {
+      "title": "You choose the greatest benefit",
+      "recommendedBadge": "RECOMMENDED",
+      "depositLabel": "Minimum deposit",
+      "discountLabel": "Reseller discount",
+      "programs": {
+        "program1": {
+          "name": "Program 1",
+          "deposit": "USD $5.000",
+          "discount": "30%"
+        },
+        "program2": {
+          "name": "Program 2",
+          "deposit": "USD $10.000",
+          "discount": "40%"
+        }
+      },
+      "table": {
+        "plan": "Plan",
+        "r30": "Reseller 30%",
+        "r40": "Reseller 40%",
+        "final": "Final customer price",
+        "planShort": "Plan",
+        "r30Short": "Res. 30%",
+        "r40Short": "Res. 40%",
+        "finalShort": "Final",
+        "rows": {
+          "m3": {
+            "plan": "3 months",
+            "r30": "USD $105",
+            "r40": "USD $90",
+            "final": "USD $150"
+          },
+          "m6": {
+            "plan": "6 months",
+            "r30": "USD $195",
+            "r40": "USD $165",
+            "final": "USD $275"
+          },
+          "m12": {
+            "plan": "12 months",
+            "r30": "USD $350",
+            "r40": "USD $300",
+            "final": "USD $500"
+          }
+        }
+      }
+    },
+    "credit": {
+      "title": "Credit for Resellers",
+      "balanceLabel": "Available balance",
+      "balanceAmount": "USD $5,000",
+      "balanceTag": "In App",
+      "steps": {
+        "deposit": {
+          "title": "Deposit",
+          "description": "Make your deposit according to the chosen level. Pay in USDT."
+        },
+        "receive": {
+          "title": "Receive balance",
+          "description": "Funds are credited to your Admin Panel."
+        },
+        "manage": {
+          "title": "Manage licenses",
+          "description": "Use your balance to acquire and manage licenses."
+        }
+      }
+    },
+    "conditions": {
+      "title": "Program Conditions",
+      "items": {
+        "c1": "Deposited funds are credited to your Admin Panel.",
+        "c2": "Deposits are neither cumulative nor transferable.",
+        "c3": "Moving to 40% requires a new deposit of USD $10,000.",
+        "c4": "Final customer prices must be commercially respected; non-compliance may result in penalties."
+      }
+    },
+    "cta": {
+      "title": "Ready to sell ZiOn?",
+      "subtitleLine1": "Scan the QR code or contact us.",
+      "subtitleLine2": "Our team will assist you via Signal.",
+      "button": "Chat on Signal"
+    }
   }
 }

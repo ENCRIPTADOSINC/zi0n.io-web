@@ -354,5 +354,95 @@
       },
       "footer": "Esta Política se integra con nuestra Política de Tratamiento de Datos Personales y"
     }
+  },
+  "revendedores": {
+    "metaTitle": "Programa de Revendedor | Zi0n",
+    "hero": {
+      "title": "Conviértete en Revendedor Zi0n",
+      "subtitle": "Forma parte del programa de revendedores Zi0n y accede a descuentos de hasta 40%."
+    },
+    "pricing": {
+      "title": "Tu eliges el mayor beneficio",
+      "recommendedBadge": "RECOMENDADO",
+      "depositLabel": "Depósito mínimo",
+      "discountLabel": "Descuento para revendedor",
+      "programs": {
+        "program1": {
+          "name": "Programa 1",
+          "deposit": "USD $5.000",
+          "discount": "30%"
+        },
+        "program2": {
+          "name": "Programa 2",
+          "deposit": "USD $10.000",
+          "discount": "40%"
+        }
+      },
+      "table": {
+        "plan": "Plan",
+        "r30": "Revendedor 30%",
+        "r40": "Revendedor 40%",
+        "final": "Precio cliente final",
+        "planShort": "Plan",
+        "r30Short": "Rev. 30%",
+        "r40Short": "Rev. 40%",
+        "finalShort": "P. Final",
+        "rows": {
+          "m3": {
+            "plan": "3 meses",
+            "r30": "USD $105",
+            "r40": "USD $90",
+            "final": "USD $150"
+          },
+          "m6": {
+            "plan": "6 meses",
+            "r30": "USD $195",
+            "r40": "USD $165",
+            "final": "USD $275"
+          },
+          "m12": {
+            "plan": "12 meses",
+            "r30": "USD $350",
+            "r40": "USD $300",
+            "final": "USD $500"
+          }
+        }
+      }
+    },
+    "credit": {
+      "title": "Credito para Revendedores",
+      "balanceLabel": "Balance disponible",
+      "balanceAmount": "USD $5,000",
+      "balanceTag": "En App",
+      "steps": {
+        "deposit": {
+          "title": "Deposita",
+          "description": "Realiza tu depósito según el nivel elegido. Paga en USDT."
+        },
+        "receive": {
+          "title": "Recibe balance",
+          "description": "Los fondos se acreditan en tu Admin Panel."
+        },
+        "manage": {
+          "title": "Administra licencias",
+          "description": "Utiliza tu balance para adquirir y gestionar licencias."
+        }
+      }
+    },
+    "conditions": {
+      "title": "Condiciones del programa",
+      "items": {
+        "c1": "Los fondos depositados se acreditan en tu Admin Panel.",
+        "c2": "Los depósitos no son acumulables ni transferibles.",
+        "c3": "El paso al 40% requiere un nuevo depósito de USD $10.000.",
+        "c4": "Los precios finales al cliente deben ser respetados comercialmente; el incumplimiento puede derivar en sanciones."
+      }
+    },
+    "cta": {
+      "title": "¿Listo para vender Zi0n?",
+      "subtitleLine1": "Escanea el código QR o contáctanos.",
+      "subtitleLine2": "Nuestro equipo te atenderá por Signal.",
+      "button": "Chatear por Signal"
+    }
   }
 }

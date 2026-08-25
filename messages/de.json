@@ -354,5 +354,95 @@
       },
       "footer": "Diese Richtlinie ist integriert mit unserer Datenschutzrichtlinie und"
     }
+  },
+  "revendedores": {
+    "metaTitle": "Wiederverkäuferprogramm | Zi0n",
+    "hero": {
+      "title": "Werde ZiOn-Wiederverkäufer",
+      "subtitle": "Werde Teil des ZiOn-Wiederverkäuferprogramms und erhalte Rabatte von bis zu 40 %."
+    },
+    "pricing": {
+      "title": "Du wählst den besten Vorteil",
+      "recommendedBadge": "EMPFOHLEN",
+      "depositLabel": "Mindesteinzahlung",
+      "discountLabel": "Wiederverkäuferrabatt",
+      "programs": {
+        "program1": {
+          "name": "Programm 1",
+          "deposit": "USD $5.000",
+          "discount": "30%"
+        },
+        "program2": {
+          "name": "Programm 2",
+          "deposit": "USD $10.000",
+          "discount": "40%"
+        }
+      },
+      "table": {
+        "plan": "Plan",
+        "r30": "Wiederverkäufer 30%",
+        "r40": "Wiederverkäufer 40%",
+        "final": "Endkundenpreis",
+        "planShort": "Plan",
+        "r30Short": "WV 30%",
+        "r40Short": "WV 40%",
+        "finalShort": "Endpreis",
+        "rows": {
+          "m3": {
+            "plan": "3 Monate",
+            "r30": "USD $105",
+            "r40": "USD $90",
+            "final": "USD $150"
+          },
+          "m6": {
+            "plan": "6 Monate",
+            "r30": "USD $195",
+            "r40": "USD $165",
+            "final": "USD $275"
+          },
+          "m12": {
+            "plan": "12 Monate",
+            "r30": "USD $350",
+            "r40": "USD $300",
+            "final": "USD $500"
+          }
+        }
+      }
+    },
+    "credit": {
+      "title": "Guthaben für Wiederverkäufer",
+      "balanceLabel": "Verfügbares Guthaben",
+      "balanceAmount": "USD $5,000",
+      "balanceTag": "In der App",
+      "steps": {
+        "deposit": {
+          "title": "Einzahlen",
+          "description": "Tätige deine Einzahlung entsprechend der gewählten Stufe. Zahlung in USDT."
+        },
+        "receive": {
+          "title": "Guthaben erhalten",
+          "description": "Die Mittel werden deinem Admin-Panel gutgeschrieben."
+        },
+        "manage": {
+          "title": "Lizenzen verwalten",
+          "description": "Nutze dein Guthaben, um Lizenzen zu erwerben und zu verwalten."
+        }
+      }
+    },
+    "conditions": {
+      "title": "Programmbedingungen",
+      "items": {
+        "c1": "Eingezahlte Gelder werden deinem Admin-Panel gutgeschrieben.",
+        "c2": "Einzahlungen sind weder kumulierbar noch übertragbar.",
+        "c3": "Der Wechsel zu 40 % erfordert eine neue Einzahlung von USD $10.000.",
+        "c4": "Die Endkundenpreise müssen kommerziell eingehalten werden; Nichteinhaltung kann Sanktionen nach sich ziehen."
+      }
+    },
+    "cta": {
+      "title": "Bereit, ZiOn zu verkaufen?",
+      "subtitleLine1": "Scanne den QR-Code oder kontaktiere uns.",
+      "subtitleLine2": "Unser Team meldet sich über Signal.",
+      "button": "Über Signal chatten"
+    }
   }
 }

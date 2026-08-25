@@ -354,5 +354,95 @@
       },
       "footer": "Dit Beleid is geïntegreerd met ons Beleid voor de Verwerking van Persoonsgegevens en"
     }
+  },
+  "revendedores": {
+    "metaTitle": "Wederverkopersprogramma | Zi0n",
+    "hero": {
+      "title": "Word ZiOn-wederverkoper",
+      "subtitle": "Doe mee aan het ZiOn-wederverkopersprogramma en krijg tot 40% korting."
+    },
+    "pricing": {
+      "title": "Jij kiest het grootste voordeel",
+      "recommendedBadge": "AANBEVOLEN",
+      "depositLabel": "Minimale storting",
+      "discountLabel": "Wederverkoperskorting",
+      "programs": {
+        "program1": {
+          "name": "Programma 1",
+          "deposit": "USD $5.000",
+          "discount": "30%"
+        },
+        "program2": {
+          "name": "Programma 2",
+          "deposit": "USD $10.000",
+          "discount": "40%"
+        }
+      },
+      "table": {
+        "plan": "Plan",
+        "r30": "Wederverkoper 30%",
+        "r40": "Wederverkoper 40%",
+        "final": "Eindklantprijs",
+        "planShort": "Plan",
+        "r30Short": "WV 30%",
+        "r40Short": "WV 40%",
+        "finalShort": "Eindprijs",
+        "rows": {
+          "m3": {
+            "plan": "3 maanden",
+            "r30": "USD $105",
+            "r40": "USD $90",
+            "final": "USD $150"
+          },
+          "m6": {
+            "plan": "6 maanden",
+            "r30": "USD $195",
+            "r40": "USD $165",
+            "final": "USD $275"
+          },
+          "m12": {
+            "plan": "12 maanden",
+            "r30": "USD $350",
+            "r40": "USD $300",
+            "final": "USD $500"
+          }
+        }
+      }
+    },
+    "credit": {
+      "title": "Krediet voor wederverkopers",
+      "balanceLabel": "Beschikbaar saldo",
+      "balanceAmount": "USD $5,000",
+      "balanceTag": "In de app",
+      "steps": {
+        "deposit": {
+          "title": "Storten",
+          "description": "Doe je storting volgens het gekozen niveau. Betaal in USDT."
+        },
+        "receive": {
+          "title": "Saldo ontvangen",
+          "description": "De middelen worden bijgeschreven op je Admin Panel."
+        },
+        "manage": {
+          "title": "Licenties beheren",
+          "description": "Gebruik je saldo om licenties aan te schaffen en te beheren."
+        }
+      }
+    },
+    "conditions": {
+      "title": "Programmavoorwaarden",
+      "items": {
+        "c1": "Gestorte middelen worden bijgeschreven op je Admin Panel.",
+        "c2": "Stortingen zijn niet cumulatief of overdraagbaar.",
+        "c3": "De overstap naar 40% vereist een nieuwe storting van USD $10.000.",
+        "c4": "Eindklantprijzen moeten commercieel worden gerespecteerd; niet-naleving kan leiden tot sancties."
+      }
+    },
+    "cta": {
+      "title": "Klaar om ZiOn te verkopen?",
+      "subtitleLine1": "Scan de QR-code of neem contact op.",
+      "subtitleLine2": "Ons team helpt je via Signal.",
+      "button": "Chat via Signal"
+    }
   }
 }

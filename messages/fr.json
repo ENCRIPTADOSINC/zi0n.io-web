@@ -354,5 +354,95 @@
       },
       "footer": "Cette Politique s'intègre à notre Politique de Traitement des Données Personnelles et"
     }
+  },
+  "revendedores": {
+    "metaTitle": "Programme Revendeur | Zi0n",
+    "hero": {
+      "title": "Devenez revendeur ZiOn",
+      "subtitle": "Rejoignez le programme revendeur ZiOn et accédez à des remises allant jusqu'à 40 %."
+    },
+    "pricing": {
+      "title": "Vous choisissez le meilleur avantage",
+      "recommendedBadge": "RECOMMANDÉ",
+      "depositLabel": "Dépôt minimum",
+      "discountLabel": "Remise revendeur",
+      "programs": {
+        "program1": {
+          "name": "Programme 1",
+          "deposit": "USD $5.000",
+          "discount": "30%"
+        },
+        "program2": {
+          "name": "Programme 40 %",
+          "deposit": "USD $10.000",
+          "discount": "40%"
+        }
+      },
+      "table": {
+        "plan": "Plan",
+        "r30": "Revendeur 30 %",
+        "r40": "Revendeur 40 %",
+        "final": "Prix client final",
+        "planShort": "Plan",
+        "r30Short": "Rev. 30 %",
+        "r40Short": "Rev. 40 %",
+        "finalShort": "P. final",
+        "rows": {
+          "m3": {
+            "plan": "3 mois",
+            "r30": "USD $105",
+            "r40": "USD $90",
+            "final": "USD $150"
+          },
+          "m6": {
+            "plan": "6 mois",
+            "r30": "USD $195",
+            "r40": "USD $165",
+            "final": "USD $275"
+          },
+          "m12": {
+            "plan": "12 mois",
+            "r30": "USD $350",
+            "r40": "USD $300",
+            "final": "USD $500"
+          }
+        }
+      }
+    },
+    "credit": {
+      "title": "Crédit pour revendeurs",
+      "balanceLabel": "Solde disponible",
+      "balanceAmount": "USD $5,000",
+      "balanceTag": "Dans l'appli",
+      "steps": {
+        "deposit": {
+          "title": "Dépôt",
+          "description": "Effectuez votre dépôt selon le niveau choisi (USDT)."
+        },
+        "receive": {
+          "title": "Recevoir le solde",
+          "description": "Les fonds sont crédités sur votre panneau d'administration."
+        },
+        "manage": {
+          "title": "Gérer les licences",
+          "description": "Utilisez votre solde pour acquérir et gérer des licences."
+        }
+      }
+    },
+    "conditions": {
+      "title": "Conditions du programme",
+      "items": {
+        "c1": "Les fonds déposés sont crédités sur votre panneau d'administration.",
+        "c2": "Les dépôts ne sont ni cumulables ni transférables.",
+        "c3": "Le passage à 40 % nécessite un nouveau dépôt de 10 000 USD.",
+        "c4": "Les prix clients finaux doivent être commercialement respectés ; le non-respect peut entraîner des pénalités."
+      }
+    },
+    "cta": {
+      "title": "Prêt à vendre ZiOn ?",
+      "subtitleLine1": "Scannez le code QR ou contactez-nous.",
+      "subtitleLine2": "Notre équipe vous répondra sur Signal.",
+      "button": "Discuter sur Signal"
+    }
   }
 }
