@@ -136,13 +136,7 @@
   },
   "appsConfig": {
     "title": "使用这些应用配置 Zi0n Crypto",
-    "subtitle": "你可以从3个应用商店中选择在设备上安装所需内容：",
-    "tabs": {
-      "privacy": "隐私商店",
-      "exchange": "交易商店",
-      "communications": "通讯商店",
-      "encrypted": "加密商店"
-    }
+    "subtitle": "在我们的商店中，您可以找到预装应用，帮助您个性化定制 Zi0n 使用体验。"
   },
   "cta": {
     "title": "不确定 Zi0n 是否适合你？",
@@ -356,8 +350,8 @@
     }
   },
   "revendedores": {
-    "metaTitle": "经销商计划 | Zi0n",
-    "metaDescription": "加入 ZiOn 经销商计划，享受最高 40% 的折扣。",
+    "metaTitle": "ZiOn 经销商计划 | 套餐与权益",
+    "metaDescription": "开始销售 ZiOn 许可证。选择您的计划，充值余额，开始通过 ZiOn 赚钱。",
     "hero": {
       "title": "成为 ZiOn 经销商",
       "subtitle": "加入 ZiOn 经销商计划，享受最高 40% 的折扣。"

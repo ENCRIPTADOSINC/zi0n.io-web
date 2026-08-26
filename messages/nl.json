@@ -136,13 +136,7 @@
   },
   "appsConfig": {
     "title": "Configureer Zi0n Crypto met deze apps",
-    "subtitle": "Je kunt kiezen uit 3 app-winkels om te installeren wat je wilt op je apparaat:",
-    "tabs": {
-      "privacy": "Privacy Winkel",
-      "exchange": "Exchange Winkel",
-      "communications": "Communicatie Winkel",
-      "encrypted": "Versleuteld Winkel"
-    }
+    "subtitle": "In onze winkel vind je vooraf geïnstalleerde apps waarmee je je Zi0n-ervaring kunt personaliseren."
   },
   "cta": {
     "title": "Weet je niet of Zi0n iets voor jou is?",
@@ -356,8 +350,8 @@
     }
   },
   "revendedores": {
-    "metaTitle": "Wederverkopersprogramma | Zi0n",
-    "metaDescription": "Doe mee aan het ZiOn-wederverkopersprogramma en krijg tot 40% korting.",
+    "metaTitle": "ZiOn Wederverkopersprogramma | Plannen en voordelen",
+    "metaDescription": "Begin met het verkopen van ZiOn-licenties. Kies je programma, stort saldo en begin geld te verdienen met ZiOn.",
     "hero": {
       "title": "Word ZiOn-wederverkoper",
       "subtitle": "Doe mee aan het ZiOn-wederverkopersprogramma en krijg tot 40% korting."

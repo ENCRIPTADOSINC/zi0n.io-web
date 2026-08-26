@@ -136,13 +136,7 @@
   },
   "appsConfig": {
     "title": "Konfiguriere Zi0n Crypto mit diesen Apps",
-    "subtitle": "Du kannst aus 3 App-Stores wählen, um zu installieren, was du auf deinem Gerät möchtest:",
-    "tabs": {
-      "privacy": "Privacy Store",
-      "exchange": "Exchange Store",
-      "communications": "Kommunikations-Store",
-      "encrypted": "Verschlüsselungs-Store"
-    }
+    "subtitle": "In unserem Store findest du vorinstallierte Apps, mit denen du dein Zi0n-Erlebnis personalisieren kannst."
   },
   "cta": {
     "title": "Nicht sicher, ob Zi0n das Richtige für dich ist?",
@@ -356,8 +350,8 @@
     }
   },
   "revendedores": {
-    "metaTitle": "Wiederverkäuferprogramm | Zi0n",
-    "metaDescription": "Werde Teil des ZiOn-Wiederverkäuferprogramms und erhalte Rabatte von bis zu 40 %.",
+    "metaTitle": "ZiOn Wiederverkäuferprogramm | Pläne und Vorteile",
+    "metaDescription": "Beginne mit dem Verkauf von ZiOn-Lizenzen. Wähle dein Programm, zahle ein Guthaben ein und verdiene Geld mit ZiOn.",
     "hero": {
       "title": "Werde ZiOn-Wiederverkäufer",
       "subtitle": "Werde Teil des ZiOn-Wiederverkäuferprogramms und erhalte Rabatte von bis zu 40 %."

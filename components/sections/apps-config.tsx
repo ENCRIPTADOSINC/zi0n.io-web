@@ -1,183 +1,70 @@
 "use client";
 
-import { useState } from "react";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useIsMobile } from "@/hooks/use-mobile";
 
-const tabKeys = [
-  "privacy",
-  //'exchange',
-  "communications",
-  "encrypted",
-] as const;
+const ICONS_FOLDER = "/image/icon-zi0n";
 
-const tabFolders: Record<(typeof tabKeys)[number], string> = {
-  privacy: "logos-tienda-privacy",
-  // exchange: "logos-tienda-exchange",
-  communications: "logos-tienda-comunicaciones",
-  encrypted: "logos-tienda-encriptados",
-};
+const appFiles: { name: string; file: string }[] = [
+  { name: "CoinGecko", file: "CoinGecko.svg" },
+  { name: "CoinMarketCap", file: "CoinMarketCap.svg" },
+  { name: "Rabby Wallet", file: "Rabby Wallet.svg" },
+  { name: "Uniswap", file: "Uniswap.svg" },
+  { name: "TrustWallet", file: "Trust Wallet.svg" },
+  { name: "Monero", file: "Monero.svg" },
+  { name: "Exodus", file: "Exodus.svg" },
+  { name: "MetaMask", file: "MetaMask.svg" },
+  { name: "TronLink", file: "TronLink.svg" },
+  { name: "Phantom", file: "Phantom.svg" },
+  { name: "DuckDuckGo", file: "DuckDuckGo.svg" },
+  { name: "Calculadora", file: "Calculadora2.svg" },
+  { name: "Xe", file: "XE.svg" },
+  { name: "DeepL", file: "DeepL.svg" },
+  { name: "Proton Mail", file: "Proton Mail.svg" },
+  { name: "Proton Drive", file: "Proton Drive.svg" },
+  { name: "Proton Autentificador", file: "Proton Authenticator.svg" },
+  { name: "Authy", file: "Authy.svg" },
+  { name: "Signal", file: "Signal.svg" },
+  { name: "Molly", file: "Molly.svg" },
+  { name: "Threema", file: "Threema.svg" },
+  { name: "Silent Phone", file: "Silent Phone.svg" },
+  { name: "Telegram", file: "Telegram.svg" },
+  { name: "Whatsapp", file: "Whatswapp.svg" },
+  { name: "Mega", file: "Mega.svg" },
+  { name: "Slynumber", file: "Slynumber.svg" },
+  { name: "xPal", file: "xPal.svg" },
+  { name: "WA Business", file: "WA Business.svg" },
+  { name: "Facebook", file: "Facebook.svg" },
+  { name: "Messenger", file: "Messenger.svg" },
+  { name: "Snapchat", file: "Snapchat.svg" },
+  { name: "YouTube", file: "YouTube.svg" },
+  { name: "Tiktok", file: "TikTok.svg" },
+  { name: "Amazon", file: "Amazon.svg" },
+  { name: "Airbnb", file: "Airbnb.svg" },
+  { name: "Bitrefill", file: "Bitrefill.svg" },
+  { name: "Uber Eats", file: "Uber Eats.svg" },
+  { name: "What3Words", file: "what3words.svg" },
+  { name: "UBoxPro", file: "UBoxPro.svg" },
+  { name: "PAJ Portal", file: "PAJ Portal.svg" },
+  { name: "PlanetGPS", file: "PlanetGPS.svg" },
+  { name: "Armadillo Chat", file: "Armadillo Chat.svg" },
+  { name: "Zangi private messenger", file: "Zangi.svg" },
+  { name: "Gboard", file: "Gboard.svg" },
+  { name: "Threema Work", file: "Threema Work.svg" },
+  { name: "SimpleX", file: "SimpleX.svg" },
+  { name: "Briar", file: "Briar.svg" },
+]
 
-const appNames: Record<(typeof tabKeys)[number], string[]> = {
-  privacy: [
-    "CoinGecko",
-    "CoinMarketCap",
-    "Mega",
-    "Slynumber",
-    "Uniswap",
-    "MaxWallet",
-    "Trust",
-    "Monero",
-    "Exodus",
-    "Rabbit Wallet",
-    "Metamask",
-    "Tron link",
-    "Phantom",
-    "DuckDuck Go",
-    "Calculadora",
-    "Encriptados",
-    "Xe",
-    "DeepL",
-    "Proton mail",
-    "Proton Drive",
-    "Proton Auth",
-    "Authy",
-    "Signal",
-    "Molly",
-    "Threema",
-    "Silentphone",
-    "Telegram",
-    "Whatsapp",
-    // "ccoins",
-    "RedotPay",
-  ],
-  // exchange: [
-  //   "CoinGecko",
-  //   "CoinMarketCap",
-  //   "Binance",
-  //   "KuCoin",
-  //   "Kraken",
-  //   "Bitget",
-  //   "Bybit",
-  //   "Coinbase",
-  //   "Huobi",
-  //   "Gemini",
-  //   "Bittrex",
-  //   "Bitstamp",
-  //   "OKX",
-  //   "Gate.io",
-  //   "Crypto.com",
-  //   "Poloniex",
-  //   "Rabby Wallet",
-  //   "Gmail",
-  //   "Ledger",
-  //   "Trezor",
-  //   "Uniswap",
-  //   "MaxWallet",
-  //   "Trust",
-  //   "Monero",
-  //   "Exodus",
-  //   "Metamask",
-  //   "Tron link",
-  //   "Phantom",
-  //   "DuckDuck Go",
-  //   "Calculadora",
-  //   "Encriptados",
-  //   "Xe",
-  //   "DeepL",
-  //   "Proton mail",
-  //   "Proton Drive",
-  //   "Proton Auth",
-  //   "Authy",
-  //   "Signal",
-  //   "Molly",
-  //   "Threema",
-  //   "Silentphone",
-  //   "Telegram",
-  //   "Whatsapp",
-  // ],
-  communications: [
-    "Mega",
-    "Slynumber",
-    "Zangi Messenger",
-    "xPal Ultra Secure",
-    "WhatsApp Business",
-    "Facebook",
-    "Messenger",
-    "X",
-    "Snapchat",
-    "YouTube",
-    "Tiktok",
-    "Amazon",
-    "Airbnb",
-    "Bitrefill",
-    "Uber Eats",
-    "What3Words",
-    "UBoxPro",
-    "PAJ Portal",
-    "PlanetGPS",
-    "Trust",
-    "Monero",
-    "DuckDuck Go",
-    "Calculadora",
-    "Encriptados",
-    "Xe",
-    "DeepL",
-    "Proton mail",
-    "Proton Drive",
-    "Proton Auth",
-    "Signal",
-    "Molly",
-    "Threema",
-    "Silentphone",
-    "Telegram",
-    "Whatsapp",
-    "Uniswap",
-    "Tron link",
-  ],
-  encrypted: [
-    "MaxWallet",
-    "Trust",
-    "Calculadora",
-    "Encriptados",
-    "Xe",
-    "DeepL",
-    "Proton mail",
-    "Proton Drive",
-    "Signal",
-    "Molly",
-    "Threema",
-    "Silentphone",
-    "Telegram",
-    "Mega",
-    "Armadillo Chat",
-    "Zangi Private",
-    "xPal Ultra Secure",
-    "Uniswap",
-  ],
-};
-
-function getLogos(
-  tab: (typeof tabKeys)[number],
-): { src: string; name: string }[] {
-  const folder = tabFolders[tab];
-  const names = appNames[tab];
-  return names.map((name, i) => ({
-    src: `/image/home/${folder}/${i === 0 ? "mensaje" : `mensaje-${i}`}.png`,
-    name,
-  }));
-}
+const apps = appFiles.map(({ name, file }) => ({
+  name,
+  src: `${ICONS_FOLDER}/${encodeURIComponent(file)}`,
+}))
 
 export function AppsConfig() {
   const t = useTranslations("appsConfig");
   const isMobile = useIsMobile();
-  const isCompact = useIsMobile(1100);
-  const [activeTab, setActiveTab] =
-    useState<(typeof tabKeys)[number]>("privacy");
-
-  const logos = getLogos(activeTab);
 
   return (
     <section id="apps" style={styles.section}>
@@ -206,36 +93,8 @@ export function AppsConfig() {
           <p style={styles.subtitle}>{t("subtitle")}</p>
         </motion.div>
 
-        {/* Tabs */}
-        <div style={styles.tabsContainer}>
-          <div
-            style={{
-              ...styles.tabsWrapper,
-              ...(isCompact && {
-                flexDirection: "column",
-                borderRadius: "16px",
-                width: "100%",
-              }),
-            }}
-          >
-            {tabKeys.map((key) => (
-              <button
-                key={key}
-                onClick={() => setActiveTab(key)}
-                style={{
-                  ...(activeTab === key ? styles.tabActive : styles.tab),
-                  ...(isCompact && { borderRadius: "9999px", width: "100%" }),
-                }}
-              >
-                {t(`tabs.${key}`)}
-              </button>
-            ))}
-          </div>
-        </div>
-
         {/* Apps Grid */}
         <motion.div
-          key={activeTab}
           style={{
             ...styles.grid,
             ...(isMobile && {
@@ -245,11 +104,12 @@ export function AppsConfig() {
             }),
           }}
           initial={{ opacity: 0, y: 10 }}
-          animate={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
           transition={{ duration: 0.3 }}
         >
-          {logos.map((app, i) => (
-            <div key={i} style={styles.appItem}>
+          {apps.map((app) => (
+            <div key={app.name} style={styles.appItem}>
               <Image
                 src={app.src}
                 alt={app.name}
@@ -274,17 +134,17 @@ const styles = {
   container: {
     maxWidth: "1100px",
     margin: "0 auto",
-    padding: "80px 24px",
+    padding: "80px 12px",
     overflow: "hidden",
   },
   header: {
     textAlign: "center",
-    marginBottom: "32px",
+    marginBottom: "48px",
   },
   title: {
     fontFamily: "'Mona-Sans', sans-serif",
-    fontSize: "36px",
-    fontWeight: 700,
+    fontSize: "40px",
+    fontWeight: 600,
     color: "#081C59",
     marginBottom: "12px",
   },
@@ -294,45 +154,11 @@ const styles = {
     fontWeight: 400,
     color: "#626262",
   },
-  tabsContainer: {
-    display: "flex",
-    justifyContent: "center",
-    marginBottom: "40px",
-  },
-  tabsWrapper: {
-    display: "flex",
-    gap: "0px",
-    backgroundColor: "#081F5F",
-    borderRadius: "9999px",
-    padding: "6px",
-  },
-  tab: {
-    padding: "10px 24px",
-    borderRadius: "9999px",
-    fontSize: "14px",
-    fontWeight: 500,
-    color: "#FFFFFF",
-    backgroundColor: "transparent",
-    border: "none",
-    cursor: "pointer",
-    fontFamily: "Montserrat, sans-serif",
-  },
-  tabActive: {
-    padding: "10px 24px",
-    borderRadius: "9999px",
-    fontSize: "14px",
-    fontWeight: 600,
-    color: "#081C59",
-    backgroundColor: "#5EEC7D",
-    border: "none",
-    cursor: "pointer",
-    fontFamily: "Montserrat, sans-serif",
-  },
   grid: {
     display: "grid",
     gridTemplateColumns: "repeat(9, 1fr)",
-    gap: "24px",
-    maxWidth: "900px",
+    gap: "40px",
+    maxWidth: "1050px",
     margin: "0 auto",
   },
   appItem: {
@@ -347,9 +173,11 @@ const styles = {
   },
   appName: {
     fontFamily: "Roboto, sans-serif",
-    fontSize: "11px",
-    fontWeight: 400,
-    color: "#081C59",
+    fontSize: "12px",
+    fontWeight: 500,
+    lineHeight: "100%",
+    letterSpacing: "0%",
+    color: "#626262",
     textAlign: "center",
   },
 } satisfies Record<string, React.CSSProperties>;
