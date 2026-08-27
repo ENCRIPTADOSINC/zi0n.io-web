@@ -349,18 +349,18 @@
       "footer": "Dit Beleid is geïntegreerd met ons Beleid voor de Verwerking van Persoonsgegevens en"
     }
   },
-  "revendedores": {
-    "metaTitle": "ZiOn Wederverkopersprogramma | Plannen en voordelen",
+  "distribuidores": {
+    "metaTitle": "ZiOn Distributeursprogramma | Plannen en voordelen",
     "metaDescription": "Begin met het verkopen van ZiOn-licenties. Kies je programma, stort saldo en begin geld te verdienen met ZiOn.",
     "hero": {
-      "title": "Word ZiOn-wederverkoper",
-      "subtitle": "Doe mee aan het ZiOn-wederverkopersprogramma en krijg tot 40% korting."
+      "title": "Word ZiOn-distributeur",
+      "subtitle": "Doe mee aan het ZiOn-distributeursprogramma en krijg tot 40% korting."
     },
     "pricing": {
       "title": "Jij kiest het grootste voordeel",
       "recommendedBadge": "AANBEVOLEN",
       "depositLabel": "Minimale storting",
-      "discountLabel": "Wederverkoperskorting",
+      "discountLabel": "Distributeurskorting",
       "programs": {
         "program1": {
           "name": "Programma 1",
@@ -375,12 +375,12 @@
       },
       "table": {
         "plan": "Plan",
-        "r30": "Wederverkoper 30%",
-        "r40": "Wederverkoper 40%",
+        "r30": "Distributeur 30%",
+        "r40": "Distributeur 40%",
         "final": "Eindklantprijs",
         "planShort": "Plan",
-        "r30Short": "WV 30%",
-        "r40Short": "WV 40%",
+        "r30Short": "Dist. 30%",
+        "r40Short": "Dist. 40%",
         "finalShort": "Eindprijs",
         "rows": {
           "m3": {
@@ -405,7 +405,7 @@
       }
     },
     "credit": {
-      "title": "Krediet voor wederverkopers",
+      "title": "Krediet voor distributeurs",
       "balanceLabel": "Beschikbaar saldo",
       "balanceAmount": "USD $5,000",
       "balanceTag": "In de app",

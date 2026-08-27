@@ -349,18 +349,18 @@
       "footer": "This Policy is integrated with our Personal Data Treatment Policy and"
     }
   },
-  "revendedores": {
-    "metaTitle": "ZiOn Reseller Program | Plans and benefits",
+  "distribuidores": {
+    "metaTitle": "ZiOn Distributor Program | Plans and benefits",
     "metaDescription": "Start selling ZiOn licenses. Choose your program, deposit funds, and start earning money with ZiOn.",
     "hero": {
-      "title": "Become a ZiOn Reseller",
-      "subtitle": "Join the ZiOn reseller program and access discounts of up to 40%."
+      "title": "Become a ZiOn Distributor",
+      "subtitle": "Join the ZiOn distributor program and access discounts of up to 40%."
     },
     "pricing": {
       "title": "You choose the greatest benefit",
       "recommendedBadge": "RECOMMENDED",
       "depositLabel": "Minimum deposit",
-      "discountLabel": "Reseller discount",
+      "discountLabel": "Distributor discount",
       "programs": {
         "program1": {
           "name": "Program 1",
@@ -375,12 +375,12 @@
       },
       "table": {
         "plan": "Plan",
-        "r30": "Reseller 30%",
-        "r40": "Reseller 40%",
+        "r30": "Distributor 30%",
+        "r40": "Distributor 40%",
         "final": "Final customer price",
         "planShort": "Plan",
-        "r30Short": "Res. 30%",
-        "r40Short": "Res. 40%",
+        "r30Short": "Dist. 30%",
+        "r40Short": "Dist. 40%",
         "finalShort": "Final",
         "rows": {
           "m3": {
@@ -405,7 +405,7 @@
       }
     },
     "credit": {
-      "title": "Credit for Resellers",
+      "title": "Credit for Distributors",
       "balanceLabel": "Available balance",
       "balanceAmount": "USD $5,000",
       "balanceTag": "In App",

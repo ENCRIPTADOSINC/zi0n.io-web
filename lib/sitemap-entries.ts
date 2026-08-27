@@ -22,7 +22,7 @@ const ROUTE_TUNING: Record<string, { changeFrequency: SitemapEntry["changeFreque
 const DEFAULT_ROUTE_TUNING = { changeFrequency: "monthly" as const, priority: 0.5 }
 
 /** Static routes that exist but must stay out of the sitemap (e.g. noindex pages). */
-const EXCLUDED_ROUTES = new Set(["revendedores"])
+const EXCLUDED_ROUTES = new Set(["distribuidores"])
 
 const buildTime = new Date()
 

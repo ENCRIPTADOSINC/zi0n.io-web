@@ -17,8 +17,8 @@ const creditStepIcons = { deposit: Wallet, receive: User, manage: CreditCard } a
 const creditStepKeys = ["deposit", "receive", "manage"] as const
 const creditStepNumbers = { deposit: 1, receive: 3, manage: 4 } as const
 
-export default function RevendedoresClient() {
-  const t = useTranslations("revendedores")
+export default function DistribuidoresClient() {
+  const t = useTranslations("distribuidores")
   const isMobile = useIsMobile()
   const isCompact = useIsMobile(1100)
 
@@ -40,7 +40,7 @@ export default function RevendedoresClient() {
             </div>
             <div style={{ ...styles.heroImageWrapper, ...(isCompact && styles.heroImageWrapperCompact) }}>
               <Image
-                src="/image/revendedores/imagen-hero.webp"
+                src="/image/distribuidores/imagen-hero.webp"
                 alt={t("hero.title")}
                 width={893}
                 height={595}
@@ -138,7 +138,7 @@ export default function RevendedoresClient() {
         </div>
       </section>
 
-      {/* Credito para revendedores */}
+      {/* Credito para distribuidores */}
       <section style={styles.section}>
         <div style={{ ...styles.container, ...(isMobile && styles.containerMobile) }}>
           <h2 style={{ ...styles.title, ...(isMobile && styles.titleMobile) }}>{t("credit.title")}</h2>
@@ -212,7 +212,7 @@ export default function RevendedoresClient() {
             <div style={{ ...styles.ctaAction, ...(isMobile && styles.ctaActionCompact) }}>
               <div style={styles.qrWrapper}>
                 <Image
-                  src="/image/revendedores/qr-zion.webp"
+                  src="/image/distribuidores/qr-zion.webp"
                   alt={t("cta.button")}
                   width={200}
                   height={200}
@@ -464,7 +464,7 @@ const styles = {
     color: "#071C59",
   },
 
-  // Credito para revendedores
+  // Credito para distribuidores
   creditCard: {
     backgroundColor: "#E9EDF5",
     padding: "40px 0",

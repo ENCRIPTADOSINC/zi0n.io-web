@@ -349,18 +349,18 @@
       "footer": "Cette Politique s'intègre à notre Politique de Traitement des Données Personnelles et"
     }
   },
-  "revendedores": {
-    "metaTitle": "Programme Revendeur ZiOn | Formules et avantages",
+  "distribuidores": {
+    "metaTitle": "Programme Distributeur ZiOn | Formules et avantages",
     "metaDescription": "Commencez à vendre des licences ZiOn. Choisissez votre programme, déposez du solde et commencez à gagner de l'argent avec ZiOn.",
     "hero": {
-      "title": "Devenez revendeur ZiOn",
-      "subtitle": "Rejoignez le programme revendeur ZiOn et accédez à des remises allant jusqu'à 40 %."
+      "title": "Devenez distributeur ZiOn",
+      "subtitle": "Rejoignez le programme distributeur ZiOn et accédez à des remises allant jusqu'à 40 %."
     },
     "pricing": {
       "title": "Vous choisissez le meilleur avantage",
       "recommendedBadge": "RECOMMANDÉ",
       "depositLabel": "Dépôt minimum",
-      "discountLabel": "Remise revendeur",
+      "discountLabel": "Remise distributeur",
       "programs": {
         "program1": {
           "name": "Programme 1",
@@ -375,12 +375,12 @@
       },
       "table": {
         "plan": "Plan",
-        "r30": "Revendeur 30 %",
-        "r40": "Revendeur 40 %",
+        "r30": "Distributeur 30 %",
+        "r40": "Distributeur 40 %",
         "final": "Prix client final",
         "planShort": "Plan",
-        "r30Short": "Rev. 30 %",
-        "r40Short": "Rev. 40 %",
+        "r30Short": "Dist. 30 %",
+        "r40Short": "Dist. 40 %",
         "finalShort": "P. final",
         "rows": {
           "m3": {
@@ -405,7 +405,7 @@
       }
     },
     "credit": {
-      "title": "Crédit pour revendeurs",
+      "title": "Crédit pour distributeurs",
       "balanceLabel": "Solde disponible",
       "balanceAmount": "USD $5,000",
       "balanceTag": "Dans l'appli",

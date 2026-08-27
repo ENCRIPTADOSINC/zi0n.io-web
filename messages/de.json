@@ -349,18 +349,18 @@
       "footer": "Diese Richtlinie ist integriert mit unserer Datenschutzrichtlinie und"
     }
   },
-  "revendedores": {
-    "metaTitle": "ZiOn Wiederverkäuferprogramm | Pläne und Vorteile",
+  "distribuidores": {
+    "metaTitle": "ZiOn Distributorprogramm | Pläne und Vorteile",
     "metaDescription": "Beginne mit dem Verkauf von ZiOn-Lizenzen. Wähle dein Programm, zahle ein Guthaben ein und verdiene Geld mit ZiOn.",
     "hero": {
-      "title": "Werde ZiOn-Wiederverkäufer",
-      "subtitle": "Werde Teil des ZiOn-Wiederverkäuferprogramms und erhalte Rabatte von bis zu 40 %."
+      "title": "Werde ZiOn-Distributor",
+      "subtitle": "Werde Teil des ZiOn-Distributorprogramms und erhalte Rabatte von bis zu 40 %."
     },
     "pricing": {
       "title": "Du wählst den besten Vorteil",
       "recommendedBadge": "EMPFOHLEN",
       "depositLabel": "Mindesteinzahlung",
-      "discountLabel": "Wiederverkäuferrabatt",
+      "discountLabel": "Distributorrabatt",
       "programs": {
         "program1": {
           "name": "Programm 1",
@@ -375,12 +375,12 @@
       },
       "table": {
         "plan": "Plan",
-        "r30": "Wiederverkäufer 30%",
-        "r40": "Wiederverkäufer 40%",
+        "r30": "Distributor 30%",
+        "r40": "Distributor 40%",
         "final": "Endkundenpreis",
         "planShort": "Plan",
-        "r30Short": "WV 30%",
-        "r40Short": "WV 40%",
+        "r30Short": "Dist. 30%",
+        "r40Short": "Dist. 40%",
         "finalShort": "Endpreis",
         "rows": {
           "m3": {
@@ -405,7 +405,7 @@
       }
     },
     "credit": {
-      "title": "Guthaben für Wiederverkäufer",
+      "title": "Guthaben für Distributoren",
       "balanceLabel": "Verfügbares Guthaben",
       "balanceAmount": "USD $5,000",
       "balanceTag": "In der App",

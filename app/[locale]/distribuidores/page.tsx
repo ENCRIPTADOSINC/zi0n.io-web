@@ -3,23 +3,23 @@ import { getTranslations } from "next-intl/server"
 import { BASE_URL, getLocalizedUrl, getLanguageAlternates } from "@/lib/seo"
 import { getOgLocale } from "@/lib/structured-data"
 import type { Locale } from "@/i18n/config"
-import RevendedoresClient from "./revendedores-client"
+import DistribuidoresClient from "./distribuidores-client"
 
-const PREVIEW_IMAGE = `${BASE_URL}/image/revendedores/Zi0n.webp`
+const PREVIEW_IMAGE = `${BASE_URL}/image/distribuidores/Zi0n.webp`
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params
-  const t = await getTranslations({ locale, namespace: "revendedores" })
+  const t = await getTranslations({ locale, namespace: "distribuidores" })
   const title = t("metaTitle")
   const description = t("metaDescription")
-  const canonical = getLocalizedUrl(locale as Locale, "revendedores")
+  const canonical = getLocalizedUrl(locale as Locale, "distribuidores")
 
   return {
     title,
     description,
     alternates: {
       canonical,
-      languages: getLanguageAlternates("revendedores"),
+      languages: getLanguageAlternates("distribuidores"),
     },
     robots: {
       index: false,
@@ -43,6 +43,6 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   }
 }
 
-export default function RevendedoresPage() {
-  return <RevendedoresClient />
+export default function DistribuidoresPage() {
+  return <DistribuidoresClient />
 }
