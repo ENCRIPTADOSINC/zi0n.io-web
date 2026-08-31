@@ -25,8 +25,6 @@ Transacting on mainstream consumer smartphones introduces several systemic secur
 
 Zi0n re-engineers mobile hardware and software from the ground up to establish an impenetrable execution environment. Key security advantages include:
 
-![Zi0n hardware security architecture and cryptographic enclave isolation](/image/blog/principales-ventajas-proteger-crypto-zion-architecture.webp)
-
 ### 1. Isolated Sandboxed Execution Enclave
 Crypto wallet applications such as MetaMask, Phantom, and Trust Wallet operate inside dedicated memory-isolated sandboxes. Third-party applications cannot monitor processes, read active RAM buffers, or intercept clipboard contents.
 

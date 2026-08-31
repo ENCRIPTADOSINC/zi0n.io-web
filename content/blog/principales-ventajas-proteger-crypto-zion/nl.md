@@ -25,8 +25,6 @@ Het uitvoeren van Web3-transacties op gewone smartphones kent fundamentele kwets
 
 Zi0n transformeert de smartphone in een ondoordringbare cryptografische kluis met een versterkt besturingssysteem:
 
-![Hardwarematige beveiligingsarchitectuur en enclave-isolatie van Zi0n](/image/blog/principales-ventajas-proteger-crypto-zion-architecture.webp)
-
 ### 1. Geïsoleerde Uitvoeringsomgeving voor Wallets
 Crypto-wallets zoals MetaMask, Phantom en Trust Wallet draaien in hermetisch afgesloten sandboxes. Externe apps hebben geen toegang tot het werkgeheugen of klembord.
 

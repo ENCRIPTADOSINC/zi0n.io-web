@@ -25,8 +25,6 @@ Utilizar aparelhos celulares tradicionais para operar no ecossistema Web3 expõe
 
 O Zi0n transforma o smartphone em um cofre digital blindado através de um sistema operacional endurecido com controles de hardware rigorosos:
 
-![Arquitetura de segurança física e isolamento de enclave do Zi0n](/image/blog/principales-ventajas-proteger-crypto-zion-architecture.webp)
-
 ### 1. Ambiente Isolado de Execução de Carteiras
 Aplicativos como MetaMask, Phantom e Trust Wallet rodam em contêineres protegidos por hardware. Nenhuma aplicação externa consegue monitorar processos, inspecionar a memória ou ler o teclado.
 
