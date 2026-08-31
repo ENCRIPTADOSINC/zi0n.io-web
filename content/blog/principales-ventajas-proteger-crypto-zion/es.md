@@ -25,6 +25,8 @@ Operar en Web3 mediante teléfonos comerciales tradicionales introduce vulnerabi
 
 Zi0n transforma el smartphone en una fortaleza criptográfica mediante un sistema operativo reforzado a nivel de kernel y microcódigo de hardware. Sus principales ventajas técnicas frente a cualquier teléfono convencional incluyen:
 
+![Arquitectura de seguridad criptográfica y aislamiento de enclave en Zi0n](/image/blog/principales-ventajas-proteger-crypto-zion-architecture.webp)
+
 ### 1. Entorno de Ejecución Aislado y Anti-Keylogger
 Las aplicaciones de billetera (como MetaMask, Phantom o Trust Wallet) se ejecutan dentro de contenedores herméticos con aislamiento estricto de memoria RAM. Ningún proceso de terceros puede monitorear las firmas de transacciones, interceptar el búfer de copiado ni capturar eventos táctiles.
 
