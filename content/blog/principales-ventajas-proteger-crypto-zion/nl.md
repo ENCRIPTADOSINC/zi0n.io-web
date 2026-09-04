@@ -1,5 +1,5 @@
 ---
-title: "Belangrijkste Voordelen van het Beschermen van je Crypto met Zi0n"
+title: "Belangrijkste voordelen van het beschermen van je crypto met Zi0n"
 description: "Ontdek hoe Zi0n jouw Web3-wallets en transacties beveiligt tegen malware, forensische data-extractie, SIM-swapping en fysieke dwang."
 date: "2026-08-31"
 author: "Equipo Zi0n"

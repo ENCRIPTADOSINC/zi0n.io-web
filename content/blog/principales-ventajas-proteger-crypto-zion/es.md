@@ -1,5 +1,5 @@
 ---
-title: "Principales Ventajas de Proteger tus Criptomonedas con Zi0n"
+title: "Principales ventajas de proteger tus criptomonedas con Zi0n"
 description: "Descubre cómo Zi0n blinda tus hot wallets y transacciones Web3 frente a malware, extracción forense, SIM swapping y coacción física."
 date: "2026-08-31"
 author: "Equipo Zi0n"
