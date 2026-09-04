@@ -1,5 +1,5 @@
 ---
-title: "PIN de Coação e Extra PIN: Proteção contra Ameaças Físicas no Mercado Cripto"
+title: "PIN de Coação e Extra PIN: proteção contra ameaças físicas no mercado cripto"
 description: "Saiba como defender seu patrimônio digital em situações de assalto ou coerção física utilizando o Extra PIN e o Auto-Wipe do Zi0n."
 date: "2026-08-24"
 author: "Equipo Zi0n"

@@ -1,5 +1,5 @@
 ---
-title: "Bloqueo de Cámara, Micrófono y Capturas de Pantalla: Privacidad Móvil Extrema"
+title: "Bloqueo de cámara, micrófono y capturas de pantalla: privacidad móvil extrema"
 description: "Descubre cómo los sensores y la pantalla de tu teléfono pueden ser utilizados para espiarte y cómo los interruptores de seguridad de Zi0n lo impiden."
 date: "2026-08-24"
 author: "Equipo Zi0n"

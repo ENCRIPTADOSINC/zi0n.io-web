@@ -1,5 +1,5 @@
 ---
-title: "Decentrale VPN en IP-Rotatie: Maximale Privacy bij Crypto Trading"
+title: "Decentrale VPN en IP-rotatie: maximale privacy bij crypto trading"
 description: "Ontdek waarom traditionele VPN's tekortschieten en hoe de decentrale dynamische VPN van Zi0n uw Web3-transacties beveiligt."
 date: "2026-08-24"
 author: "Equipo Zi0n"

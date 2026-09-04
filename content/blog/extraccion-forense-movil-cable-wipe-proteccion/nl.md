@@ -1,5 +1,5 @@
 ---
-title: "Mobiele Forensische Extractie: Bescherming met Cable Wipe"
+title: "Mobiele forensische extractie: bescherming met Cable Wipe"
 description: "Ontdek hoe forensische tools via USB smartphonegegevens uitlezen en hoe Zi0n Cable Wipe uw vertrouwelijke data beveiligt."
 date: "2026-08-24"
 author: "Equipo Zi0n"

@@ -1,5 +1,5 @@
 ---
-title: "Autodestruição por Inatividade e Modo Sem Sinal: Proteção Total contra Apreensão"
+title: "Autodestruição por inatividade e modo sem sinal: proteção total contra apreensão"
 description: "Conheça o auto-wipe por temporizador, a defesa contra isolamento em gaiola de Faraday e o botão de pânico físico integrados no Zi0n."
 date: "2026-08-24"
 author: "Equipo Zi0n"

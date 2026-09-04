@@ -1,5 +1,5 @@
 ---
-title: "eSIM internationale sécurisée : Connexion privée pour les voyageurs et nomades crypto"
+title: "eSIM internationale sécurisée : connexion privée pour les voyageurs et nomades crypto"
 description: "Évitez les pièges des réseaux Wi-Fi publics et le KYC abusif lors de vos déplacements grâce à l'eSIM mondiale intégrée de Zi0n."
 date: "2026-08-24"
 author: "Equipo Zi0n"

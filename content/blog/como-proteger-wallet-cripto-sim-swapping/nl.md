@@ -1,5 +1,5 @@
 ---
-title: "Hoe u uw Crypto Wallet beschermt tegen SIM Swapping Aanvallen"
+title: "Hoe u uw crypto wallet beschermt tegen SIM swapping aanvallen"
 description: "Ontdek de technische risico's van SIM-kaping en hoe het geavanceerde mobiele beveiligingssysteem van Zi0n uw digitale activa beschermt."
 date: "2026-08-24"
 author: "Equipo Zi0n"

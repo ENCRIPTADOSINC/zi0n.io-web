@@ -1,5 +1,5 @@
 ---
-title: "Cómo Guardar tu Seed Phrase y Claves Privadas en el Móvil de Forma Segura"
+title: "Cómo guardar tu seed phrase y claves privadas en el móvil de forma segura"
 description: "Descubre por qué guardar tu frase semilla en capturas o nubes es un error fatal y cómo las Notas de Seguridad E2EE de Zi0n protegen tus claves."
 date: "2026-08-24"
 author: "Equipo Zi0n"

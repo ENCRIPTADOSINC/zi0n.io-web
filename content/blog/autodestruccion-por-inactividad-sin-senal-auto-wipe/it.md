@@ -1,5 +1,5 @@
 ---
-title: "Autodistruzione per Inattività e Modalità Senza Segnale: Protezione da Sequestro"
+title: "Autodistruzione per inattività e modalità senza segnale: protezione da sequestro"
 description: "Scopri come i timer di sicurezza, il rilevamento della gabbia di Faraday e il pulsante antipanico di Zi0n difendono i tuoi asset crypto."
 date: "2026-08-24"
 author: "Equipo Zi0n"

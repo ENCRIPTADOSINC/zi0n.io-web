@@ -1,5 +1,5 @@
 ---
-title: "Extraction médico-légale mobile : Protéger son smartphone avec Cable Wipe"
+title: "Extraction médico-légale mobile : protéger son smartphone avec Cable Wipe"
 description: "Découvrez comment les outils comme Cellebrite extraient les données par USB et comment Cable Wipe de Zi0n sécurise votre appareil."
 date: "2026-08-24"
 author: "Equipo Zi0n"

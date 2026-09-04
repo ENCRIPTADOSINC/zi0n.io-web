@@ -1,5 +1,5 @@
 ---
-title: "Como Guardar sua Seed Phrase e Chaves Privadas no Celular com Total Segurança"
+title: "Como guardar sua seed phrase e chaves privadas no celular com total segurança"
 description: "Entenda por que salvar frases de recuperação em prints ou notas na nuvem é perigoso e veja como as Notas de Segurança do Zi0n protegem suas chaves."
 date: "2026-08-24"
 author: "Equipo Zi0n"

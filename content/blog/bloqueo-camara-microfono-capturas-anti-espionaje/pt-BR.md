@@ -1,5 +1,5 @@
 ---
-title: "Bloqueio de Câmera, Microfone e Capturas de Tela: Proteção Anti-Espionagem no Celular"
+title: "Bloqueio de câmera, microfone e capturas de tela: proteção anti-espionagem no celular"
 description: "Entenda como sensores móveis podem ser usados para espionagem e veja como os botões de privacidade do Zi0n impedem a vigilância clandestina."
 date: "2026-08-24"
 author: "Equipo Zi0n"

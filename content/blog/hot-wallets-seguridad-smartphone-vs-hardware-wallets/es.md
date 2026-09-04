@@ -1,5 +1,5 @@
 ---
-title: "Hot Wallets en Smartphones vs Hardware Wallets: El Dilema de la Seguridad Cripto"
+title: "Hot wallets en smartphones vs hardware wallets: el dilema de la seguridad cripto"
 description: "Compara la seguridad de las billeteras frías frente a la comodidad de las hot wallets móviles y cómo Zi0n combina lo mejor de ambos mundos."
 date: "2026-08-24"
 author: "Equipo Zi0n"

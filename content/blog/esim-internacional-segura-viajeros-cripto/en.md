@@ -1,5 +1,5 @@
 ---
-title: "Secure International eSIM: Private Connectivity for Crypto Nomads and Global Travelers"
+title: "Secure international eSIM: private connectivity for crypto nomads and global travelers"
 description: "Avoid public Wi-Fi eavesdropping and intrusive local SIM KYC while traveling. Discover the global roaming security benefits of Zi0n."
 date: "2026-08-24"
 author: "Equipo Zi0n"

@@ -1,5 +1,5 @@
 ---
-title: "Code PIN sous contrainte et Extra PIN : Protection mobile contre les agressions"
+title: "Code PIN sous contrainte et Extra PIN : protection mobile contre les agressions"
 description: "Découvrez comment protéger vos cryptomonnaies lors d'une tentative d'extorsion physique grâce aux fonctions Extra PIN et Auto-Wipe de Zi0n."
 date: "2026-08-24"
 author: "Equipo Zi0n"

@@ -1,5 +1,5 @@
 ---
-title: "PIN de Coacción y Extra PIN: Protección Móvil ante Amenazas Físicas en Cripto"
+title: "PIN de Coacción y Extra PIN: protección móvil ante amenazas físicas en cripto"
 description: "Aprende cómo defender tu patrimonio digital frente a extorsiones físicas o asaltos mediante el uso estratégico de Extra PIN y Auto-Wipe en Zi0n."
 date: "2026-08-24"
 author: "Equipo Zi0n"

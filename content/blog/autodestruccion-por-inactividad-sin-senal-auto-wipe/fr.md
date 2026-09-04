@@ -1,5 +1,5 @@
 ---
-title: "Autodestruction par inactivité et mode Sans Signal : Protection absolue contre la saisie"
+title: "Autodestruction par inactivité et mode sans signal : protection absolue contre la saisie"
 description: "Découvrez comment la minuterie d'inactivité, la détection de cage de Faraday et le bouton de panique de Zi0n protègent vos données sensibles."
 date: "2026-08-24"
 author: "Equipo Zi0n"

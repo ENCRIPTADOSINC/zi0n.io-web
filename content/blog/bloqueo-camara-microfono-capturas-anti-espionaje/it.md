@@ -1,5 +1,5 @@
 ---
-title: "Disattivazione di Fotocamera, Microfono e Screenshot: Privacy Estrema su Smartphone"
+title: "Disattivazione di fotocamera, microfono e screenshot: privacy estrema su smartphone"
 description: "Scopri come i sensori del telefono possono essere sfruttati per spiarti e come i blocchi di sicurezza di Zi0n difendono le tue informazioni riservate."
 date: "2026-08-24"
 author: "Equipo Zi0n"

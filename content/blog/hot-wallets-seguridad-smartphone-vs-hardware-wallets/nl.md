@@ -1,5 +1,5 @@
 ---
-title: "Mobiele Hot Wallets vs Hardware Wallets: Het Crypto Beveiligingsdilemma"
+title: "Mobiele hot wallets vs hardware wallets: het crypto beveiligingsdilemma"
 description: "Vergelijk de veiligheid van cold storage met het gemak van mobiele hot wallets en ontdek hoe Zi0n beide werelden verenigt."
 date: "2026-08-24"
 author: "Equipo Zi0n"

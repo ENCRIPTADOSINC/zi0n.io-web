@@ -1,5 +1,5 @@
 ---
-title: "Decentralized VPN and IP Rotation: Maximizing Privacy in Crypto Trading"
+title: "Decentralized VPN and IP rotation: maximizing privacy in crypto trading"
 description: "Understand the vulnerabilities of centralized VPNs and see how Zi0n decentralized dynamic VPN shields Web3 transactions from metadata tracking."
 date: "2026-08-24"
 author: "Equipo Zi0n"

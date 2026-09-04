@@ -1,5 +1,5 @@
 ---
-title: "Hoe u uw Seed Phrase en Privésleutels Veilig Bewaart op uw Smartphone"
+title: "Hoe u uw seed phrase en privésleutels veilig bewaart op uw smartphone"
 description: "Ontdek waarom herstelzinnen in screenshots of cloud-notities fataal zijn en hoe de E2EE Beveiligingsnotities van Zi0n uw sleutels beveiligen."
 date: "2026-08-24"
 author: "Equipo Zi0n"

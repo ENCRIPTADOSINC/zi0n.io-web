@@ -1,5 +1,5 @@
 ---
-title: "Uitschakelen van Camera, Microfoon en Schermopnames: Maximale Mobiele Privacy"
+title: "Uitschakelen van camera, microfoon en schermopnames: maximale mobiele privacy"
 description: "Ontdek hoe mobiele sensoren kunnen worden misbruikt voor afluisteren en hoe de beveiligingsschakelaars van Zi0n spionage effectief blokkeren."
 date: "2026-08-24"
 author: "Equipo Zi0n"

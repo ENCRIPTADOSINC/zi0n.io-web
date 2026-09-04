@@ -1,5 +1,5 @@
 ---
-title: "Kamera-, Mikrofon- und Screenshot-Sperre: Extrem geschützte mobile Privatsphäre"
+title: "Kamera-, Mikrofon- und Screenshot-Sperre: extrem geschützte mobile Privatsphäre"
 description: "Erfahren Sie, wie Smartphone-Sensoren für Spionage missbraucht werden und wie die Schutzschalter von Zi0n vertrauliche Informationen absichern."
 date: "2026-08-24"
 author: "Equipo Zi0n"

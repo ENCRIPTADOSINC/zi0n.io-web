@@ -1,5 +1,5 @@
 ---
-title: "Come Conservare la Seed Phrase e le Chiavi Private sullo Smartphone in Sicurezza"
+title: "Come conservare la seed phrase e le chiavi private sullo smartphone in sicurezza"
 description: "Scopri perché salvare la frase di recupero su screenshot o note cloud è pericoloso e come le Note di Sicurezza di Zi0n proteggono i tuoi dati."
 date: "2026-08-24"
 author: "Equipo Zi0n"

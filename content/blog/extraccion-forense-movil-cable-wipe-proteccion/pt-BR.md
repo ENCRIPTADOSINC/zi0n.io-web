@@ -1,5 +1,5 @@
 ---
-title: "Extração Forense Móvel: Como Proteger seu Celular com Cable Wipe"
+title: "Extração forense móvel: como proteger seu celular com Cable Wipe"
 description: "Entenda como equipamentos periciais extraem dados via USB e veja como o Cable Wipe do Zi0n neutraliza a extração física."
 date: "2026-08-24"
 author: "Equipo Zi0n"

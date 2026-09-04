@@ -1,5 +1,5 @@
 ---
-title: "Hot Wallet su Smartphone vs Hardware Wallet: Il Dilemma della Sicurezza Crypto"
+title: "Hot wallet su smartphone vs hardware wallet: il dilemma della sicurezza crypto"
 description: "Confronto dettagliato tra cold storage e comodità dei wallet mobile. Scopri come Zi0n unisce massima sicurezza e usabilità quotidiana."
 date: "2026-08-24"
 author: "Equipo Zi0n"

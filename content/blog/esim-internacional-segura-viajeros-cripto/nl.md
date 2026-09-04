@@ -1,5 +1,5 @@
 ---
-title: "Veilige Internationale eSIM: Privé Connectiviteit voor Crypto Reizigers"
+title: "Veilige internationale eSIM: privé connectiviteit voor crypto reizigers"
 description: "Vermijd de gevaren van openbare wifi en invasieve paspoortcontroles bij buitenlandse SIM-aankopen dankzij de wereldwijde eSIM van Zi0n."
 date: "2026-08-24"
 author: "Equipo Zi0n"

@@ -1,5 +1,5 @@
 ---
-title: "Estrazione Forense Mobile: Proteggere lo Smartphone con Cable Wipe"
+title: "Estrazione forense mobile: proteggere lo smartphone con Cable Wipe"
 description: "Analisi degli strumenti forensi come Cellebrite e spiegazione di come la funzione Cable Wipe di Zi0n impedisce il furto di dati via USB."
 date: "2026-08-24"
 author: "Equipo Zi0n"

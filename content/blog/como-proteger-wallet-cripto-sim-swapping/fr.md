@@ -1,5 +1,5 @@
 ---
-title: "Comment protéger votre wallet crypto des attaques de SIM Swapping"
+title: "Comment protéger votre wallet crypto des attaques de SIM swapping"
 description: "Comprenez les vecteurs techniques du piratage de carte SIM et découvrez comment Zi0n protège vos actifs numériques."
 date: "2026-08-24"
 author: "Equipo Zi0n"

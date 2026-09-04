@@ -1,5 +1,5 @@
 ---
-title: "Disabling Cameras, Microphones, and Screen Captures: Mobile Anti-Spyware Hardening"
+title: "Disabling cameras, microphones, and screen captures: mobile anti-spyware hardening"
 description: "Understand how mobile sensors and display feeds are exploited by commercial spyware and how Zi0n privacy kill-switches prevent surveillance."
 date: "2026-08-24"
 author: "Equipo Zi0n"

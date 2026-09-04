@@ -1,5 +1,5 @@
 ---
-title: "Mobile Hot Wallets vs Hardware Wallets: Solving the Crypto Security Dilemma"
+title: "Mobile hot wallets vs hardware wallets: solving the crypto security dilemma"
 description: "Compare the security of cold storage with mobile hot wallet convenience and discover how Zi0n bridges the gap with an isolated environment."
 date: "2026-08-24"
 author: "Equipo Zi0n"

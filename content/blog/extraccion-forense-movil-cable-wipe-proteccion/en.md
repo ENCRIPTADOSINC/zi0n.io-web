@@ -1,5 +1,5 @@
 ---
-title: "Mobile Forensic Extraction: Protecting Your Smartphone with Cable Wipe"
+title: "Mobile forensic extraction: protecting your smartphone with Cable Wipe"
 description: "Examine how hardware extraction tools like Cellebrite bypass device locks via USB and how Zi0n Cable Wipe defends your confidential data."
 date: "2026-08-24"
 author: "Equipo Zi0n"

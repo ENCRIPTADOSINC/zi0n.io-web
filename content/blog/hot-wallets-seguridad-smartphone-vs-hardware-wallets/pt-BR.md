@@ -1,5 +1,5 @@
 ---
-title: "Hot Wallets no Celular vs Hardware Wallets: O Dilema da Segurança Cripto"
+title: "Hot wallets no celular vs hardware wallets: o dilema da segurança cripto"
 description: "Compare a segurança do armazenamento a frio com a agilidade das carteiras móveis e veja como o Zi0n combina proteção e praticidade."
 date: "2026-08-24"
 author: "Equipo Zi0n"

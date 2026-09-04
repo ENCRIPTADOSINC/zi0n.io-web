@@ -1,5 +1,5 @@
 ---
-title: "Autodestrucción por Inactividad y Modo Sin Señal: Protección Total ante Pérdida"
+title: "Autodestrucción por inactividad y modo sin señal: protección total ante pérdida"
 description: "Conoce los mecanismos de auto-wipe por temporizador, aislamiento en jaula de Faraday y botón de pánico físico integrados en Zi0n."
 date: "2026-08-24"
 author: "Equipo Zi0n"

@@ -1,5 +1,5 @@
 ---
-title: "Como Proteger sua Carteira Cripto contra Ataques de SIM Swapping"
+title: "Como proteger sua carteira cripto contra ataques de SIM swapping"
 description: "Entenda os vetores técnicos do golpe da troca de chip SIM e saiba como a segurança avançada do Zi0n protege seus ativos digitais."
 date: "2026-08-24"
 author: "Equipo Zi0n"

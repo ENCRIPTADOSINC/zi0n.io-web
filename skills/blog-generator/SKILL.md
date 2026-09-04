@@ -93,6 +93,67 @@ El validador automático bloqueará cualquier artículo que contenga estas frase
 | Chino (zh) | "在当今数字世界中...", "在我们生活的数字时代...", "总而言之,", "总的来说,", "希望的灯塔", "万花筒". |
 | Hindi (hi) | "आज के डिजिटल युग में...", "आज की डिजिटल दुनिया में...", "निष्कर्ष में,", "संक्षेप में,", "आशा की किरण", "कैलिडोस्कोप". |
 
+### 🔠 Regla global de mayúsculas en títulos — los 10 idiomas
+
+El campo `title` del frontmatter (y cualquier encabezado `##`/`###` dentro del cuerpo) DEBE usar **minúscula sostenida ("sentence case")** en TODOS los idiomas latinos/germánicos del set (`es`, `en`, `fr`, `it`, `nl`, `pt-BR`, `de`): se capitaliza únicamente la primera letra de la primera palabra del título, nunca cada palabra al estilo "Title Case" en inglés.
+
+- **Queda prohibido:** `Cómo Proteger tu Wallet Cripto de un Ataque de SIM Swapping`
+- **Correcto:** `Cómo proteger tu wallet cripto de un ataque de SIM swapping`
+
+**Excepciones que SÍ conservan mayúscula** en cualquier posición del título, porque son nombres propios, marca o siglas (no por ser la primera palabra):
+- La marca `Zi0n`.
+- Siglas y acrónimos: `SIM`, `PIN`, `VPN`, `IP`, `eSIM`, `USB`, `ESN`/`IMEI` si aplica.
+- Nombres propios de terceros citados en el contexto técnico: `Android`, `Faraday`, `Cellebrite`, `GrayKey`.
+- Nombres de funciones reales de Zi0n usados como término fijo: `Extra PIN`, `Duress PIN`, `Cable Wipe`.
+
+Todo lo demás —incluyendo términos genéricos como *wallet*, *hardware wallet*, *hot wallet*, *malware*, *spyware*, *trojan(s)*, *smartphone*— va en minúscula salvo que sea la primera palabra del título.
+
+**Regla tras los dos puntos (`:`) en el título:** si el segmento después de los dos puntos NO forma una frase independiente completa (no tiene sujeto + verbo conjugado propio, p. ej. es un complemento nominal o un infinitivo tipo "cómo proteger..."), empieza en minúscula. Solo se capitaliza si es una frase autónoma completa o si la primera palabra es, de por sí, un nombre propio/sigla de la lista de excepciones.
+
+**Caso especial `de.md` (alemán):** el alemán capitaliza SIEMPRE todos los sustantivos (sea cual sea su posición en la frase) y el pronombre/posesivo formal `Sie`/`Ihre`; eso NO es "Title Case" sino ortografía obligatoria y no debe tocarse. La regla de minúscula tras los dos puntos aplica solo a la primera palabra cuando esta NO es un sustantivo (p. ej. adjetivos, adverbios o artículos que introducen un complemento no autónomo).
+  - Ejemplo correcto: `So schützen Sie Ihre Krypto-Wallet vor SIM-Swapping-Angriffen` (nada que cambiar: sustantivos y "Sie/Ihre" formal en mayúscula, el resto en minúscula).
+  - Ejemplo con corrección: `Sichere internationale eSIM: Private Konnektivität...` → `Sichere internationale eSIM: private Konnektivität...` (tras los dos puntos, "privat-" es adjetivo, no sustantivo, y el complemento no es una frase autónoma → minúscula).
+
+**Idiomas no afectados por este cambio de caja:** `ru`, `zh`, `hi` ya usan de forma nativa minúscula sostenida en sus títulos (no tienen distinción tipo Title Case) — no requieren ajuste adicional por esta regla.
+
+### 🇫🇷 Reglas tipográficas obligatorias para el francés (`fr.md`)
+
+Al redactar o traducir el contenido de `fr.md`, se deben respetar estrictamente las siguientes reglas del signo deux-points (`:`) y de las majuscules, específicas de la redacción web en francés:
+
+**1. Introducción de listas a puntos (le cas le plus fréquent)**
+- Si los elementos de la lista son simples palabras o grupos de palabras (no frases completas): deux-points, cada punto empieza en **minúscula** y termina con coma o punto y coma (el último punto termina con punto).
+  - Ejemplo: `Pour réussir votre blogue, vous devez optimiser :` → `le référencement naturel,` / `la qualité visuelle,` / `la régularité des publications.`
+- Si los elementos son frases completas (con sujeto y verbo propios): deux-points, cada punto empieza en **mayúscula** y termina con punto.
+  - Ejemplo: `Voici deux conseils essentiels :` → `Rédigez des titres accrocheurs pour attirer le clic.` / `Structurez vos paragraphes pour faciliter la lecture rapide.`
+
+**2. Anuncio de una explicación o "punch"**
+- Los deux-points pueden reemplazar conectores como *car*, *parce que* o *puisque* para dar un tono directo.
+- Regla: minúscula después de los deux-points si el segmento que sigue NO es una frase independiente completa.
+  - Ejemplo: `Le secret d'un bon article : un titre percutant.`
+
+**3. Citas de expertos**
+- Los deux-points introducen la cita, que siempre empieza en **mayúscula** y va obligatoriamente entre guillemets francesas (`« »`).
+  - Ejemplo: `L'expert marketing a affirmé : « Le contenu est roi. »`
+
+**4. Espaciado tipográfico web**
+- Regla: espacio insecable (` ` o `&nbsp;`) ANTES de los deux-points, y espacio normal DESPUÉS, para evitar que el signo quede huérfano al inicio de una línea.
+- Formato: `Mot : Suite du texte.`
+
+**5. Regla general de mayúscula/minúscula tras los deux-points**
+- Por defecto: minúscula (los deux-points marcan continuidad: explicación, causa o lista).
+- Mayúscula obligatoria solo en tres casos: (a) cita directa entre guillemets, (b) frase completa y autónoma (con su propio sujeto y verbo), (c) nombre propio.
+
+**6. Deux-points en títulos y subtítulos de blog (H1/H2/H3)**
+- Mayúscula solo en la primera palabra del título y en los nombres propios; el resto en minúsculas (nunca "Title Case" al estilo inglés — ralentiza la lectura en la web).
+  - Ejemplo: `Comment optimiser votre stratégie de contenu en 2026`
+- Subtítulo tipo complemento (el texto tras los deux-points no forma una frase autónoma): minúscula.
+  - Ejemplo: `Le guide du SEO : tout comprendre en 5 étapes`
+- Subtítulo autónomo (el texto tras los deux-points forma una frase completa): mayúscula preferida por impacto visual web.
+  - Ejemplo: `Ne faites plus cette erreur : Votre site web perd des clients`
+- Palabras de anuncio (el título empieza con "Étude de cas", "Remarque", "Exemple", etc.): mayúscula obligatoria después de los deux-points.
+  - Ejemplo: `Étude de cas : Comment ce blogue a doublé son trafic`
+- Prohibido escribir títulos enteros en MAYÚSCULAS (CAPS LOCK): perjudica la accesibilidad y da impresión de gritar.
+
 ### 📐 Estructura obligatoria del Markdown (para cada uno de los 10 idiomas)
 
 1. **Entrada directa (2-3 líneas):** Plantea el problema o amenaza técnica sin rodeos ni saludos introductorios.

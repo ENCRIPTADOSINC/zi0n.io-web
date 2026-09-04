@@ -1,5 +1,5 @@
 ---
-title: "Duress PIN and Extra PIN: Defending Crypto Assets Against Physical Coercion"
+title: "Duress PIN and Extra PIN: defending crypto assets against physical coercion"
 description: "Explore how to protect digital wealth during in-person extortion or robbery using Zi0n Extra PIN and silent cryptographic zeroization."
 date: "2026-08-24"
 author: "Equipo Zi0n"

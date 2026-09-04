@@ -1,5 +1,5 @@
 ---
-title: "Désactivation caméra, micro et captures d'écran : Protection anti-espionnage mobile"
+title: "Désactivation caméra, micro et captures d'écran : protection anti-espionnage mobile"
 description: "Comprenez comment les capteurs de votre smartphone peuvent être piratés et comment les commutateurs de sécurité de Zi0n protègent votre vie privée."
 date: "2026-08-24"
 author: "Equipo Zi0n"

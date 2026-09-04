@@ -1,5 +1,5 @@
 ---
-title: "Extracción Forense Móvil: Cómo Proteger tu Smartphone con Cable Wipe"
+title: "Extracción forense móvil: cómo proteger tu smartphone con Cable Wipe"
 description: "Analiza cómo herramientas forenses como Cellebrite o GrayKey extraen datos por USB y cómo la función Cable Wipe de Zi0n protege tu información."
 date: "2026-08-24"
 author: "Equipo Zi0n"

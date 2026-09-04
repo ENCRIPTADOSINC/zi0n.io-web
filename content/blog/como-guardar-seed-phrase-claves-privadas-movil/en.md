@@ -1,5 +1,5 @@
 ---
-title: "How to Securely Store Seed Phrases and Private Keys on Your Mobile Device"
+title: "How to securely store seed phrases and private keys on your mobile device"
 description: "Learn why saving seed phrases in screenshots or cloud notes is catastrophic and how Zi0n E2EE Security Notes keep your master keys safe."
 date: "2026-08-24"
 author: "Equipo Zi0n"

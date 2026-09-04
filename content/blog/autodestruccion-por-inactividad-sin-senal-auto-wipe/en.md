@@ -1,5 +1,5 @@
 ---
-title: "Timed Inactivity Self-Destruction and No-Signal Auto-Wipe: Defeating Faraday Isolation"
+title: "Timed inactivity self-destruction and no-signal auto-wipe: defeating Faraday isolation"
 description: "Discover how dead-man timers, Faraday cage detection, and hardware panic buttons protect crypto assets when devices are seized or lost."
 date: "2026-08-24"
 author: "Equipo Zi0n"

@@ -1,5 +1,5 @@
 ---
-title: "Zelfvernietiging bij Inactiviteit en Geen-Signaal Auto-Wipe: Bescherming bij Beslagname"
+title: "Zelfvernietiging bij inactiviteit en geen-signaal auto-wipe: bescherming bij beslagname"
 description: "Ontdek hoe timers, Faraday-kooi detectie en fysieke paniekknoppen uw cryptogegevens beschermen bij diefstal of inbeslagname."
 date: "2026-08-24"
 author: "Equipo Zi0n"

@@ -1,5 +1,5 @@
 ---
-title: "PIN di Coercizione ed Extra PIN: Difesa degli Asset Crypto da Minacce Fisiche"
+title: "PIN di Coercizione ed Extra PIN: difesa degli asset crypto da minacce fisiche"
 description: "Scopri come proteggere il tuo patrimonio digitale in caso di estorsione o rapina mediante l'Extra PIN e l'Auto-Wipe di Zi0n."
 date: "2026-08-24"
 author: "Equipo Zi0n"

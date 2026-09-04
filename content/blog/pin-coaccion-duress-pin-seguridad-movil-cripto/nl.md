@@ -1,5 +1,5 @@
 ---
-title: "Duress PIN en Extra PIN: Bescherming tegen Fysieke Dwang bij Crypto"
+title: "Duress PIN en Extra PIN: bescherming tegen fysieke dwang bij crypto"
 description: "Ontdek hoe u uw crypto-vermogen beschermt bij diefstal of afpersing dankzij de Extra PIN en geruisloze datawissing van Zi0n."
 date: "2026-08-24"
 author: "Equipo Zi0n"

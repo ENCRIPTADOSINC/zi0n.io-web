@@ -1,5 +1,5 @@
 ---
-title: "Cómo Proteger tu Wallet Cripto de un Ataque de SIM Swapping"
+title: "Cómo proteger tu wallet cripto de un ataque de SIM swapping"
 description: "Descubre los vectores técnicos del secuestro de tarjeta SIM y cómo la protección avanzada de Zi0n bloquea el robo de billeteras digitales."
 date: "2026-08-24"
 author: "Equipo Zi0n"
