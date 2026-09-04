@@ -1,5 +1,5 @@
 ---
-title: "Sécuriser ses communications professionnelles et protéger ses échanges stratégiques avec Zi0n"
+title: "Sécuriser ses communications professionnelles avec Zi0n"
 description: "Découvrez comment Zi0n verrouille vos communications d'entreprise contre l'espionnage industriel, l'interception IMSI et les logiciels espions mobiles."
 date: "2026-09-04"
 author: "Équipe Zi0n"

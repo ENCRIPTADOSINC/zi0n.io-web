@@ -1,5 +1,5 @@
 ---
-title: "Beveilig zakelijke communicatie en strategische gesprekken met Zi0n"
+title: "Professionele communicatie beveiligen met Zi0n"
 description: "Ontdek hoe Zi0n zakelijke communicatie beschermt tegen industriële spionage, IMSI-catchers en geavanceerde mobiele spyware."
 date: "2026-09-04"
 author: "Zi0n Team"

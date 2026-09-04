@@ -1,5 +1,5 @@
 ---
-title: "Securing executive communications and business exchanges with Zi0n"
+title: "Securing professional communications with Zi0n"
 description: "Discover how Zi0n shields enterprise communications against corporate espionage, IMSI-catchers, and mobile spyware with hardware-grade defense."
 date: "2026-09-04"
 author: "Zi0n Team"
