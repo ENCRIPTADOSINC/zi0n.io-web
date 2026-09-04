@@ -11,7 +11,7 @@ draft: false
 
 El secuestro de tarjeta SIM (SIM swapping) se ha convertido en uno de los métodos predilectos de los ciberdelincuentes para desviar fondos criptográficos en cuestión de minutos. Al engañar a los operadores de telecomunicaciones mediante ingeniería social, los atacantes logran transferir el número telefónico de la víctima a un nuevo chip bajo su control, interceptando códigos SMS de doble factor (2FA) y restableciendo contraseñas de exchanges y monederos digitales.
 
-## Vectores Críticos del Secuestro de SIM en Cripto
+## Vectores críticos del secuestro de SIM en cripto
 
 El problema fundamental radica en la confianza delegada en las redes celulares convencionales. Cuando un exchange o servicio de custodia envía un token de verificación por SMS, el canal no ofrece cifrado de extremo a extremo contra operadores comprometidos.
 
@@ -20,7 +20,7 @@ Los atacantes obtienen datos previos mediante filtraciones en la dark web (núme
 - El atacante solicita el restablecimiento de contraseñas bancarias y cuentas de exchanges.
 - Los fondos son transferidos a mixers y direcciones de blockchain no rastreables.
 
-## Arquitectura de Protección Activa ante Manipulación de SIM
+## Arquitectura de protección activa ante manipulación de SIM
 
 Para neutralizar este vector, la seguridad no puede depender exclusivamente de políticas del operador móvil. Se requiere que el propio sistema operativo del smartphone verifique continuamente la identidad criptográfica y el IMSI de la tarjeta SIM o eSIM instalada.
 
@@ -29,7 +29,7 @@ La arquitectura de seguridad móvil debe implementar respuestas inmediatas ante 
 2. **Bloqueo inmediato por extracción no autorizada:** Si la SIM física es removida o se detecta un cambio de tarjeta sin autorización previa, el sistema entra en bloqueo preventivo solicitando credenciales maestras.
 3. **Mecanismo de Auto-Wipe preventivo:** En caso de fallar la autenticación tras una alteración de SIM, el entorno seguro elimina las claves privadas y datos de hot wallets almacenados localmente.
 
-## Medidas Prácticas para Proteger tus Fondos Digitales
+## Medidas prácticas para proteger tus fondos digitales
 
 - **Elimina la autenticación SMS:** Desactiva de inmediato el 2FA por mensaje de texto en todas tus cuentas de exchanges y plataformas DeFi. Utiliza llaves de seguridad FIDO2/WebAuthn o aplicaciones autenticadoras aisladas.
 - **Establece un PIN de portabilidad con tu operadora:** Solicita a tu compañía telefónica un código de seguridad obligatorio para cualquier cambio de SIM o trámite de línea.

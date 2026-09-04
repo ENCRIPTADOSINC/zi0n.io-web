@@ -11,7 +11,7 @@ draft: false
 
 Uno de los errores más comunes y devastadores entre usuarios de criptomonedas es guardar la frase de recuperación de 12 o 24 palabras (seed phrase) en lugares vulnerables: capturas de pantalla en la galería, notas sincronizadas con iCloud o Google Keep, o archivos de texto en plataformas de mensajería.
 
-## Los Errores Fatales en la Gestión de Semillas y Claves Privadas
+## Los errores fatales en la gestión de semillas y claves privadas
 
 La frase semilla representa la llave maestra de todos tus activos en la blockchain. Si un atacante accede a estas palabras, puede clonar tu billetera en cualquier dispositivo sin necesidad de vulnerar tu contraseña local.
 
@@ -20,7 +20,7 @@ Vectores de exposición habituales:
 - **Gestores de notas no cifrados de extremo a extremo:** Servicios en la nube comerciales expuestos a filtraciones de credenciales y hackeos de cuentas.
 - **Portapapeles del sistema operativo:** Copiar y pegar la frase semilla deja residuos en la memoria accesibles para spyware.
 
-## Arquitectura de Notas de Seguridad con Cifrado E2EE Local
+## Arquitectura de notas de seguridad con cifrado E2EE local
 
 Para almacenar notas confidenciales o claves de acceso en un smartphone, se requiere una solución de notas blindada que aplique cifrado de extremo a extremo (E2EE) con almacenamiento puramente local bajo arquitectura Zero-Knowledge.
 
@@ -29,7 +29,7 @@ Pilares del almacenamiento seguro:
 2. **Cero almacenamiento en servidores externos:** Los apuntes y claves residen exclusivamente en el dispositivo, eliminando el riesgo de filtraciones en la nube.
 3. **Bloqueo contra capturas de pantalla en la app de notas:** Imposibilidad de que troyanos o herramientas espía graben la pantalla mientras consultas tus apuntes.
 
-## Recomendaciones para la Custodia de tus Claves
+## Recomendaciones para la custodia de tus claves
 
 - **Mantén un respaldo físico en metal o papel:** El respaldo offline fuera del teléfono sigue siendo la regla de oro para la custodia a largo plazo.
 - **Nunca envíes tu frase semilla por email o mensajería:** Ninguna plataforma de soporte legítima te solicitará jamás tus palabras de recuperación.

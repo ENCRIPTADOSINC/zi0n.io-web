@@ -20,7 +20,7 @@ Die Nutzung von Apps wie MetaMask oder Trust Wallet auf handelsüblichen Smartph
 - **Clipboard-Hijacker und Banking-Trojaner:** Schadsoftware, die Krypto-Adressen in der Zwischenablage unbemerkt austauscht.
 - **Physischer Geräteverlust:** Direkter Zugriff auf entsperrte Endgeräte.
 
-## Die Lösung: Gehärtete mobile Isolationsumgebungen
+## Die Lösung: gehärtete mobile Isolationsumgebungen
 
 Die zeitgemäße Antwort besteht darin, das Smartphone selbst in eine hochsichere Ausführungsumgebung zu verwandeln. Ein gehärtetes System kapselt Web3-Wallets in einem isolierten, hardwaregeschützten Container ab.
 

@@ -11,7 +11,7 @@ draft: false
 
 A clonagem de chip telefônico (SIM swapping) consolidou-se como um dos principais vetores utilizados por criminosos cibernéticos para desviar fundos de criptomoedas em poucos minutos. Ao enganar atendentes de operadoras de telefonia por meio de engenharia social, os invasores transferem a linha da vítima para um novo chip sob seu controle, interceptando códigos SMS de autenticação em duas etapas (2FA) e redefinindo senhas de exchanges e carteiras digitais.
 
-## Vetores Críticos do Golpe da Troca de Chip em Cripto
+## Vetores críticos do golpe da troca de chip em cripto
 
 A vulnerabilidade central reside na dependência de redes celulares convencionais para autenticação de segurança. Mensagens SMS não possuem criptografia de ponta a ponta e não foram projetadas para proteger transações financeiras de alto valor.
 
@@ -20,7 +20,7 @@ Criminosos obtêm dados pessoais da vítima em vazamentos de dados, entram em co
 - O invasor solicita a recuperação de senhas em plataformas de criptomoedas e emails.
 - Os fundos são transferidos para endereços de blockchain não rastreáveis.
 
-## Arquitetura de Defesa Ativa contra Alteração de SIM
+## Arquitetura de defesa ativa contra alteração de SIM
 
 Para neutralizar essa ameaça, o próprio sistema operacional do smartphone deve monitorar continuamente a identidade de hardware e o código IMSI do chip SIM ou perfil eSIM instalado.
 
@@ -29,17 +29,17 @@ Os mecanismos essenciais de proteção englobam:
 2. **Bloqueio instantâneo por remoção não autorizada:** Caso o chip seja ejetado sem autorização, o sistema entra em modo de bloqueio exigindo credenciais mestras.
 3. **Auto-Wipe preventivo:** Caso ocorra falha na autenticação após alteração de chip, o ambiente seguro destrói todas as chaves privadas e dados locais de carteiras.
 
-## Boas Práticas para Blindar suas Carteiras
+## Boas práticas para blindar suas carteiras
 
 - **Elimine a autenticação por SMS:** Desative o 2FA via SMS em todas as suas contas de exchanges e utilize chaves de segurança físicas FIDO2 ou aplicativos autenticadores isolados.
 - **Cadastre uma senha de segurança na operadora:** Exija que sua operadora solicite um código verbal obrigatório para qualquer emissão de novo chip.
 - **Isole suas aplicações Web3:** Utilize um ambiente móvel protegido e segregado para operar carteiras de criptomoedas.
 
-## Como o Zi0n Protege seus Ativos
+## Como o Zi0n protege seus ativos
 
 O Zi0n possui proteção integrada contra trocas não autorizadas de SIM e eSIM. Ao identificar qualquer alteração no chip ou na conexão celular, o sistema solicita imediatamente o PIN de segurança do usuário. Se o código correto não for informado, o Zi0n executa o protocolo de auto-wipe seguro, eliminando o ambiente isolado e protegendo suas chaves privadas. Saiba mais em [https://zi0n.io](https://zi0n.io).
 
-## Perguntas Frequentes
+## Perguntas frequentes
 
 **O que acontece com minhas criptomoedas se o Zi0n executar o Auto-Wipe?**
 Seus ativos permanecem seguros na blockchain. Você poderá restaurar suas carteiras a qualquer momento utilizando sua frase semente (seed phrase) de recuperação.

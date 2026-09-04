@@ -18,7 +18,7 @@ Der unbefugte Zugriff auf Gerätesensoren ermöglicht es Angreifern, geschäftsk
 - **Klandestine Fotoaufnahmen:** Erfassen von Arbeitsumgebungen, Dokumenten und Hardware-Passwörtern.
 - **Kontinuierliche Display-Aufzeichnung:** Mitschneiden von Bildschirminhalten bei der Eingabe von Seed Phrases und Transaktionssignaturen.
 
-## Treiber- und Hardwarenahe Deaktivierung von Sensoren
+## Treiber- und hardwarenahe Deaktivierung von Sensoren
 
 Für echte Privatsphäre darf das Abschalten von Sensoren keine bloße Software-Oberflächenoption sein, sondern muss auf Treiberebene des Betriebssystems erzwungen werden.
 

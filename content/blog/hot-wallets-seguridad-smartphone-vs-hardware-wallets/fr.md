@@ -20,7 +20,7 @@ Les portefeuilles physiques (comme Ledger ou Trezor) conservent les clés privé
 - **Logiciels espions et clippers :** Programmes malveillants remplaçant les adresses copiées dans le presse-papiers.
 - **Vol physique ou perte :** Accès direct à l'appareil en cas de déverrouillage forcé.
 
-## La solution : L'isolation applicative en environnement durci
+## La solution : l'isolation applicative en environnement durci
 
 La réponse moderne consiste à transformer le smartphone en environnement d'exécution hautement sécurisé. Un système durci sépare hermétiquement les portefeuilles Web3 dans un conteneur dédié protégé par le matériel.
 

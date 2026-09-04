@@ -11,14 +11,14 @@ draft: false
 
 Modern smartphones incorporate high-resolution camera sensors, omnidirectional microphones, and continuous screen framebuffers that commercial surveillance tools such as Pegasus or Predator can silently activate without displaying visible status indicators.
 
-## Covert Surveillance Vectors in Mobile Devices
+## Covert surveillance vectors in mobile devices
 
 Unauthorized access to physical device sensors enables adversaries to harvest mission-critical intelligence regarding business deals, private keys, and operational security:
 - **Background Ambient Audio Eavesdropping:** Stealth microphone activation during strategic meetings or high-stakes investment calls.
 - **Clandestine Camera Snapshots:** Covert image capture of office environments, physical documents, and hardware tokens.
 - **Continuous Screen Framebuffer Recording:** Intercepting visual renderings of seed phrases, security PINs, and transaction confirmations.
 
-## Hardware and Driver-Level Sensor Suppression
+## Hardware and driver-level sensor suppression
 
 Achieving genuine operational privacy requires sensor deactivation to be enforced at the hardware driver layer rather than relying on standard app-level permissions.
 
@@ -27,17 +27,17 @@ Core sensor hardening components:
 2. **Comprehensive screen capture and recording blocking:** Native suppression inside the display compositor to prevent frame harvesting.
 3. **Sandboxed containerized permissions:** Preventing third-party utilities from inheriting peripheral sensor access.
 
-## Best Practices to Defeat Mobile Surveillance
+## Best practices to defeat mobile surveillance
 
 - **Audit peripheral sensor permissions regularly:** Revoke microphone and camera access from all utilities that do not strictly require them.
 - **Deploy devices with native sensor switches:** Choose operating systems that offer one-touch deactivation of audiovisual peripherals.
 - **Shield seed phrase entry from optical sensors:** Ensure you are never within range of smartphone cameras when transcribing offline recovery words.
 
-## How Zi0n Delivers Total Environmental Privacy
+## How Zi0n delivers total environmental privacy
 
 Zi0n provides native controls to **disable cameras and microphones** on demand, alongside hardware-enforced **screen capture and recording prevention**. With Zi0n, you maintain complete sovereignty over your physical surroundings and cryptographic interfaces. Learn more about our privacy architecture at [https://zi0n.io](https://zi0n.io).
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Does disabling cameras and microphones prevent standard phone calls on Zi0n?**
 You can instantly toggle sensor permissions whenever you intentionally choose to initiate or receive legitimate communications.

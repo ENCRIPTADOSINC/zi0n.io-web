@@ -11,7 +11,7 @@ draft: false
 
 Um dos erros mais graves cometidos por investidores de criptomoedas é salvar a frase de recuperação de 12 ou 24 palavras (seed phrase) em locais desprotegidos: capturas de tela na galeria de fotos, aplicativos de notas na nuvem (como iCloud ou Google Keep) ou rascunhos de mensagens.
 
-## Erros Fatais na Custódia de Frases de Recuperação
+## Erros fatais na custódia de frases de recuperação
 
 A seed phrase funciona como a chave mestra de todas as suas criptomoedas na blockchain. Se alguém obtiver acesso a essas palavras, poderá restaurar sua carteira em qualquer aparelho sem precisar da sua senha do celular.
 
@@ -20,7 +20,7 @@ Canais comuns de vazamento:
 - **Blocos de notas convencionais na nuvem:** Serviços suscetíveis a vazamentos de credenciais e ataques de invasão de conta.
 - **Área de transferência do sistema operacional:** Copiar a frase de recuperação deixa registros na memória que podem ser lidos por clippers.
 
-## Arquitetura de Notas Seguras com Criptografia Local E2EE
+## Arquitetura de notas seguras com criptografia local E2EE
 
 Para registrar senhas e informações sigilosas no smartphone, é indispensável contar com um cofre digital local com criptografia de ponta a ponta (E2EE) e arquitetura Zero-Knowledge.
 
@@ -29,17 +29,17 @@ Destaques da segurança das notas:
 2. **Zero armazenamento em servidores externos:** Seus dados permanecem exclusivamente no celular, sem cópias na nuvem.
 3. **Bloqueio de capturas de tela:** Impedimento total de gravação ou prints durante a visualização das notas.
 
-## Boas Práticas para Guardar suas Chaves
+## Boas práticas para guardar suas chaves
 
 - **Mantenha um backup físico em placa de metal:** Guardar as palavras offline em local seguro é essencial para a preservação do patrimônio.
 - **Nunca digite sua seed phrase em formulários na internet:** Nenhuma equipe de suporte legítima solicitará suas palavras de recuperação.
 - **Use cofres digitais criptografados no aparelho:** Evite sincronizar chaves privadas em serviços comuns de nuvem.
 
-## Como o Zi0n Protege seus Dados Sensíveis
+## Como o Zi0n protege seus dados sensíveis
 
 O Zi0n possui o aplicativo **Notas de segurança**, um ambiente protegido onde você pode salvar textos e credenciais com criptografia de ponta a ponta e armazenamento 100% local. O Zi0n não mantém servidores externos para guardar dados dos usuários, assegurando sua privacidade absoluta. Saiba mais em [https://zi0n.io](https://zi0n.io).
 
-## Perguntas Frequentes
+## Perguntas frequentes
 
 **O Zi0n tem acesso às notas que eu salvo no celular?**
 Não. O Zi0n adota uma política rígida de Zero-Knowledge; seus dados são criptografados com suas próprias chaves locais.

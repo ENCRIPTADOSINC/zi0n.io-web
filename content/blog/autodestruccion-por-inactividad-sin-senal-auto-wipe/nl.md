@@ -11,7 +11,7 @@ draft: false
 
 Wanneer een smartphone met crypto-wallets verloren raakt of in beslag wordt genomen, plaatsen kwaadwillenden het toestel direct in een Faraday-zak om externe wisopdrachten via mobiele netwerken of wifi te blokkeren.
 
-## Het Gevaar van Radiosignaal-Afscherming
+## Het gevaar van radiosignaal-afscherming
 
 Traditionele externe wisfuncties werken alleen als het toestel online is. Door alle radiosignalen af te schermen, krijgen aanvallers onbeperkt de tijd om offline forensische analyses uit te voeren in een laboratorium.
 
@@ -20,7 +20,7 @@ Grote gevaren bij fysieke afscherming:
 - **Onbeperkte tijd voor chip-extractie:** Vrij spel om geheugenchips uit te lezen en codes te kraken.
 - **Diefstal van lokale gegevens:** Het achterhalen van lokaal opgeslagen cryptosleutels.
 
-## Lokale Autonome Zelfvernietigingssystemen
+## Lokale autonome zelfvernietigingssystemen
 
 Om radiostilte te omzeilen, moet het besturingssysteem van de smartphone zelfstandig kunnen ingrijpen op basis van interne hardwareklokken en netwerkstatussen.
 
@@ -29,17 +29,17 @@ Belangrijke autonome verdedigingsfuncties:
 2. **Inactiviteitstimer (Dead-Man Switch):** Vernietiging van sleutels wanneer het toestel gedurende een bepaalde tijd niet wordt ontgrendeld.
 3. **Fysieke paniekknop:** Directe gegevensvernietiging via een specifieke combinatie van fysieke volumeknoppen en de aan/uit-knop.
 
-## Aanbevelingen voor Risicovolle Situaties
+## Aanbevelingen voor risicovolle situaties
 
 - **Stel realistische timers in:** Kies een inactiviteitstimer die past bij uw dagelijkse smartphonegebruik.
 - **Bewaar offline back-ups:** Gegevenswissing is definitief en beschermt uw vermogen alleen als u uw herstelzin veilig offline bewaart.
 - **Ken de paniekknop-combinatie:** Oefen de knoppencombinatie voor situaties waarin snelle actie vereist is.
 
-## Hoe Zi0n uw Gegevens Autonoom Beschermt
+## Hoe Zi0n uw gegevens autonoom beschermt
 
 Zi0n beschikt over meerdere autonome wisfuncties: **Zelfvernietiging op timer**, **Geen-Signaal modus** en een fysieke **Paniekknop**. Dankzij Zi0n kan niemand bij uw gegevens, zelfs niet wanneer uw toestel wordt afgeschermd in een Faraday-kooi. Ontdek alle mogelijkheden op [https://zi0n.io](https://zi0n.io).
 
-## Veelgestelde Vragen
+## Veelgestelde vragen
 
 **Wordt de Geen-Signaal wissing geactiveerd tijdens een vliegreis?**
 U kunt de tijdslimiet eenvoudig verruimen om comfortabel lange vliegreizen te overbruggen.

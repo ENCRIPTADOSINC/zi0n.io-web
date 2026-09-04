@@ -11,14 +11,14 @@ draft: false
 
 Equipamentos de perícia digital forense, como Cellebrite UFED e GrayKey, são capazes de extrair imagens completas da memória de smartphones conectando-os fisicamente via cabo USB. Esses dispositivos exploram vulnerabilidades em controladores de hardware e portas de depuração para contornar telas de bloqueio e clonar partições de armazenamento.
 
-## Mecanismos de Extração Forense por Conexão USB
+## Mecanismos de extração forense por conexão USB
 
 A conexão física representa um vetor crítico de ataque caso o smartphone seja apreendido, furtado ou inspecionado. As estações periciais utilizam métodos refinados:
 - **Injeção de payloads via USB:** Forçamento do aparelho para modos de recuperação de baixo nível (BootROM ou EDL) durante a conexão.
 - **Ataques de força bruta por hardware:** Emulação de periféricos para testar milhares de combinações de PIN sem acionar bloqueios do sistema.
 - **Cópia física da memória Flash:** Clonagem setor a setor dos dados para posterior quebra de criptografia offline.
 
-## O Protocolo Cable Wipe: Resposta Ativa de Hardware
+## O protocolo Cable Wipe: resposta ativa de hardware
 
 Para combater ferramentas automatizadas de extração física, a proteção do celular deve agir instantaneamente. A função Cable Wipe monitora continuamente o barramento USB no nível do controlador de hardware.
 
@@ -27,17 +27,17 @@ Ao identificar uma conexão de dados não autorizada:
 2. **Destruição das chaves mestras de criptografia:** Purga instantânea das chaves armazenadas no módulo de segurança de hardware (HSM).
 3. **Sobregravação irreversível de memória:** Eliminação completa dos bancos de dados das carteiras cripto e aplicativos protegidos.
 
-## Recomendações de Segurança contra Extração Física
+## Recomendações de segurança contra extração física
 
 - **Evite portas de recarga públicas:** Nunca conecte seu telefone diretamente a tomadas USB de aeroportos ou hotéis sem um bloqueador de dados físico.
 - **Utilize senhas alfanuméricas longas:** PINs numéricos simples de 4 ou 6 dígitos podem ser quebrados rapidamente por ferramentas forenses.
 - **Ative sistemas de autodestruição por cabo:** Conte com uma camada de sistema operacional preparada para apagar dados em caso de conexão não autorizada.
 
-## Como o Zi0n Protege seus Dados
+## Como o Zi0n protege seus dados
 
 O Zi0n possui a funcionalidade integrada de **Cable Wipe** (eliminação ao detectar cabo). Se um dispositivo com Zi0n for conectado a um computador ou ferramenta forense enquanto estiver bloqueado, o sistema executa imediatamente a destruição criptográfica dos dados, impedindo o roubo de suas informações confidenciais. Acesse [https://zi0n.io](https://zi0n.io) para mais detalhes.
 
-## Perguntas Frequentes
+## Perguntas frequentes
 
 **O Cable Wipe é acionado ao plugar o carregador comum na tomada?**
 Não. O sistema diferencia com precisão fontes de alimentação pura de conexões que estabelecem tráfego de dados.

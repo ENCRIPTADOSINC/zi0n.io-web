@@ -11,7 +11,7 @@ draft: false
 
 Nel settore della sicurezza delle criptovalute, il cosiddetto "attacco della chiave inglese da 5 dollari" evidenzia un limite concreto: nessuna cifratura avanzata può proteggere i tuoi fondi se vieni costretto con la forza a sbloccare lo smartphone.
 
-## La Vulnerabilità dello Sblocco Sotto Minaccia
+## La vulnerabilità dello sblocco sotto minaccia
 
 In caso di rapina o aggressione, i sistemi biometrici come lettori d'impronte e riconoscimento facciale diventano un punto debole, poiché possono essere forzati con facilità dall'aggressore.
 
@@ -20,7 +20,7 @@ I rischi principali durante un'estorsione fisica:
 - **Assenza di meccanismi di cancellazione silenziosa:** I sistemi operativi commerciali non offrono modalità di emergenza discrete.
 - **Definitività delle transazioni blockchain:** I trasferimenti eseguiti non possono essere annullati.
 
-## Il Concetto di Duress PIN e la Funzione Extra PIN
+## Il concetto di Duress PIN e la funzione Extra PIN
 
 Per gestire queste emergenze, i sistemi mobili ad alta sicurezza implementano codici di coercizione (Duress PIN) e combinazioni di emergenza.
 
@@ -29,17 +29,17 @@ Il funzionamento dell'**Extra PIN** si basa su una reazione istantanea:
 2. **Risposta discreta senza avvisi:** Lo smartphone non mostra notifiche sospette e simula un errore di accesso.
 3. **Cancellazione crittografica istantanea:** In pochi secondi il sistema azzera le chiavi private e distrugge l'ambiente protetto.
 
-## Misure di Prevenzione contro i Rischi Fisici
+## Misure di prevenzione contro i rischi fisici
 
 - **Disattiva lo sblocco biometrico sui dispositivi crypto:** Utilizza PIN alfanumerici complessi per evitare sblocchi forzati.
 - **Mantieni un wallet esca con importi ridotti:** Un piccolo saldo secondario può soddisfare l'aggressore senza intaccare il capitale principale.
 - **Configura sistemi di distruzione rapida:** Assicurati che il tuo dispositivo supporti l'eliminazione dei dati tramite PIN di emergenza.
 
-## La Protezione Discreta di Zi0n
+## La protezione discreta di Zi0n
 
 Zi0n include le funzioni **Extra PIN** e **PIN di sicurezza**. Inserendo l'Extra PIN sulla schermata di blocco, Zi0n avvia la cancellazione sicura e irreversibile dell'intero ambiente protetto in pochissimi secondi. Scopri di più su [https://zi0n.io](https://zi0n.io).
 
-## Domande Frequenti
+## Domande frequenti
 
 **L'aggressore può accorgersi dell'inserimento dell'Extra PIN?**
 No. Zi0n non mostra alcun messaggio di allarme e mantiene un comportamento visivo del tutto normale durante la cancellazione.

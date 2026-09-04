@@ -11,7 +11,7 @@ draft: false
 
 Gestionar criptomonedas directamente desde un smartphone convencional expone los fondos a un ecosistema de amenazas cada vez más sofisticado. Desde troyanos bancarios y clippers de portapapeles hasta ataques de extracción forense por cable y coacción física, los sistemas operativos estándar no fueron diseñados con la arquitectura de aislamiento requerida para custodiar activos digitales de alto valor.
 
-## Los Vectores de Ataque Críticos en Dispositivos Móviles
+## Los vectores de ataque críticos en dispositivos móviles
 
 Operar en Web3 mediante teléfonos comerciales tradicionales introduce vulnerabilidades estructurales en múltiples capas de la pila técnica:
 
@@ -21,26 +21,26 @@ Operar en Web3 mediante teléfonos comerciales tradicionales introduce vulnerabi
 - **Secuestro de línea celular (SIM Swapping):** Interceptación de tokens 2FA basados en mensajería SMS para vulnerar cuentas de exchanges.
 - **Coacción física directa:** Situaciones de robo o extorsión donde el usuario se ve forzado a desbloquear su dispositivo bajo presión.
 
-## Pilares de Blindaje de Zi0n para Activos Criptográficos
+## Pilares de blindaje de Zi0n para activos criptográficos
 
 Zi0n transforma el smartphone en una fortaleza criptográfica mediante un sistema operativo reforzado a nivel de kernel y microcódigo de hardware. Sus principales ventajas técnicas frente a cualquier teléfono convencional incluyen:
 
-### 1. Entorno de Ejecución Aislado y Anti-Keylogger
+### 1. Entorno de ejecución aislado y anti-keylogger
 Las aplicaciones de billetera (como MetaMask, Phantom o Trust Wallet) se ejecutan dentro de contenedores herméticos con aislamiento estricto de memoria RAM. Ningún proceso de terceros puede monitorear las firmas de transacciones, interceptar el búfer de copiado ni capturar eventos táctiles.
 
-### 2. Bloqueo de Capturas y Grabación de Pantalla por Microcódigo
+### 2. Bloqueo de capturas y grabación de pantalla por microcódigo
 Zi0n neutraliza de forma nativa los intentos de captura o retransmisión de pantalla en todas las aplicaciones críticas, impidiendo que spyware o accesos remotos no autorizados registren frases de recuperación (seed phrases) o balances en pantalla.
 
-### 3. Protocolos Defensivos Anti-Extracción (Cable Wipe)
+### 3. Protocolos defensivos anti-extracción (Cable Wipe)
 Ante la conexión de cables o dispositivos USB no autorizados con el terminal bloqueado, Zi0n corta de inmediato las líneas de datos o ejecuta un borrado criptográfico instantáneo si detecta intentos de explotación por fuerza bruta.
 
-### 4. PIN de Coacción (Duress PIN) y Perfiles Compartimentados
+### 4. PIN de coacción (Duress PIN) y perfiles compartimentados
 Si el usuario es forzado físicamente a introducir sus credenciales, ingresar el PIN secundario de coacción desbloquea un entorno señuelo verosímil con saldos mínimos o activa la destrucción silenciosa e irreversible de las claves criptográficas principales.
 
-### 5. Red Privada Descentralizada con Rotación de IP
+### 5. Red privada descentralizada con rotación de IP
 Toda la conectividad Web3 se enruta mediante una VPN descentralizada multi-nodo que rota las direcciones IP públicas, evitando la correlación de transacciones on-chain con la ubicación geográfica real del usuario.
 
-## Recomendaciones Operativas para la Custodia Móvil
+## Recomendaciones operativas para la custodia móvil
 
 Para maximizar el rendimiento de seguridad de tu terminal, implementa estas pautas operativas:
 - **Habilita el borrado por inactividad prolongada:** Configura el sistema para que purgue datos sensibles si el teléfono permanece sin conectividad o sin desbloqueo durante un periodo establecido.

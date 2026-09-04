@@ -11,14 +11,14 @@ draft: false
 
 Los smartphones modernos integran múltiples sensores de alta precisión, cámaras frontales y traseras, y micrófonos omnidireccionales que pueden ser activados de forma remota por herramientas de spyware comercial como Pegasus o Predator sin encender ningún indicador visible para el usuario.
 
-## Vectores de Espionaje Silencioso en Dispositivos Móviles
+## Vectores de espionaje silencioso en dispositivos móviles
 
 El acceso no autorizado a los sensores físicos del dispositivo permite a actores hostiles extraer inteligencia crítica sobre operaciones financieras, reuniones estratégicas y credenciales de acceso:
 - **Grabación de audio ambiental en segundo plano:** Activación encubierta del micrófono durante reuniones confidenciales o llamadas comerciales.
 - **Toma clandestina de fotografías:** Acceso a las cámaras para capturar el entorno de trabajo o códigos de autenticación expuestos.
 - **Grabación continua de la pantalla:** Registro visual de la introducción de frases semilla, PINs y firmas de transacciones en wallets.
 
-## Control Físico y de Sistema sobre Sensores y Pantalla
+## Control físico y de sistema sobre sensores y pantalla
 
 Para garantizar una privacidad real, la desconexión de los sensores no debe ser una simple preferencia cosmética de software, sino una orden estricta a nivel del subsistema de controladores.
 
@@ -27,7 +27,7 @@ Pilares del blindaje sensorial:
 2. **Supresión total de capturas y grabaciones de pantalla:** Bloqueo de las funciones nativas de screenshot para impedir que aplicaciones espía capturen contraseñas.
 3. **Aislamiento de permisos por contenedor:** Imposibilidad de que aplicaciones no autorizadas hereden acceso a sensores periféricos.
 
-## Medidas Prácticas para Evitar el Espionaje Móvil
+## Medidas prácticas para evitar el espionaje móvil
 
 - **Desactiva permisos de cámara y micrófono a aplicaciones no esenciales:** Revisa periódicamente la lista de accesos concedidos en tu smartphone.
 - **Utiliza dispositivos con control directo de sensores:** Emplea sistemas que permitan apagar los periféricos de captura con un solo toque.

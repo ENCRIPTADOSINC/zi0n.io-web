@@ -20,7 +20,7 @@ Canaux d'exposition fréquents :
 - **Gestionnaires de notes cloud grand public :** Comptes exposés aux piratages et fuites de données.
 - **Presse-papiers du système mobile :** Copier sa phrase de récupération laisse des traces accessibles aux malwares.
 
-## Architecture de Notes Sécurisées avec chiffrement local E2EE
+## Architecture de notes sécurisées avec chiffrement local E2EE
 
 Pour conserver des notes confidentielles sur son smartphone, il est indispensable d'utiliser un coffre-fort numérique local avec chiffrement de bout en bout (E2EE) et architecture Zero-Knowledge.
 

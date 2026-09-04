@@ -18,7 +18,7 @@ La connexion physique constitue une menace majeure lors d'une saisie, d'un vol o
 - **Attaques par force brute matérielle :** Émulation de périphériques pour tester des milliers de combinaisons de PIN sans subir les délais de blocage d'Android.
 - **Clonage direct de la mémoire Flash :** Extraction bit à bit pour analyse et déchiffrement sur des stations dédiées.
 
-## Le protocole Cable Wipe : Défense active matérielle
+## Le protocole Cable Wipe : défense active matérielle
 
 Face à ces outils automatisés, la sécurité mobile doit réagir instantanément. La fonction Cable Wipe surveille en continu le bus USB au niveau du contrôleur matériel.
 

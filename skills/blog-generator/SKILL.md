@@ -203,6 +203,17 @@ El script verificará automáticamente:
 
 Si el validador arroja algún error, DEBE corregirse antes de proceder. Las advertencias no bloquean la publicación pero deben revisarse.
 
+### 🖼️ Verificación visual final en `/blog` (imagen + título + subtítulo)
+
+El validador automatizado solo revisa texto y archivos; NO comprueba cómo se ve la publicación ya renderizada. Antes de dar por terminado un post (nuevo o corregido), se debe abrir la página `/blog` (listado) y `/blog/{slug}` (detalle) en el navegador y confirmar visualmente, para cada idioma relevante, que:
+
+- La **imagen de portada** (`coverImage`) carga correctamente en la tarjeta del listado y en la cabecera del artículo — no solo que el archivo exista en disco.
+- El **título** (frontmatter `title`) se muestra en minúscula sostenida ("sentence case"), sin Title Case, según la regla global de mayúsculas de la sección 2.
+- Los **subtítulos** (`##`/`###` del cuerpo, incluidos los bloques numerados tipo "1. …") también respetan esa misma regla de mayúsculas — no solo el `title` del frontmatter.
+- La **descripción/resumen** (`description`) que aparece bajo el título en la tarjeta del listado es coherente y no está cortada de forma extraña.
+
+Revisar imagen, título y subtítulos como un conjunto (no solo el texto de forma aislada) es lo que confirma que la publicación se ve bien en el resumen del blog, no solo que pasa la validación de archivos.
+
 ## 🔄 5. Flujo de Ejecución Paso a Paso
 
 1. **Pre-flight & slug:** Verificar si el slug `{slug}` ya existe en `content/blog/`. Si existe, elegir un slug específico que diferencie el enfoque del nuevo artículo.

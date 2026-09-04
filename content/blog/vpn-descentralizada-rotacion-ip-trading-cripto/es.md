@@ -11,7 +11,7 @@ draft: false
 
 Cada vez que interactúas con una blockchain, envías una orden en un exchange o consultas el saldo de tu wallet, tu dirección IP real queda expuesta ante proveedores de internet, nodos RPC y rastreadores de análisis on-chain. La correlación entre direcciones IP y transacciones criptográficas es uno de los métodos más efectivos para desanonimizar a inversores y traders.
 
-## Los Riesgos de la Exposición de IP en Transacciones Blockchain
+## Los riesgos de la exposición de IP en transacciones blockchain
 
 Los servicios centralizados de VPN tradicionales sufren de puntos únicos de fallo: mantienen registros de conexión (logs), pueden ser obligados por orden judicial a entregar datos de tráfico y sus servidores son fácilmente identificados y bloqueados por exchanges.
 
@@ -20,7 +20,7 @@ Los riesgos derivados del rastreo de IP incluyen:
 - **Ataques de denegación de servicio (DDoS) dirigidos:** Identificación de traders de alto volumen durante periodos de alta volatilidad.
 - **Bloqueos geográficos y censura arbitraria:** Restricciones de acceso a plataformas DeFi según la ubicación de tu conexión celular.
 
-## La Arquitectura de VPN Dinámica sobre Red Descentralizada
+## La arquitectura de VPN dinámica sobre red descentralizada
 
 Una VPN descentralizada (dVPN) distribuye el enrutamiento del tráfico a través de una red distribuida de nodos independientes, eliminando cualquier servidor central que pueda registrar o filtrar la actividad del usuario.
 
@@ -29,7 +29,7 @@ Pilares técnicos de la solución dinámica:
 2. **Cifrado multicapa de extremo a extremo:** Los paquetes de datos se encapsulan en múltiples capas criptográficas impidiendo la inspección profunda de paquetes (DPI).
 3. **Resistencia absoluta a la censura:** Imposibilidad de que proveedores de internet o cortafuegos gubernamentales bloqueen el tráfico.
 
-## Consejos Prácticos para Preservar la Privacidad en Red
+## Consejos prácticos para preservar la privacidad en red
 
 - **No reutilices la misma IP para operar y navegar:** Separa el tráfico de tus actividades personales del flujo de tus billeteras cripto.
 - **Utiliza nodos RPC privados o enrutados:** Evita enviar transacciones a través de endpoints públicos que almacenen metadatos de red.

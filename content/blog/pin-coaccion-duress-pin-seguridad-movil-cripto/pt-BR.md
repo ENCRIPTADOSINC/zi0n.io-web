@@ -11,7 +11,7 @@ draft: false
 
 No universo da segurança de criptoativos, o conhecido "ataque da chave de 5 dólares" demonstra uma realidade incontestável: nenhuma criptografia robusta protege seus fundos se você for coagido fisicamente a desbloquear o celular e realizar transferências.
 
-## Vulnerabilidades do Desbloqueio sob Coação Física
+## Vulnerabilidades do desbloqueio sob coação física
 
 Em situações de roubo, sequestro-relâmpago ou abordagem violenta, mecanismos biométricos (leitor de digitais ou reconhecimento facial) tornam-se vulnerabilidades críticas, pois podem ser facilmente forçados contra a vítima.
 
@@ -20,7 +20,7 @@ Perigos centrais em situações de coerção:
 - **Ausência de alertas silenciosos:** Sistemas operacionais convencionais não possuem funções nativas de exclusão emergencial disfarçada.
 - **Transações irreversíveis na blockchain:** Uma vez enviadas, as criptomoedas não podem ser estornadas.
 
-## O Conceito de Duress PIN e a Tecnologia Extra PIN
+## O conceito de Duress PIN e a tecnologia Extra PIN
 
 Para mitigar esse risco extremo, plataformas móveis de alta segurança incorporam códigos de coação (Duress PIN) e rotinas de autodestruição imediata.
 
@@ -29,17 +29,17 @@ O funcionamento do **Extra PIN** atua com máxima discrição:
 2. **Resposta silenciosa:** O aparelho não emite alarmes visuais e simula uma falha de sistema comum.
 3. **Destruição criptográfica completa em segundos:** O sistema realiza a purga instantânea das chaves privadas e dos contêineres protegidos.
 
-## Recomendações para Reduzir Riscos Físicos
+## Recomendações para reduzir riscos físicos
 
 - **Desative a biometria em celulares com cripto:** Utilize senhas numéricas ou alfanuméricas para impedir o desbloqueio forçado.
 - **Mantenha carteiras secundárias com valores baixos:** Ter uma carteira com saldo pequeno pode despistar o assaltante sem comprometer seu patrimônio.
 - **Habilite rotinas de autodestruição silenciosa:** Utilize sistemas capazes de apagar dados confidenciais rapidamente via senha de emergência.
 
-## Como o Zi0n Protege sua Integridade e seu Patrimônio
+## Como o Zi0n protege sua integridade e seu patrimônio
 
 O Zi0n conta com as funcionalidades **Extra PIN** e **PIN de segurança**. Ao digitar o Extra PIN na tela de bloqueio durante uma situação de perigo, o Zi0n realiza em poucos segundos a eliminação segura de todas as suas carteiras e credenciais locais. Conheça nossa arquitetura em [https://zi0n.io](https://zi0n.io).
 
-## Perguntas Frequentes
+## Perguntas frequentes
 
 **O assaltante perceberá que o Extra PIN foi digitado?**
 Não. A interface do Zi0n não exibe mensagens de exclusão e mantém uma reação neutra enquanto apaga os dados em segundo plano.

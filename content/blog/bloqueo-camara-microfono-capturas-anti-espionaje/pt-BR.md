@@ -11,14 +11,14 @@ draft: false
 
 Os smartphones modernos possuem câmeras de alta resolução e microfones omnidirecionais que podem ser acionados remotamente por softwares espiões avançados sem emitir nenhum aviso visual perceptível na tela.
 
-## Vetores de Espionagem Silenciosa em Dispositivos Móveis
+## Vetores de espionagem silenciosa em dispositivos móveis
 
 O acesso indevido aos sensores do aparelho permite a coleta de informações estratégicas sobre reuniões e senhas de acesso:
 - **Gravação de áudio ambiente em segundo plano:** Escuta clandestina de conversas estratégicas e negociações confidenciais.
 - **Fotografia oculta:** Captura de imagens de documentos físicos e ambientes de trabalho.
 - **Gravação contínua da tela:** Registro visual durante a digitação de frases semente (seed phrases) e transações.
 
-## Controle de Sensores e Display no Nível do Sistema
+## Controle de sensores e display no nível do sistema
 
 Garantir privacidade operacional exige que o bloqueio dos sensores atue diretamente no subsistema de drivers do sistema operacional.
 
@@ -27,17 +27,17 @@ Recursos principais de proteção:
 2. **Bloqueio total de capturas e gravações de tela:** Impossibilidade nativa de tirar prints ou gravar vídeos das aplicações.
 3. **Isolamento de privilégios:** Impedimento de herança de permissões por aplicativos secundários.
 
-## Boas Práticas para Evitar Espionagem no Celular
+## Boas práticas para evitar espionagem no celular
 
 - **Revise permissões de sensores com frequência:** Cancele o acesso ao microfone e à câmera de utilitários desnecessários.
 - **Adote smartphones com controle de periféricos:** Escolha sistemas operacionais com comandos diretos de desativação de sensores.
 - **Proteja a digitação de senhas de câmeras próximas:** Evite expor palavras de recuperação no campo de visão de sensores óticos.
 
-## Como o Zi0n Protege sua Privacidade
+## Como o Zi0n protege sua privacidade
 
 O Zi0n possui botões rápidos para **desativar a câmera e o microfone**, além de uma proteção nativa que **bloqueia capturas e gravações de tela**. Com o Zi0n, suas conversas privadas e suas carteiras de criptomoedas ficam totalmente protegidas contra grampos e softwares espiões. Saiba mais em [https://zi0n.io](https://zi0n.io).
 
-## Perguntas Frequentes
+## Perguntas frequentes
 
 **Posso ligar o microfone rapidamente para atender uma chamada no Zi0n?**
 Sim. Você pode habilitar os sensores a qualquer momento com apenas um clique.

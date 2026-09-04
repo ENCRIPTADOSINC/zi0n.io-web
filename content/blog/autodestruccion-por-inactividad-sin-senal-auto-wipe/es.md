@@ -11,7 +11,7 @@ draft: false
 
 Cuando un smartphone con aplicaciones criptográficas y documentos confidenciales es confiscado o extraviado, los atacantes suelen colocar el dispositivo de inmediato en una bolsa o jaula de Faraday para impedir comandos de borrado remoto por red celular.
 
-## El Desafío del Aislamiento de Red y la Custodia Hostil
+## El desafío del aislamiento de red y la custodia hostil
 
 El borrado remoto tradicional depende de que el terminal reciba una señal de internet o SMS para ejecutar la orden de formateo. Al aislar el dispositivo de toda señal de radiofrecuencia, los atacantes ganan tiempo indefinido para intentar ataques de extracción forense.
 
@@ -20,7 +20,7 @@ Riesgos críticos ante la pérdida o incautación física:
 - **Intentos prolongados de clonación de chips:** Tiempo ilimitado para someter la memoria flash a análisis en laboratorio.
 - **Acceso a datos residuales:** Vulneración de particiones no cifradas o mal protegidas.
 
-## La Solución: Mecanismos Autónomos de Autodestrucción Local
+## La solución: mecanismos autónomos de autodestrucción local
 
 Frente a la falta de conectividad, el sistema operativo debe ser capaz de tomar decisiones de protección autónomas basadas en temporizadores locales de hardware e indicadores de estado de red.
 
@@ -29,7 +29,7 @@ Protocolos de defensa autónoma:
 2. **Autodestrucción por temporizador de inactividad:** Purga de claves criptográficas si no se detecta actividad del usuario en un plazo determinado.
 3. **Botón de pánico por combinación física:** Activación inmediata de borrado mediante una secuencia específica de pulsaciones en los botones físicos de volumen y encendido.
 
-## Estrategias para Gestionar Dispositivos en Entornos Hostiles
+## Estrategias para gestionar dispositivos en entornos hostiles
 
 - **Configura límites de tiempo estrictos:** Ajusta el temporizador de inactividad a periodos prudentes según tu frecuencia de uso.
 - **Mantén siempre copias de seguridad externas:** Recuerda que la autodestrucción local es irreversible y protege tus activos únicamente si tienes tus respaldos en frío.

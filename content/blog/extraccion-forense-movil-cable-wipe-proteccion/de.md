@@ -18,7 +18,7 @@ Der physische Datenport stellt ein erhebliches Sicherheitsrisiko dar, wenn ein S
 - **Hardware-beschleunigte Brute-Force-Angriffe:** Emulieren virtueller Eingabegeräte zur schnellen Ermittlung von PINs ohne Aktivierung von Software-Sperrfristen.
 - **Bitweises NAND-Flash-Imaging:** Vollständiges Klonen des Flash-Speichers für die anschließende Offline-Entschlüsselung.
 
-## Das Cable-Wipe-Protokoll: Hardwarenahe Aktivabwehr
+## Das Cable-Wipe-Protokoll: hardwarenahe Aktivabwehr
 
 Gegen automatisierte Extraktionsgeräte muss die Schutzreaktion in Millisekunden erfolgen. Die Cable-Wipe-Funktion überwacht den USB-Controller auf Hardware-Ebene.
 

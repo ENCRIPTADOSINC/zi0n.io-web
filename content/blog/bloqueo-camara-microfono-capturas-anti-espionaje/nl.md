@@ -11,14 +11,14 @@ draft: false
 
 Moderne smartphones bevatten geavanceerde camera's en microfoons die door spyware zoals Pegasus of Predator geruisloos kunnen worden geactiveerd zonder dat de gebruiker waarschuwingslampjes ziet.
 
-## Vectoren van Geruisloze Mobiele Spionage
+## Vectoren van geruisloze mobiele spionage
 
 Ongeautoriseerde toegang tot sensoren stelt kwaadwillenden in staat om gevoelige zakelijke en financiële informatie buit te maken:
 - **Afluisteren van omgevingsgeluid:** Het heimelijk activeren van de microfoon tijdens vertrouwelijke overleggen.
 - **Geheime foto-opnames:** Het vastleggen van documenten en codes op werkplekken.
 - **Continue schermopnames:** Het visueel opnemen van het invoeren van herstelzinnen en transacties.
 
-## Hardnekkige Controle over Sensoren en Beeldscherm
+## Hardnekkige controle over sensoren en beeldscherm
 
 Echte privacy vereist dat het uitschakelen van sensoren plaatsvindt op het niveau van het stuurprogramma en de hardwarecontrollers.
 
@@ -27,17 +27,17 @@ Belangrijke beveiligingspijlers:
 2. **Volledige blokkade van screenshots en video-opnames:** Onmogelijk maken van visuele data-extractie via het besturingssysteem.
 3. **Geïsoleerde app-rechten:** Geen enkele achtergrond-app kan stiekem sensortoegang overnemen.
 
-## Tips om Mobiele Spionage te Voorkomen
+## Tips om mobiele spionage te voorkomen
 
 - **Controleer sensorrechten regelmatig:** Trek microfoon- en cameratoegang in voor niet-essentiële applicaties.
 - **Kies voor toestellen met hardwareschakelaars:** Gebruik systemen waarmee u sensoren direct met één tik kunt uitschakelen.
 - **Houd herstelzinnen buiten het zicht van camera's:** Zorg dat er geen lenzen op uw scherm of notities gericht staan bij het invoeren van sleutels.
 
-## Hoe Zi0n uw Privacy Beschermt
+## Hoe Zi0n uw privacy beschermt
 
 Zi0n is voorzien van handige schakelaars om de **camera en microfoon direct uit te schakelen** en een betrouwbaar systeem dat **screenshots en schermopnames blokkeert**. Met Zi0n bent u ervan verzekerd dat uw gesprekken en wallet-activiteiten privé blijven. Bekijk meer op [https://zi0n.io](https://zi0n.io).
 
-## Veelgestelde Vragen
+## Veelgestelde vragen
 
 **Kan ik de microfoon snel aanzetten voor een telefoongesprek?**
 Ja. U kunt de sensoren op elk gewenst moment met één simpele handeling inschakelen voor legitieme oproepen.
