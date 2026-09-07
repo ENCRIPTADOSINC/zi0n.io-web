@@ -5,6 +5,14 @@ description: Genera un artículo de blog estandarizado, robusto y de alta calida
 
 # 📝 Generador de Blog Estandarizado y Robusto - Zi0n.io
 
+> [!IMPORTANT]
+> ### 🚨 REGLAS OBLIGATORIAS Y PRIORITARIAS:
+> 
+> 1. **MIRA LA SKILL SI SE PIDE QUE SE TOME EL CONTEXTO:** SIEMPRE QUE SE PIDA GENERAR O REVISAR ARTÍCULOS, O TOMAR EL CONTEXTO DEL BLOG, CONSULTA Y RESPETA OBLIGATORIAMENTE CADA DIRECTRIZ, REGLA TIPOGRÁFICA Y RESTRICCIÓN DE ESTA SKILL.
+> 2. **SIEMPRE QUE SE CREE EL BLOG HAGA UN RESUMEN DE LOS MD E IMÁGENES PARA PODER MIRAR:** UNA VEZ CREADO O MODIFICADO EL CONTENIDO, PRESENTA EN EL CHAT UN RESUMEN DETALLADO CON LOS ARCHIVOS `.md` GENERADOS/ACTUALIZADOS (TÍTULOS, DESCRIPCIONES, ENFOQUE) Y LAS IMÁGENES PARA QUE EL USUARIO PUEDA REVISARLOS CÓMODAMENTE.
+> 3. **NO SE HACE PR A MENOS QUE SE PIDA LITERALMENTE EN EL CHAT / NO SE HACE PUSH A MAIN A MENOS QUE SE PIDA ESPECÍFICAMENTE:** ESTÁ ESTRICTAMENTE PROHIBIDO ABRIR PULL REQUESTS O HACER PUSH A LA RAMA `main` (O A CUALQUIER RAMA REMOTA) DE FORMA AUTOMÁTICA. SOLO SE HARÁ PUSH O PR SI EL USUARIO LO PIDE DE MANERA EXPRESA Y LITERAL EN EL CHAT.
+> 4. **MIENTRAS NO SE PIDA SUBIR AL REPO ESTAMOS EN FASE DE AJUSTES EN EL CONTENT:** MIENTRAS NO SE ORDENE EXPLÍCITAMENTE SUBIR AL REPOSITORIO, EL TRABAJO SE MANTIENE LOCALMENTE Y SE ASUME QUE ESTAMOS EN FASE DE ITERACIÓN, AJUSTES Y REVISIÓN DEL CONTENIDO Y DE LAS IMÁGENES.
+
 Esta Skill define el procedimiento estricto y resiliente para crear artículos de blog profesionales para Zi0n.io. Todo artículo generado debe cumplir con estándares rigurosos de seguridad, redacción técnica, multilenguaje, unicidad visual absoluta y validación automatizada antes de su publicación.
 
 ## 🎯 Requisitos de Entrada
@@ -227,11 +235,15 @@ Revisar imagen, título y subtítulos como un conjunto (no solo el texto de form
 4. **Ejecutar validación automatizada:**
    - Correr `node scripts/validate-blog-entry.mjs {slug}`.
    - Asegurar 0 errores.
-5. **Flujo de Git & Pull Request:**
-   - Crear rama: `git checkout -b blog/{slug}`
-   - Agregar cambios: `git add content/blog/{slug} public/image/blog/{slug}.webp`
-   - Realizar commit: `git commit -m "feat: add blog post about {slug}"`
-   - Subir rama: `git push -u origin blog/{slug}`
-   - Crear PR: `gh pr create --title "📝 Blog: {Título en Español}" --body "..."`
-
-Si `gh` no está autenticado, proporcionar al usuario el enlace directo de GitHub para abrir el PR.
+5. **Resumen y fase de ajustes en el content:**
+   - Presentar al usuario un resumen detallado de los archivos Markdown generados/editados y de la imagen creada.
+   - Permanecer en fase local de iteración y ajustes de contenido hasta que el usuario dé su conformidad y solicite explícitamente subir los cambios.
+6. **Flujo de Git & Pull Request (ÚNICAMENTE SI SE SOLICITA LITERALMENTE EN EL CHAT):**
+   - **NO** hacer push a `main` a menos que se pida específicamente.
+   - **NO** crear PR a menos que se pida literalmente en el chat.
+   - Si el usuario pide explícitamente subir o abrir PR:
+     - Crear rama local: `git checkout -b blog/{slug}`
+     - Agregar cambios: `git add content/blog/{slug} public/image/blog/{slug}.webp`
+     - Realizar commit: `git commit -m "feat(blog): add article {slug} in 10 languages"`
+     - Subir rama: `git push -u origin blog/{slug}`
+     - Crear PR: `gh pr create --title "📝 Blog: {Título en Español}" --body "..."` (o enlace si `gh` no está disponible).
