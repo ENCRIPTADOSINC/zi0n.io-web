@@ -8,12 +8,21 @@ description: Genera un artículo de blog estandarizado, robusto y de alta calida
 > [!IMPORTANT]
 > ### 🚨 REGLAS OBLIGATORIAS Y PRIORITARIAS:
 > 
-> 1. **MIRA LA SKILL SI SE PIDE QUE SE TOME EL CONTEXTO:** SIEMPRE QUE SE PIDA GENERAR O REVISAR ARTÍCULOS, O TOMAR EL CONTEXTO DEL BLOG, CONSULTA Y RESPETA OBLIGATORIAMENTE CADA DIRECTRIZ, REGLA TIPOGRÁFICA Y RESTRICCIÓN DE ESTA SKILL.
+> 1. **MIRA LA SKILL SI SE PIDE QUE SE TOME EL CONTEXTO:** SIEMPRE QUE SE PIDA GENERAR O REVISAR ARTÍCULOS, O TOMAR EL CONTEXTO DEL BLOG, CONSULTA Y RESPETA OBLIGATORIAMENTE CADA DIRECTRIZ, REGLA TIPOGRÁFICA Y RESTRICCIÓN DE ESTA SKILL, ASÍ COMO LAS GUÍAS OFICIALES DE REFERENCIA DE ENCRIPTADOS.
 > 2. **SIEMPRE QUE SE CREE EL BLOG HAGA UN RESUMEN DE LOS MD E IMÁGENES PARA PODER MIRAR:** UNA VEZ CREADO O MODIFICADO EL CONTENIDO, PRESENTA EN EL CHAT UN RESUMEN DETALLADO CON LOS ARCHIVOS `.md` GENERADOS/ACTUALIZADOS (TÍTULOS, DESCRIPCIONES, ENFOQUE) Y LAS IMÁGENES PARA QUE EL USUARIO PUEDA REVISARLOS CÓMODAMENTE.
 > 3. **NO SE HACE PR A MENOS QUE SE PIDA LITERALMENTE EN EL CHAT / NO SE HACE PUSH A MAIN A MENOS QUE SE PIDA ESPECÍFICAMENTE:** ESTÁ ESTRICTAMENTE PROHIBIDO ABRIR PULL REQUESTS O HACER PUSH A LA RAMA `main` (O A CUALQUIER RAMA REMOTA) DE FORMA AUTOMÁTICA. SOLO SE HARÁ PUSH O PR SI EL USUARIO LO PIDE DE MANERA EXPRESA Y LITERAL EN EL CHAT.
 > 4. **MIENTRAS NO SE PIDA SUBIR AL REPO ESTAMOS EN FASE DE AJUSTES EN EL CONTENT:** MIENTRAS NO SE ORDENE EXPLÍCITAMENTE SUBIR AL REPOSITORIO, EL TRABAJO SE MANTIENE LOCALMENTE Y SE ASUME QUE ESTAMOS EN FASE DE ITERACIÓN, AJUSTES Y REVISIÓN DEL CONTENIDO Y DE LAS IMÁGENES.
 
 Esta Skill define el procedimiento estricto y resiliente para crear artículos de blog profesionales para Zi0n.io. Todo artículo generado debe cumplir con estándares rigurosos de seguridad, redacción técnica, multilenguaje, unicidad visual absoluta y validación automatizada antes de su publicación.
+
+## 📚 Fuentes Oficiales de Referencia y Contexto Técnico
+
+Para garantizar la máxima fidelidad técnica, precisión en las características y alineación con las capacidades reales de la plataforma Zi0n, consultar y utilizar como contexto las siguientes referencias oficiales:
+
+- 📱 **Visión general de Zi0n App:** [https://encriptados.io/es/apps/zi0n](https://encriptados.io/es/apps/zi0n)
+- 📖 **Guía completa de usuario Zi0n:** [https://encriptados.io/es/zi0n-guide](https://encriptados.io/es/zi0n-guide)
+- 💻 **Guía de uso en PC Zi0n:** [https://encriptados.io/es/zi0n-guide-pc](https://encriptados.io/es/zi0n-guide-pc)
+- ⚙️ **Guía técnica y configuración ADB Zi0n:** [https://encriptados.io/es/zi0n-guide-adb](https://encriptados.io/es/zi0n-guide-adb)
 
 ## 🎯 Requisitos de Entrada
 
