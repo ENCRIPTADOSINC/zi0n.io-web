@@ -56,7 +56,13 @@ const nextConfig = {
   // https://nextjs.org/docs/app/api-reference/config/next-config-js/htmlLimitedBots
   htmlLimitedBots: /.*/,
   images: {
-    qualities: [75, 90],
+    // Serve AVIF first (≈20-40% smaller than WebP), WebP fallback.
+    formats: ['image/avif', 'image/webp'],
+    // Cap at 1200: the widest image anywhere is the full-bleed blog banner
+    // (max ~480px tall, behind a gradient) and the hero mockup renders at
+    // ≤543px. The 1920/2048/3840 candidates only ever produced upscaled
+    // /_next/image variants over 100 KB that no viewport actually requested.
+    deviceSizes: [640, 750, 828, 1080, 1200],
     dangerouslyAllowSVG: true,
   },
   async headers() {

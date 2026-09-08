@@ -16,12 +16,13 @@ export function BlogCover({ src, alt, priority, variant = "card" }: BlogCoverPro
   }
 
   if (src) {
-    const sizes = variant === "banner" ? "100vw" : "(max-width: 620px) 100vw, (max-width: 1100px) 50vw, 33vw"
-    const quality = variant === "banner" ? 90 : 75
+    // Banner is full-bleed but never taller than ~480px and sits behind a dark
+    // gradient, so cap the largest candidate well below full-viewport width.
+    const sizes = variant === "banner" ? "(min-width: 1280px) 1280px, 100vw" : "(max-width: 620px) 100vw, (max-width: 1100px) 50vw, 33vw"
 
     return (
       <div style={wrapperStyle}>
-        <Image src={src} alt={alt} fill sizes={sizes} quality={quality} style={styles.image} priority={priority} />
+        <Image src={src} alt={alt} fill sizes={sizes} style={styles.image} priority={priority} />
         <div style={styles.overlay} />
       </div>
     )
