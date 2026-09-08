@@ -45,6 +45,16 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  // Renderiza los metadatos (title, description, canonical, hreflang) SIEMPRE
+  // dentro de <head> en el HTML inicial, en lugar de hacer streaming al <body>
+  // para navegadores. En rutas dinámicas (p.ej. /[locale]/blog, que depende de
+  // searchParams para la paginación) Next hace streaming de metadatos por
+  // defecto y solo los sirve en <head> para los bots de esta lista; crawlers
+  // como Screaming Frog —y el HTML sin renderizar que inspecciona Google— los
+  // veían fuera del <head>. `generateMetadata` aquí solo lee JSON local, así
+  // que el coste de bloquear es insignificante. Ver:
+  // https://nextjs.org/docs/app/api-reference/config/next-config-js/htmlLimitedBots
+  htmlLimitedBots: /.*/,
   images: {
     qualities: [75, 90],
     dangerouslyAllowSVG: true,

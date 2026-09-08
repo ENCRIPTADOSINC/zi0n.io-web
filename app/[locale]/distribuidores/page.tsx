@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
 import { getTranslations } from "next-intl/server"
-import { BASE_URL, getLocalizedUrl, getLanguageAlternates } from "@/lib/seo"
+import { BASE_URL, getLocalizedUrl } from "@/lib/seo"
 import { getOgLocale } from "@/lib/structured-data"
 import type { Locale } from "@/i18n/config"
 import DistribuidoresClient from "./distribuidores-client"
@@ -12,15 +12,14 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const t = await getTranslations({ locale, namespace: "distribuidores" })
   const title = t("metaTitle")
   const description = t("metaDescription")
-  const canonical = getLocalizedUrl(locale as Locale, "distribuidores")
 
+  // Página noindex/nofollow y fuera del sitemap: NO debe emitir anotaciones
+  // hreflang (`alternates.languages`). Todas las URLs de un conjunto hreflang
+  // deben ser indexables; incluir aquí enlaces de retorno noindex hace que
+  // Google ignore la relación hreflang de todo el conjunto.
   return {
     title,
     description,
-    alternates: {
-      canonical,
-      languages: getLanguageAlternates("distribuidores"),
-    },
     robots: {
       index: false,
       follow: false,
@@ -29,7 +28,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       title,
       description,
       type: "website",
-      url: canonical,
+      url: getLocalizedUrl(locale as Locale, "distribuidores"),
       siteName: "Zi0n",
       locale: getOgLocale(locale as Locale),
       images: [{ url: PREVIEW_IMAGE }],

@@ -54,13 +54,11 @@ export const viewport: Viewport = {
 
 type Props = {
   children: React.ReactNode
-  params: { locale: string }
+  params: Promise<{ locale: string }>
 }
 
 export default async function LocaleLayout({ children, params }: Props) {
-  // Next.js 14+ puede pasar params como Promise
-  const resolvedParams = await params;
-  const locale = resolvedParams.locale;
+  const { locale } = await params;
 
   if (!locales.includes(locale as Locale)) {
     notFound();
@@ -73,24 +71,28 @@ export default async function LocaleLayout({ children, params }: Props) {
   const organizationJsonLd = getOrganizationJsonLd(footerT("description"));
 
   return (
+    // Next.js gestiona <head> automáticamente en App Router. NO renderizar un
+    // <head> manual aquí: hacerlo desplaza los tags de generateMetadata (title,
+    // description, canonical, hreflang) fuera del <head>. Estos <link>/<script>
+    // se declaran dentro de <body> y React 19 los eleva al <head> y los deduplica.
     <html lang={locale} className="scroll-smooth">
-      <head>
+      <body className="font-sans antialiased">
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
           href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
           rel="stylesheet"
+          precedence="default"
         />
         <link
           href="https://fonts.cdnfonts.com/css/mona-sans"
           rel="stylesheet"
+          precedence="default"
         />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
         />
-      </head>
-      <body className="font-sans antialiased">
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-5GDPQ7KERE" strategy="afterInteractive" />
         <Script id="gtag-init" strategy="afterInteractive">
           {`
