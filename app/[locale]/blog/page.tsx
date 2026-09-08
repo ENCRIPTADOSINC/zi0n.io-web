@@ -25,7 +25,10 @@ export async function generateMetadata({ params, searchParams }: Props): Promise
     description: t("hero.subtitle"),
     alternates: {
       canonical,
-      languages: getLanguageAlternates("blog"),
+      // Only the first page carries the hreflang cluster. Paginated views
+      // (?page=2…) are self-canonical; giving them language alternates that
+      // point at other locales' page 1 breaks hreflang reciprocity.
+      ...(page === 1 ? { languages: getLanguageAlternates("blog") } : {}),
     },
     openGraph: {
       title: `${t("hero.title")} ${t("hero.titleHighlight")}`,
