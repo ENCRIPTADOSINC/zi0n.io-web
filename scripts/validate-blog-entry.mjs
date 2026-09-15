@@ -19,10 +19,60 @@ import path from 'path';
 import crypto from 'crypto';
 import { fileURLToPath } from 'url';
 import matter from 'gray-matter';
+import sharp from 'sharp';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const rootDir = path.resolve(__dirname, '..');
+
+async function getPerceptualData(filePath) {
+  try {
+    const dhashData = await sharp(filePath)
+      .resize(9, 8, { fit: 'fill' })
+      .grayscale()
+      .raw()
+      .toBuffer({ resolveWithObject: true });
+
+    let dhash = 0n;
+    for (let y = 0; y < 8; y++) {
+      for (let x = 0; x < 8; x++) {
+        const left = dhashData.data[y * 9 + x];
+        const right = dhashData.data[y * 9 + x + 1];
+        if (left > right) {
+          dhash |= (1n << BigInt(y * 8 + x));
+        }
+      }
+    }
+
+    const pixelData = await sharp(filePath)
+      .resize(32, 32, { fit: 'fill' })
+      .grayscale()
+      .raw()
+      .toBuffer({ resolveWithObject: true });
+
+    return { dhash, pixels: pixelData.data };
+  } catch (e) {
+    return null;
+  }
+}
+
+function hammingDistance(h1, h2) {
+  let x = h1 ^ h2;
+  let count = 0;
+  while (x > 0n) {
+    if (x & 1n) count++;
+    x >>= 1n;
+  }
+  return count;
+}
+
+function calcPixelDiff(p1, p2) {
+  let diff = 0;
+  for (let i = 0; i < p1.length; i++) {
+    diff += Math.abs(p1[i] - p2[i]);
+  }
+  return diff / (p1.length * 255);
+}
 
 // Debe mantenerse en sync con `locales` en i18n/config.ts
 const REQUIRED_LANGUAGES = ['ru', 'es', 'en', 'fr', 'it', 'pt-BR', 'zh', 'hi', 'de', 'nl'];
@@ -153,7 +203,7 @@ function getWebpDimensions(filePath) {
   return null;
 }
 
-function validateBlog(slug) {
+async function validateBlog(slug, imageCache = new Map()) {
   const errors = [];
   const warnings = [];
   const blogDir = path.join(rootDir, 'content', 'blog', slug);
@@ -231,7 +281,7 @@ function validateBlog(slug) {
     }
   }
 
-  // Validar imagen y unicidad estricta (SHA-256)
+  // Validar imagen y unicidad estricta (SHA-256 + Hash Perceptual dHash + Diferencia de Píxeles)
   const imagesDir = path.join(rootDir, 'public', 'image', 'blog');
   const imageRelPath = path.join('public', 'image', 'blog', `${slug}.webp`);
   const imageFullPath = path.join(rootDir, imageRelPath);
@@ -259,6 +309,12 @@ function validateBlog(slug) {
       );
     }
 
+    let targetPerceptual = imageCache ? imageCache.get(imageFullPath) : null;
+    if (!targetPerceptual) {
+      targetPerceptual = await getPerceptualData(imageFullPath);
+      if (imageCache && targetPerceptual) imageCache.set(imageFullPath, targetPerceptual);
+    }
+
     if (fs.existsSync(imagesDir)) {
       const allImages = fs.readdirSync(imagesDir);
       for (const otherImg of allImages) {
@@ -268,8 +324,29 @@ function validateBlog(slug) {
           const otherHash = calculateFileHash(otherImgPath);
           if (targetHash && otherHash && targetHash === otherHash) {
             errors.push(
-              `❌ IMAGEN DUPLICADA DETECTADA: "${slug}.webp" tiene exactamente el mismo hash SHA-256 que "${otherImg}". Cada blog DEBE tener una imagen original y única.`
+              `❌ IMAGEN DUPLICADA DETECTADA (SHA-256): "${slug}.webp" tiene exactamente el mismo hash que "${otherImg}". Cada blog DEBE tener una imagen original y única.`
             );
+          } else if (targetPerceptual) {
+            let otherPerceptual = imageCache ? imageCache.get(otherImgPath) : null;
+            if (!otherPerceptual) {
+              otherPerceptual = await getPerceptualData(otherImgPath);
+              if (imageCache && otherPerceptual) imageCache.set(otherImgPath, otherPerceptual);
+            }
+
+            if (otherPerceptual) {
+              const dist = hammingDistance(targetPerceptual.dhash, otherPerceptual.dhash);
+              const diff = calcPixelDiff(targetPerceptual.pixels, otherPerceptual.pixels);
+
+              if (dist <= 6 || diff < 0.035) {
+                errors.push(
+                  `❌ IMAGEN VISUALMENTE DUPLICADA DETECTADA: "${slug}.webp" es visualmente idéntica o una re-codificación/recorte de "${otherImg}" (Diferencia de píxeles: ${(diff * 100).toFixed(2)}%, Distancia Hamming: ${dist}/64). Cada blog DEBE tener una imagen única e independiente.`
+                );
+              } else if (dist <= 8 || diff < 0.055) {
+                warnings.push(
+                  `⚠️ ALERTA DE SIMILITUD VISUAL: "${slug}.webp" tiene alta similitud con "${otherImg}" (Diferencia: ${(diff * 100).toFixed(2)}%, Distancia Hamming: ${dist}/64). Verifica que sea una composición distinta.`
+                );
+              }
+            }
           }
         }
       }
@@ -302,9 +379,10 @@ if (args[0] === '--all') {
 
 let totalErrors = 0;
 let totalWarnings = 0;
+const imageCache = new Map();
 
 for (const slug of slugsToValidate) {
-  const result = validateBlog(slug);
+  const result = await validateBlog(slug, imageCache);
 
   if (result.errors.length > 0) {
     console.log(`  ❌ ERRORES (${result.errors.length}):`);

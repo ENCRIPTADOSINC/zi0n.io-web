@@ -13,7 +13,7 @@ description: Genera un artículo de blog estandarizado, robusto y de alta calida
 > 3. **FECHA CORRECTA DE CREACIÓN Y PUBLICACIÓN AL SUBIR A PRODUCCIÓN:** EL CAMPO `date` DEL FRONTMATTER EN TODOS LOS ARCHIVOS `.md` DEBE REFLEJAR OBLIGATORIAMENTE LA FECHA EXACTA Y ACTUAL (`YYYY-MM-DD`) DEL DÍA EN QUE EL BLOG SE SUBE A PRODUCCIÓN / SE PUBLICA EN EL REPOSITORIO. SI UN ARTÍCULO FUE REDACTADO DÍAS ANTES DURANTE LA FASE DE BORRADOR O AJUSTES, ANTES DE SUBIRLO AL REPO SE DEBE ACTUALIZAR EL CAMPO `date` A LA FECHA EXACTA DEL DÍA DE SUBIDA.
 > 4. **NO SE HACE PR A MENOS QUE SE PIDA LITERALMENTE EN EL CHAT / NO SE HACE PUSH A MAIN A MENOS QUE SE PIDA ESPECÍFICAMENTE:** ESTÁ ESTRICTAMENTE PROHIBIDO ABRIR PULL REQUESTS O HACER PUSH A LA RAMA `main` (O A CUALQUIER RAMA REMOTA) DE FORMA AUTOMÁTICA. SOLO SE HARÁ PUSH O PR SI EL USUARIO LO PIDE DE MANERA EXPRESA Y LITERAL EN EL CHAT.
 > 5. **MIENTRAS NO SE PIDA SUBIR AL REPO ESTAMOS EN FASE DE AJUSTES EN EL CONTENT:** MIENTRAS NO SE ORDENE EXPLÍCITAMENTE SUBIR AL REPOSITORIO, EL TRABAJO SE MANTIENE LOCALMENTE Y SE ASUME QUE ESTAMOS EN FASE DE ITERACIÓN, AJUSTES Y REVISIÓN DEL CONTENIDO Y DE LAS IMÁGENES.
-> 6. **PROHIBIDO REUTILIZAR UNA MISMA IMAGEN PARA VARIOS BLOGS (UNA IMAGEN NUEVA Y ÚNICA POR CADA BLOG):** CADA ARTÍCULO DE BLOG DEBE TENER OBLIGATORIAMENTE SU PROPIA IMAGEN ORIGINAL GENERADA EXCLUSIVAMENTE PARA ÉL. ESTÁ TOTALMENTE PROHIBIDO REUTILIZAR, DUPLICAR O COMPARTIR UNA MISMA IMAGEN EN MÁS DE UN BLOG. CADA POST DEBE CONTAR CON UNA IMAGEN INDIVIDUAL, ÚNICA Y CREADA ESPECÍFICAMENTE PARA SU TEMÁTICA.
+> 6. **PROHIBIDO REUTILIZAR UNA MISMA IMAGEN PARA VARIOS BLOGS (UNA IMAGEN NUEVA Y ÚNICA POR CADA BLOG):** CADA ARTÍCULO DE BLOG DEBE TENER OBLIGATORIAMENTE SU PROPIA IMAGEN ORIGINAL GENERADA EXCLUSIVAMENTE PARA ÉL. ESTÁ TOTALMENTE PROHIBIDO REUTILIZAR, DUPLICAR, RE-CODIFICAR, RECORTAR O COMPARTIR UNA MISMA IMAGEN BASE EN MÁS DE UN BLOG. EL VALIDADOR AUTOMATIZADO BLOQUEARÁ CUALQUIER IMAGEN QUE SEA VISUALMENTE IDÉNTICA O SIMILAR MEDIANTE HASH PERCEPTUAL (dHash) Y ANÁLISIS DE DIFERENCIA DE PÍXELES. CADA POST DEBE CONTAR CON UNA IMAGEN FOTOGRÁFICA INDIVIDUAL, ÚNICA Y CREADA ESPECÍFICAMENTE PARA SU TEMÁTICA.
 
 Esta Skill define el procedimiento estricto y resiliente para crear artículos de blog profesionales para Zi0n.io. Todo artículo generado debe cumplir con estándares rigurosos de seguridad, redacción técnica, multilenguaje, unicidad visual absoluta y validación automatizada antes de su publicación.
 
@@ -63,7 +63,7 @@ Cada publicación DEBE TENER SU PROPIA IMAGEN ORIGINAL Y ÚNICA.
 
 ### 🚫 Prohibición absoluta de vectores, iconos planos, 3D genérico y duplicados
 - **QUEDA ESTRICTAMENTE PROHIBIDO:** Usar iconos simples, ilustraciones vectoriales planas, dibujos 2D, gráficos sintéticos tipo clipart o renders 3D caricaturescos.
-- **QUEDA ESTRICTAMENTE PROHIBIDO:** Copiar, renombrar o reutilizar imágenes existentes de otros artículos. Cada slug debe contar con un archivo fotográfico único. Si dos posts comparten el mismo hash SHA-256, el validador bloqueará la publicación.
+- **QUEDA ESTRICTAMENTE PROHIBIDO:** Copiar, renombrar, re-codificar con diferente compresión, recortar ligeramente o reutilizar imágenes existentes de otros artículos. Cada slug debe contar con una fotografía completamente nueva e independiente generada por IA. El validador bloquea tanto duplicados exactos por SHA-256 como similitudes visuales por hash perceptual (dHash) y diferencia de píxeles.
 
 ### 🎨 Especificaciones obligatorias de estilo y composición (Identidad Zi0n)
 - **Estilo Fotográfico:** Fotografía cinematográfica hiperrealista (cinematic realistic photography) en calidad 8K, con profundidad de campo óptica real (bokeh), iluminación ambiental dramática de noche, reflejos realistas sobre superficies de carbono/vidrio/metal, y texturas hiperdetalladas de dispositivos y hardware.
@@ -218,7 +218,7 @@ El script verificará automáticamente:
 - ✅ Detección y bloqueo de clichés de IA por idioma.
 - ✅ Mención de "Zi0n" y de un enlace a `zi0n.io` en cada archivo.
 - ✅ Existencia de `public/image/blog/{slug}.webp`.
-- ✅ Unicidad de la imagen por hash SHA-256 contra todas las demás portadas de `public/image/blog/`, para evitar duplicados.
+- ✅ Unicidad estricta de la imagen (SHA-256 + Hash Perceptual dHash y Diferencia de Píxeles contra todas las demás portadas de `public/image/blog/`, bloqueando re-compresiones, recortes o imágenes base repetidas).
 
 Si el validador arroja algún error, DEBE corregirse antes de proceder. Las advertencias no bloquean la publicación pero deben revisarse.
 
