@@ -1,7 +1,7 @@
 ---
 title: "Détection de câble suspect : comment Wipi évite le piratage physique"
 description: "Découvrez comment la fonction Wipi de Zi0n détecte les câbles USB hostiles et neutralise les tentatives d'extraction et de piratage physique."
-date: "2026-09-17"
+date: "2026-09-18"
 author: "Equipo Zi0n"
 category: "Sécurité mobile"
 tags: ["wipi", "securite-mobile", "cable-wipe", "piratage-physique", "chiffrement", "hardened-phone"]

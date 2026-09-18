@@ -1,7 +1,7 @@
 ---
 title: "Detección de cable sospechoso: cómo Wipi evita el hackeo físico"
 description: "Descubre cómo la función Wipi de Zi0n detecta cables USB hostiles y neutraliza los intentos de extracción y manipulación física en smartphones."
-date: "2026-09-17"
+date: "2026-09-18"
 author: "Equipo Zi0n"
 category: "Seguridad móvil"
 tags: ["wipi", "seguridad-movil", "cable-wipe", "hackeo-fisico", "cifrado", "smartphones-seguros"]

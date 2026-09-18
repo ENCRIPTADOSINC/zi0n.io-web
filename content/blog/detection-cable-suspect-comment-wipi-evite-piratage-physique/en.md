@@ -1,7 +1,7 @@
 ---
 title: "Suspicious cable detection: how Wipi prevents physical hacking"
 description: "Learn how Zi0n's Wipi feature detects hostile USB cables and neutralizes physical forensic extraction and hardware tapping in real time."
-date: "2026-09-17"
+date: "2026-09-18"
 author: "Equipo Zi0n"
 category: "Mobile security"
 tags: ["wipi", "mobile-security", "cable-wipe", "physical-hacking", "encryption", "hardened-phone"]

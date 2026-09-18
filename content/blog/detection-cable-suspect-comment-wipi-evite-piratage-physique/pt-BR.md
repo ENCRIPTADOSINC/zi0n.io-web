@@ -1,7 +1,7 @@
 ---
 title: "Detecção de cabo suspeito: como Wipi evita a invasão física"
 description: "Entenda como a funcionalidade Wipi da Zi0n identifica cabos USB maliciosos e impede tentativas de extração forense e espionagem de dados."
-date: "2026-09-17"
+date: "2026-09-18"
 author: "Equipo Zi0n"
 category: "Segurança móvel"
 tags: ["wipi", "seguranca-movel", "cable-wipe", "invasao-fisica", "criptografia", "celular-seguro"]

@@ -1,7 +1,7 @@
 ---
 title: "Rilevamento di cavi sospetti: come Wipi previene l'hacking fisico"
 description: "Scopri come la funzione Wipi di Zi0n rileva i cavi USB ostili e neutralizza i tentativi di estrazione forense e manomissione hardware."
-date: "2026-09-17"
+date: "2026-09-18"
 author: "Equipo Zi0n"
 category: "Sicurezza mobile"
 tags: ["wipi", "sicurezza-mobile", "cable-wipe", "hacking-fisico", "crittografia", "telefono-sicuro"]

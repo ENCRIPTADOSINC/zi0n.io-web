@@ -1,7 +1,7 @@
 ---
 title: "Erkennung verdächtiger Kabel: wie Wipi physisches Hacking verhindert"
 description: "Erfahren Sie, wie die Wipi-Funktion von Zi0n feindliche USB-Kabel erkennt und forensische Extraktionen sowie physische Angriffe zuverlässig abwehrt."
-date: "2026-09-17"
+date: "2026-09-18"
 author: "Equipo Zi0n"
 category: "Mobile Sicherheit"
 tags: ["wipi", "mobile-sicherheit", "cable-wipe", "physisches-hacking", "verschluesselung", "sicherheits-smartphone"]

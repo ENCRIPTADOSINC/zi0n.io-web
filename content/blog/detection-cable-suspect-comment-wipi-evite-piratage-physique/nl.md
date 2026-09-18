@@ -1,7 +1,7 @@
 ---
 title: "Detectie van verdachte kabels: hoe Wipi fysieke hacking voorkomt"
 description: "Ontdek hoe de Wipi-functionaliteit van Zi0n verdachte USB-kabels detecteert en forensische extracties en fysieke manipulatie direct neutraliseert."
-date: "2026-09-17"
+date: "2026-09-18"
 author: "Equipo Zi0n"
 category: "Mobiele beveiliging"
 tags: ["wipi", "mobiele-beveiliging", "cable-wipe", "fysieke-hacking", "encryptie", "beveiligde-telefoon"]

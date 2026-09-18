@@ -1,7 +1,7 @@
 ---
 title: "可疑线缆检测：Wipi 如何防止物理黑客攻击"
 description: "深入解析 Zi0n 的 Wipi 功能如何实时识别恶意 USB 连接线，并在毫秒内阻断硬件提取与物理黑客攻击。"
-date: "2026-09-17"
+date: "2026-09-18"
 author: "Equipo Zi0n"
 category: "移动安全"
 tags: ["wipi", "移动安全", "cable-wipe", "物理黑客", "硬件加密", "安全手机"]
