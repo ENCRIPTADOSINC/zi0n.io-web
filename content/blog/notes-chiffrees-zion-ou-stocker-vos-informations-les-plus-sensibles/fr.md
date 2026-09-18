@@ -1,7 +1,7 @@
 ---
 title: "Les notes chiffrées Zi0n : où stocker vos informations les plus sensibles"
 description: "Découvrez pourquoi stocker vos secrets sur le cloud menace vos actifs et comment les notes chiffrées locales Zi0n protègent vos données les plus critiques."
-date: "2026-09-17"
+date: "2026-09-18"
 author: "Equipo Zi0n"
 category: "Sécurité mobile et confidentialité"
 tags: ["notes-chiffrees","confidentialite","chiffrement-local","securite-mobile","zero-knowledge","cable-wipe"]

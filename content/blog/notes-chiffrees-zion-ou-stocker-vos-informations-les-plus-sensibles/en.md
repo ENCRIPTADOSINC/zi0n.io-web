@@ -1,7 +1,7 @@
 ---
 title: "Zi0n encrypted notes: where to store your most sensitive information"
 description: "Learn why cloud-synced notes put your credentials at risk and how Zi0n local encrypted notes safeguard your highest-value private data."
-date: "2026-09-17"
+date: "2026-09-18"
 author: "Equipo Zi0n"
 category: "Mobile security and privacy"
 tags: ["encrypted-notes","privacy","local-encryption","mobile-security","zero-knowledge","cable-wipe"]

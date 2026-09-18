@@ -1,7 +1,7 @@
 ---
 title: "Зашифрованный телефон против обычного смартфона: ключевые практические отличия"
 description: "Аппаратная изоляция, блокировка данных USB, отсутствие телеметрии и Duress PIN: разбираем ключевые отличия защищенного смартфона от обычного мобильного."
-date: "2026-09-17"
+date: "2026-09-18"
 author: "Equipo Zi0n"
 category: "Sécurité mobile et crypto"
 tags: ["telephone-crypte", "smartphone-securise", "cybersecurite", "securite-mobile", "cable-wipe", "duress-pin"]

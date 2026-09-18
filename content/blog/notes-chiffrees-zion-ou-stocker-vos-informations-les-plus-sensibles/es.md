@@ -1,7 +1,7 @@
 ---
 title: "Las notas cifradas de Zi0n: dónde almacenar tu información más confidencial"
 description: "Descubre por qué guardar tus secretos en la nube expone tus activos y cómo las notas cifradas locales de Zi0n protegen tus datos más críticos."
-date: "2026-09-17"
+date: "2026-09-18"
 author: "Equipo Zi0n"
 category: "Seguridad móvil y privacidad"
 tags: ["notas-cifradas","privacidad","cifrado-local","seguridad-movil","zero-knowledge","cable-wipe"]

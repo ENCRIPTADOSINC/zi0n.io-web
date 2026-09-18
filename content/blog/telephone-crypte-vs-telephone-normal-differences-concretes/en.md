@@ -1,7 +1,7 @@
 ---
 title: "Encrypted phone vs standard smartphone: key practical differences"
 description: "Hardware-level isolation, USB data neutralization, zero telemetry, and duress PIN defense: what truly separates an encrypted phone from a standard device."
-date: "2026-09-17"
+date: "2026-09-18"
 author: "Equipo Zi0n"
 category: "Sécurité mobile et crypto"
 tags: ["telephone-crypte", "smartphone-securise", "cybersecurite", "securite-mobile", "cable-wipe", "duress-pin"]

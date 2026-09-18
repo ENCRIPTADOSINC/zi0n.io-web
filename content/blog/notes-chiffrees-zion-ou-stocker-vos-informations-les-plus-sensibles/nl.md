@@ -1,7 +1,7 @@
 ---
 title: "De versleutelde notities van Zi0n: waar u uw meest gevoelige gegevens bewaart"
 description: "Ontdek waarom cloudnotities uw inloggegevens in gevaar brengen en hoe lokale versleutelde notities van Zi0n uw meest kritieke gegevens beveiligen."
-date: "2026-09-17"
+date: "2026-09-18"
 author: "Equipo Zi0n"
 category: "Mobiele beveiliging en privacy"
 tags: ["versleutelde-notities","privacy","lokale-versleuteling","mobiele-beveiliging","zero-knowledge","cable-wipe"]

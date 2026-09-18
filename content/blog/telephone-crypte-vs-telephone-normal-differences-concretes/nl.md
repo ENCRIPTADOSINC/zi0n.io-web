@@ -1,7 +1,7 @@
 ---
 title: "Versleutelde telefoon vs gewone smartphone: concrete verschillen op een rij"
 description: "Hardware-isolatie, USB-datablokkering, nul telemetrie en Duress PIN: ontdek de verschillen tussen een versleutelde telefoon en een standaardtoestel."
-date: "2026-09-17"
+date: "2026-09-18"
 author: "Equipo Zi0n"
 category: "Sécurité mobile et crypto"
 tags: ["telephone-crypte", "smartphone-securise", "cybersecurite", "securite-mobile", "cable-wipe", "duress-pin"]

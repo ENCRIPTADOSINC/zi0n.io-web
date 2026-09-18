@@ -1,7 +1,7 @@
 ---
 title: "As notas criptografadas do Zi0n: onde armazenar suas informações mais confidenciais"
 description: "Descubra por que salvar senhas na nuvem coloca seus ativos em risco e como as notas criptografadas locais do Zi0n protegem seus dados vitais."
-date: "2026-09-17"
+date: "2026-09-18"
 author: "Equipo Zi0n"
 category: "Segurança móvel e privacidade"
 tags: ["notas-criptografadas","privacidade","criptografia-local","seguranca-movel","zero-knowledge","cable-wipe"]

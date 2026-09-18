@@ -1,7 +1,7 @@
 ---
 title: "加密手机与普通智能手机：核心技术差异与安全对比"
 description: "硬件级安全隔离、USB数据阻断、零商业遥测与防胁迫Duress PIN：全面解析专业加密手机与普通商业智能手机在架构设计与真实防护能力上的本质差异。"
-date: "2026-09-17"
+date: "2026-09-18"
 author: "Equipo Zi0n"
 category: "Sécurité mobile et crypto"
 tags: ["telephone-crypte", "smartphone-securise", "cybersecurite", "securite-mobile", "cable-wipe", "duress-pin"]

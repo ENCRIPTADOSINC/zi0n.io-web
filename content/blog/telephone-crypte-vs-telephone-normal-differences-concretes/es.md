@@ -1,7 +1,7 @@
 ---
 title: "Teléfono encriptado vs teléfono convencional: qué diferencias prácticas existen"
 description: "Arquitectura de confianza cero, blindaje USB, ausencia de telemetría y Duress PIN: analizamos las diferencias reales entre un móvil encriptado y uno común."
-date: "2026-09-17"
+date: "2026-09-18"
 author: "Equipo Zi0n"
 category: "Sécurité mobile et crypto"
 tags: ["telephone-crypte", "smartphone-securise", "cybersecurite", "securite-mobile", "cable-wipe", "duress-pin"]

@@ -1,7 +1,7 @@
 ---
 title: "Verschlüsseltes Smartphone vs. Standard-Handy: konkrete Unterschiede im Überblick"
 description: "Hardware-Isolation, USB-Datensperre, Verzicht auf Telemetrie und Duress-PIN: Erfahren Sie, was ein verschlüsseltes Smartphone von Standardgeräten abhebt."
-date: "2026-09-17"
+date: "2026-09-18"
 author: "Equipo Zi0n"
 category: "Sécurité mobile et crypto"
 tags: ["telephone-crypte", "smartphone-securise", "cybersecurite", "securite-mobile", "cable-wipe", "duress-pin"]

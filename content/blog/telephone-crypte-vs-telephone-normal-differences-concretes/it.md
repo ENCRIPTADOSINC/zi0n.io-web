@@ -1,7 +1,7 @@
 ---
 title: "Telefono criptato vs smartphone convenzionale: quali differenze concrete esistono"
 description: "Isolamento hardware, blocco dati USB, assenza di telemetria e protezione Duress PIN: scopri cosa separa un telefono criptato da uno smartphone standard."
-date: "2026-09-17"
+date: "2026-09-18"
 author: "Equipo Zi0n"
 category: "Sécurité mobile et crypto"
 tags: ["telephone-crypte", "smartphone-securise", "cybersecurite", "securite-mobile", "cable-wipe", "duress-pin"]

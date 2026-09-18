@@ -1,7 +1,7 @@
 ---
 title: "Téléphone crypté vs téléphone normal : quelles différences concrètes"
 description: "Architecture matérielle, neutralisation USB, absence de traqueurs et protection anti-coercition : découvrez ce qui sépare un téléphone crypté d'un mobile standard."
-date: "2026-09-17"
+date: "2026-09-18"
 author: "Equipo Zi0n"
 category: "Sécurité mobile et crypto"
 tags: ["telephone-crypte", "smartphone-securise", "cybersecurite", "securite-mobile", "cable-wipe", "duress-pin"]

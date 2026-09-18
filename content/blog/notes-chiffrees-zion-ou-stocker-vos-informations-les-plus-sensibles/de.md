@@ -1,7 +1,7 @@
 ---
 title: "Die verschlüsselten Notizen von Zi0n: wo Sie Ihre sensibelsten Informationen speichern"
 description: "Erfahren Sie, warum Cloud-Notizen Ihre Zugangsdaten gefährden und wie die lokalen verschlüsselten Notizen von Zi0n vertrauliche Daten schützen."
-date: "2026-09-17"
+date: "2026-09-18"
 author: "Equipo Zi0n"
 category: "Mobile Sicherheit und Datenschutz"
 tags: ["verschluesselte-notizen","datenschutz","lokale-verschluesselung","mobile-sicherheit","zero-knowledge","cable-wipe"]
