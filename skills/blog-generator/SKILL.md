@@ -173,6 +173,12 @@ Al redactar o traducir el contenido de `fr.md`, se deben respetar estrictamente 
   - Ejemplo: `Étude de cas : Comment ce blogue a doublé son trafic`
 - Prohibido escribir títulos enteros en MAYÚSCULAS (CAPS LOCK): perjudica la accesibilidad y da impresión de gritar.
 
+### ⏱️ Calibración de tiempo de lectura y accesibilidad (~3 minutos de lectura)
+
+- **Tiempo de lectura objetivo:** Todo artículo generado debe tener una duración estimada de **aproximadamente 3 minutos de lectura** (~500 - 620 palabras en idiomas latinos, germánicos y eslavos; ~1000 - 1200 caracteres en chino simplificado).
+- **Redacción clara, didáctica y accesible:** Explicar las amenazas y soluciones técnicas con analogías cotidianas y comprensibles (ej. perfiles aislados como cajas fuertes independientes, llaves físicas, aislamiento de arena), evitando sobrecargar el texto con jerga técnica compleja o intimidante.
+- **Estructura ágil para lectura rápida:** Párrafos concisos, viñetas directas de acción y preguntas frecuentes breves para que cualquier usuario asimile la información esencial en 3 minutos exactos.
+
 ### 📐 Estructura obligatoria del Markdown (para cada uno de los 10 idiomas)
 
 1. **Entrada directa (2-3 líneas):** Plantea el problema o amenaza técnica sin rodeos ni saludos introductorios.
