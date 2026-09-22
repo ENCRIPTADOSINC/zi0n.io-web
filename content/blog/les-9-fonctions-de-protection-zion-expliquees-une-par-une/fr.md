@@ -55,9 +55,9 @@ En cas d'urgence soudaine (agression imminente, interpellation), regarder son é
 ## Bonnes pratiques pour configurer votre dispositif
 
 Pour exploiter ces protections de manière sereine et sans risque de blocage involontaire :
-- **Conservez vos sauvegardes hors ligne :** Le chiffrement de Zi0n rend la suppression définitive ; stockez vos phrases secrètes sur support physique déconnecté.
-- **Ajustez le minuteur sans signal avant vos trajets :** Augmentez la temporisation avant de prendre un vol long-courrier sans connectivité.
-- **Choisissez des codes dissemblables :** Ne créez aucun schéma prévisible entre votre PIN principal, votre PIN de sécurité et votre Extra PIN.
+- **Conservez vos sauvegardes hors ligne :** le chiffrement de Zi0n rend la suppression définitive ; stockez vos phrases secrètes sur support physique déconnecté.
+- **Ajustez le minuteur sans signal avant vos trajets :** augmentez la temporisation avant de prendre un vol long-courrier sans connectivité.
+- **Choisissez des codes dissemblables :** ne créez aucun schéma prévisible entre votre PIN principal, votre PIN de sécurité et votre Extra PIN.
 
 ## Comment Zi0n peut vous aider ?
 
