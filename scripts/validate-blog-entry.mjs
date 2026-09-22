@@ -279,6 +279,18 @@ async function validateBlog(slug, imageCache = new Map()) {
         errors.push(`${lang}.md contiene un cliché de IA prohibido: [${item.desc}]`);
       }
     }
+
+    if (lang === 'fr') {
+      const frColonUpperRegex = /^[-*•\d.]+\s+\*\*.*?\s*:\s*\*\*\s+([A-ZÀ-ÖØ-ß][a-zà-öø-ÿ]+)/gm;
+      let match;
+      const allowedProperNouns = new Set(['Zi0n', 'Android', 'Google', 'Apple', 'Linux', 'Windows', 'Samsung', 'Pixel', 'Cellebrite', 'GrayKey', 'France', 'Faraday']);
+      while ((match = frColonUpperRegex.exec(content)) !== null) {
+        const word = match[1];
+        if (!allowedProperNouns.has(word)) {
+          warnings.push(`fr.md: se detectó mayúscula tras los dos puntos en "${match[0].trim()}". En francés debe iniciar en minúscula ("${word.toLowerCase()}").`);
+        }
+      }
+    }
   }
 
   // Validar imagen y unicidad estricta (SHA-256 + Hash Perceptual dHash + Diferencia de Píxeles)

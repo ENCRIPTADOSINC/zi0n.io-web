@@ -14,6 +14,7 @@ description: Genera un artículo de blog estandarizado, robusto y de alta calida
 > 4. **NO SE HACE PR A MENOS QUE SE PIDA LITERALMENTE EN EL CHAT / NO SE HACE PUSH A MAIN A MENOS QUE SE PIDA ESPECÍFICAMENTE:** ESTÁ ESTRICTAMENTE PROHIBIDO ABRIR PULL REQUESTS O HACER PUSH A LA RAMA `main` (O A CUALQUIER RAMA REMOTA) DE FORMA AUTOMÁTICA. SOLO SE HARÁ PUSH O PR SI EL USUARIO LO PIDE DE MANERA EXPRESA Y LITERAL EN EL CHAT.
 > 5. **MIENTRAS NO SE PIDA SUBIR AL REPO ESTAMOS EN FASE DE AJUSTES EN EL CONTENT:** MIENTRAS NO SE ORDENE EXPLÍCITAMENTE SUBIR AL REPOSITORIO, EL TRABAJO SE MANTIENE LOCALMENTE Y SE ASUME QUE ESTAMOS EN FASE DE ITERACIÓN, AJUSTES Y REVISIÓN DEL CONTENIDO Y DE LAS IMÁGENES.
 > 6. **PROHIBIDO REUTILIZAR UNA MISMA IMAGEN PARA VARIOS BLOGS (UNA IMAGEN NUEVA Y ÚNICA POR CADA BLOG):** CADA ARTÍCULO DE BLOG DEBE TENER OBLIGATORIAMENTE SU PROPIA IMAGEN ORIGINAL GENERADA EXCLUSIVAMENTE PARA ÉL. ESTÁ TOTALMENTE PROHIBIDO REUTILIZAR, DUPLICAR, RE-CODIFICAR, RECORTAR O COMPARTIR UNA MISMA IMAGEN BASE EN MÁS DE UN BLOG. EL VALIDADOR AUTOMATIZADO BLOQUEARÁ CUALQUIER IMAGEN QUE SEA VISUALMENTE IDÉNTICA O SIMILAR MEDIANTE HASH PERCEPTUAL (dHash) Y ANÁLISIS DE DIFERENCIA DE PÍXELES. CADA POST DEBE CONTAR CON UNA IMAGEN FOTOGRÁFICA INDIVIDUAL, ÚNICA Y CREADA ESPECÍFICAMENTE PARA SU TEMÁTICA.
+> 7. **MINÚSCULA OBLIGATORIA TRAS LOS DOS PUNTOS EN FRANCÉS (`fr.md`):** EN TODO EL CONTENIDO EN FRANCÉS, TRAS LOS DOS PUNTOS (`:` O `:**`) ESTÁ ESTRICTAMENTE PROHIBIDO PONER MAYÚSCULA INICIAL (VA SIEMPRE EN MINÚSCULA). EN LISTAS CON ENCABEZADOS EN NEGRITA (`• **Concept :** minúscula...` O `1. **Concept :** minúscula...`), EL TEXTO EXPLICATIVO SIEMPRE INICIA EN MINÚSCULA (`des...`, `conserver...`, `copier...`, `afficher...`, `lorsqu'un...`). ÚNICAS EXCEPCIONES: NOMBRES PROPIOS (`Zi0n`, `Android`) O CITAS ENTRE COMILLAS FRANCESAS `« »`.
 
 Esta Skill define el procedimiento estricto y resiliente para crear artículos de blog profesionales para Zi0n.io. Todo artículo generado debe cumplir con estándares rigurosos de seguridad, redacción técnica, multilenguaje, unicidad visual absoluta y validación automatizada antes de su publicación.
 
@@ -137,41 +138,60 @@ Todo lo demás —incluyendo términos genéricos como *wallet*, *hardware walle
 
 ### 🇫🇷 Reglas tipográficas obligatorias para el francés (`fr.md`)
 
-Al redactar o traducir el contenido de `fr.md`, se deben respetar estrictamente las siguientes reglas del signo deux-points (`:`) y de las majuscules, específicas de la redacción web en francés:
+Al redactar o traducir el contenido de `fr.md`, se debe respetar estrictamente la regla tipográfica francesa para el signo deux-points (`:`): **DESPUÉS DE LOS DOS PUNTOS NUNCA SE ESCRIBE EN MAYÚSCULA (SIEMPRE VA EN MINÚSCULA)**.
 
-**1. Introducción de listas a puntos (le cas le plus fréquent)**
-- Si los elementos de la lista son simples palabras o grupos de palabras (no frases completas): deux-points, cada punto empieza en **minúscula** y termina con coma o punto y coma (el último punto termina con punto).
-  - Ejemplo: `Pour réussir votre blogue, vous devez optimiser :` → `le référencement naturel,` / `la qualité visuelle,` / `la régularité des publications.`
-- Si los elementos son frases completas (con sujeto y verbo propios): deux-points, cada punto empieza en **mayúscula** y termina con punto.
-  - Ejemplo: `Voici deux conseils essentiels :` → `Rédigez des titres accrocheurs pour attirer le clic.` / `Structurez vos paragraphes pour faciliter la lecture rapide.`
+> [!CAUTION]
+> #### 🚨 REGLA ESTRICTA: MINÚSCULA OBLIGATORIA TRAS LOS DOS PUNTOS (`:`)
+> En francés, el signo de dos puntos (`:`) indica continuidad sintáctica y lógica (explicación, causa, desarrollo o predicado del término introducido). Por tanto, la palabra inmediatamente posterior a `:` o a `:**` **DEBE INICIAR SIEMPRE EN MINÚSCULA**.
+>
+> Está **ESTRICTAMENTE PROHIBIDO** iniciar con mayúscula la explicación después de los dos puntos.
 
-**2. Anuncio de una explicación o "punch"**
-- Los deux-points pueden reemplazar conectores como *car*, *parce que* o *puisque* para dar un tono directo.
-- Regla: minúscula después de los deux-points si el segmento que sigue NO es una frase independiente completa.
-  - Ejemplo: `Le secret d'un bon article : un titre percutant.`
+#### 1. Listas con viñetas o numeradas con encabezado en negrita (`• **Término :** texto`)
+Este es el caso donde más errores se cometen por inercia del inglés o español. Cuando un punto de una lista lleva un concepto en negrita seguido de dos puntos, el texto explicativo **DEBE EMPEZAR SIEMPRE EN MINÚSCULA**, sin importar si es un artículo (`des`, `le`, `la`, `un`), un verbo en infinitivo (`conserver`, `copier`, `afficher`), un conector (`lorsqu'un`, `puisque`) o una frase completa con sujeto y verbo.
 
-**3. Citas de expertos**
-- Los deux-points introducen la cita, que siempre empieza en **mayúscula** y va obligatoriamente entre guillemets francesas (`« »`).
-  - Ejemplo: `L'expert marketing a affirmé : « Le contenu est roi. »`
+❌ **TOTALMENTE PROHIBIDO (errores de mayúscula tras `:`):**
+```markdown
+• Autorisations applicatives permanentes et excessives : Des dizaines d'applications...
+• Connexions sans fil maintenues actives en continu : Conserver le Bluetooth...
+• Utilisation non sécurisée du presse-papiers système : Copier-coller des mots de passe...
+• Notifications détaillées sur l'écran verrouillé : Afficher l'expéditeur et le contenu...
+```
 
-**4. Espaciado tipográfico web**
-- Regla: espacio insecable (` ` o `&nbsp;`) ANTES de los deux-points, y espacio normal DESPUÉS, para evitar que el signo quede huérfano al inicio de una línea.
-- Formato: `Mot : Suite du texte.`
+✅ **FORMA OBLIGATORIA Y CORRECTA (siempre en minúscula):**
+```markdown
+• **Autorisations applicatives permanentes et excessives :** des dizaines d'applications continuent d'accéder au microphone...
+• **Connexions sans fil maintenues actives en continu :** conserver le Bluetooth, le Wi-Fi ou le NFC allumés...
+• **Utilisation non sécurisée du presse-papiers système :** copier-coller des mots de passe, des identifiants bancaires...
+• **Notifications détaillées sur l'écran verrouillé :** afficher l'expéditeur et le contenu des messages reçus...
+• **Vulnérabilité du presse-papiers :** lorsqu'un utilisateur copie un mot de passe complexe...
+```
 
-**5. Regla general de mayúscula/minúscula tras los deux-points**
-- Por defecto: minúscula (los deux-points marcan continuidad: explicación, causa o lista).
-- Mayúscula obligatoria solo en tres casos: (a) cita directa entre guillemets, (b) frase completa y autónoma (con su propio sujeto y verbo), (c) nombre propio.
+#### 2. Únicas DOS excepciones donde se admite mayúscula tras los dos puntos
+Solo existen dos casos puntuales donde se permite mayúscula después de los dos puntos en francés:
+1. **Nombres propios y marcas comerciales:** Palabras que son intrínsecamente nombres propios o marcas registradas (ej. `Zi0n`, `Android`, `Apple`, `Linux`, `Cellebrite`, `GrayKey`) o siglas que van en mayúsculas (`SIM`, `VPN`, `2FA`, `USB`).
+   - Ejemplo correcto: `• **Protection matérielle :** Zi0n neutralise les tentatives d'extraction...`
+   - Ejemplo correcto: `• **Authentification :** 2FA physique obligatoire...`
+2. **Citas textuales directas entre comillas francesas (`« »`):**
+   - Ejemplo correcto: `L'analyste de sécurité confirme : « Le chiffrement logiciel seul ne protège pas contre un accès physique. »`
 
-**6. Deux-points en títulos y subtítulos de blog (H1/H2/H3)**
-- Mayúscula solo en la primera palabra del título y en los nombres propios; el resto en minúsculas (nunca "Title Case" al estilo inglés — ralentiza la lectura en la web).
-  - Ejemplo: `Comment optimiser votre stratégie de contenu en 2026`
-- Subtítulo tipo complemento (el texto tras los deux-points no forma una frase autónoma): minúscula.
-  - Ejemplo: `Le guide du SEO : tout comprendre en 5 étapes`
-- Subtítulo autónomo (el texto tras los deux-points forma una frase completa): mayúscula preferida por impacto visual web.
-  - Ejemplo: `Ne faites plus cette erreur : Votre site web perd des clients`
-- Palabras de anuncio (el título empieza con "Étude de cas", "Remarque", "Exemple", etc.): mayúscula obligatoria después de los deux-points.
-  - Ejemplo: `Étude de cas : Comment ce blogue a doublé son trafic`
-- Prohibido escribir títulos enteros en MAYÚSCULAS (CAPS LOCK): perjudica la accesibilidad y da impresión de gritar.
+**Fuera de estas dos excepciones, NO HAY NINGUNA OTRA.** Ni oraciones completas, ni verbos, ni adverbios: todo va en minúscula.
+
+#### 3. Deux-points en el cuerpo del texto y explicaciones
+Cuando los dos puntos introducen una aclaración, relación causal o resultado dentro de un párrafo:
+- La palabra siguiente se escribe en **minúscula**.
+  - Ejemplo: `Le constat est unanime : la sécurité d'un terminal dépend d'abord de son isolation matérielle.`
+  - Ejemplo: `Le secret d'un système résilient : une surface d'attaque réduite au minimum.`
+
+#### 4. Deux-points en títulos y subtítulos (H1, H2, H3)
+- En títulos y subtítulos, el segmento que va tras los dos puntos sigue la regla de minúscula ("sentence case"), salvo nombres propios:
+  - ✅ `Sécurité mobile : comment protéger vos portefeuilles crypto`
+  - ❌ `Sécurité mobile : Comment Protéger Vos Portefeuilles Crypto` (Title Case prohibido)
+  - ❌ `Sécurité mobile : Comment protéger vos portefeuilles crypto` (Mayúscula tras colon prohibida)
+
+#### 5. Espaciado tipográfico web para los deux-points
+- En francés existe una regla de espaciado: un espacio fino/insecable antes de los dos puntos y un espacio normal después (` : `).
+- Al formatear listas Markdown con negrita:
+  - Formato estándar recomendado: `• **Terme de sécurité :** texte en minuscules...` (el espacio antes de `:` va dentro de la negrita `**... :** `).
 
 ### ⏱️ Calibración de tiempo de lectura y accesibilidad (~3 minutos de lectura)
 
