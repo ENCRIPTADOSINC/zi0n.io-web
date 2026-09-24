@@ -21,35 +21,41 @@ Erfahrene Angreifer nutzen genau diese Werkseinstellungen aus. Wer private Schl�
 
 Jedes Zi0n-Sicherheitsmerkmal wehrt ein klar definiertes Angriffsszenario ab. Gehen Sie bei der Ersteinrichtung nach dieser Reihenfolge vor.
 
-### 1. Master-PIN festlegen und Umgebung isolieren
+### Master-PIN festlegen und Umgebung isolieren
 Wählen Sie beim ersten Einschalten eine robuste Master-PIN mit mindestens acht Ziffern ohne einfache Muster. Dieser Code leitet den kryptografischen Hauptschlüssel ab, der die Benutzerdaten im Ruhezustand verschlüsselt. Zi0n arbeitet ohne verpflichtende Cloud-Konten, sodass keine Anmeldeinformationen an zentrale Server abfließen.
 
-### 2. Cable Wipe gegen kabelgebundene Extraktion aktivieren
+### Cable Wipe gegen kabelgebundene Extraktion aktivieren
 Kabelverbindungen sind das bevorzugte Werkzeug von Auslesestationen wie Cellebrite oder GrayKey.
-- **Schnittstellenisolation:** sobald das Gerät gesperrt ist, werden die USB-Datenleitungen auf Hardwareebene getrennt.
-- **Defensive Bereinigung:** erzwingt ein unbefugtes Gerät eine Datenverbindung, löscht das Cable-Wipe-Protokoll sofort die AES-256-Schlüssel im Sicherheitschip, wodurch der Flash-Speicher in unlesbares Rauschen verwandelt wird.
+Schnittstellenisolation:** sobald das Gerät gesperrt ist, werden die USB-Datenleitungen auf Hardwareebene getrennt.
 
-### 3. Notfall- und Nötigungscodes einrichten
+Defensive Bereinigung:** erzwingt ein unbefugtes Gerät eine Datenverbindung, löscht das Cable-Wipe-Protokoll sofort die AES-256-Schlüssel im Sicherheitschip, wodurch der Flash-Speicher in unlesbares Rauschen verwandelt wird.
+
+### Notfall- und Nötigungscodes einrichten
 Wird ein Nutzer unter Androhung von Gewalt zur Entsperrung gezwungen, kann eine Verweigerung lebensgefährlich sein.
-- **Extra PIN:** definieren Sie ein numerisches Präfix vor Ihrer normalen PIN; bei Eingabe öffnet das System eine unverdächtige Oberfläche und löscht im Hintergrund lautlos alle sensiblen Datenbanken.
-- **Sicherheits-PIN:** ein separater Sperrbildschirm-Code, der ohne Rückfrage die sofortige Gesamtlöschung des Speichers auslöst.
+Extra PIN:** definieren Sie ein numerisches Präfix vor Ihrer normalen PIN; bei Eingabe öffnet das System eine unverdächtige Oberfläche und löscht im Hintergrund lautlos alle sensiblen Datenbanken.
 
-### 4. Sensortrennung und Bildschirmschutz einschalten
+Sicherheits-PIN:** ein separater Sperrbildschirm-Code, der ohne Rückfrage die sofortige Gesamtlöschung des Speichers auslöst.
+
+### Sensortrennung und Bildschirmschutz einschalten
 Moderne Spionagesoftware versucht häufig, Raumgespräche über Mikrofone aufzuzeichnen oder Wallet-Eingaben per Video abzufangen.
-- **Hardware-Schalter:** trennen Sie die Stromzufuhr zu Kameras und Mikrofonen über die Schnelleinstellungen, wenn Sie keine Telefonate führen.
-- **Aufnahmesperre:** der Zi0n-Grafik-Compositor unterbindet Screenshots und Videoaufzeichnungen zuverlässig und liefert ausschließlich ein schwarzes Bild zurück.
+Hardware-Schalter:** trennen Sie die Stromzufuhr zu Kameras und Mikrofonen über die Schnelleinstellungen, wenn Sie keine Telefonate führen.
 
-### 5. Funkausfall-Timer und Inaktivitätslöschung konfigurieren
+Aufnahmesperre:** der Zi0n-Grafik-Compositor unterbindet Screenshots und Videoaufzeichnungen zuverlässig und liefert ausschließlich ein schwarzes Bild zurück.
+
+### Funkausfall-Timer und Inaktivitätslöschung konfigurieren
 Entwendete Telefone werden oft in Faraday-Taschen gesteckt, um Fernlöschbefehle zu blockieren.
-- **Funküberwachung:** legen Sie ein Zeitlimit ohne Netzempfang fest (z. B. 4 oder 8 Stunden); bleibt das Signal über diesen Zeitraum aus, leitet das Gerät die lokale Selbstzerstörung ein.
-- **Inaktivitäts-Timer:** bleibt das Smartphone mehrere Tage ohne reguläre Entsperrung, werden die Schlüssel automatisch vernichtet.
+Funküberwachung:** legen Sie ein Zeitlimit ohne Netzempfang fest (z. B. 4 oder 8 Stunden); bleibt das Signal über diesen Zeitraum aus, leitet das Gerät die lokale Selbstzerstörung ein.
+
+Inaktivitäts-Timer:** bleibt das Smartphone mehrere Tage ohne reguläre Entsperrung, werden die Schlüssel automatisch vernichtet.
 
 ## Bewährte Regeln für den täglichen Einsatz
 
 Um Ihr Gerät wirksam zu schützen und Fehlbedienungen zu vermeiden:
-- **Physische Backups offline verwahren:** die Löschung durch Zi0n ist mathematisch endgültig; notieren Sie Mnemonic-Seeds stets auf Papier oder Metallplatten außerhalb des Internets.
-- **Flugreisen vorausplanen:** verlängern Sie vor längeren Flügen ohne Funknetz den Funkausfall-Timer, um versehentliche Löschungen zu verhindern.
-- **Getrennte PINs verwenden:** nutzen Sie keine gemeinsamen Ziffernkombinationen für Master-PIN, Extra PIN und Sicherheits-PIN.
+Physische Backups offline verwahren:** die Löschung durch Zi0n ist mathematisch endgültig; notieren Sie Mnemonic-Seeds stets auf Papier oder Metallplatten außerhalb des Internets.
+
+Flugreisen vorausplanen:** verlängern Sie vor längeren Flügen ohne Funknetz den Funkausfall-Timer, um versehentliche Löschungen zu verhindern.
+
+Getrennte PINs verwenden:** nutzen Sie keine gemeinsamen Ziffernkombinationen für Master-PIN, Extra PIN und Sicherheits-PIN.
 
 ## Wie kann Zi0n Ihnen helfen?
 

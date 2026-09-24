@@ -21,35 +21,41 @@ Adversaries rely on these default loopholes. Storing cryptocurrency seeds or exc
 
 Every safeguard in Zi0n addresses a defined operational threat. Follow this sequence to establish a resilient baseline immediately.
 
-### 1. Set the master PIN and establish environment isolation
+### Set the master PIN and establish environment isolation
 Upon initial startup, choose a strong master PIN of at least eight non-sequential digits. This code directly derives the cryptographic master key guarding user storage partitions at rest. Zi0n operates without intrusive background services or required corporate accounts, ensuring your device credentials remain strictly local.
 
-### 2. Configure Cable Wipe against physical forensic extraction
+### Configure Cable Wipe against physical forensic extraction
 Cable-based attacks conducted via tools like Cellebrite or GrayKey represent the most prevalent method of data extraction.
-- **Port isolation:** as soon as the display locks, USB data pins are physically severed at the hardware level.
-- **Defensive purge:** if an unauthorized machine attempts to force protocol negotiation or execute low-level exploits, the Cable Wipe mechanism immediately destroys the AES-256 master keys inside the secure processor, reducing user storage to unrecoverable binary noise.
+Port isolation:** as soon as the display locks, USB data pins are physically severed at the hardware level.
 
-### 3. Establish duress codes and emergency wipe credentials
+Defensive purge:** if an unauthorized machine attempts to force protocol negotiation or execute low-level exploits, the Cable Wipe mechanism immediately destroys the AES-256 master keys inside the secure processor, reducing user storage to unrecoverable binary noise.
+
+### Establish duress codes and emergency wipe credentials
 When confronted by physical intimidation to unlock your phone, outright resistance can endanger your life.
-- **Extra PIN:** program a custom numeric prefix before your standard code; entering it opens a benign decoy profile while silently purging confidential files in the background without triggering visual warnings.
-- **Emergency security PIN:** a dedicated standalone code entered on the lock screen that triggers immediate flash memory annihilation without confirmation prompts.
+Extra PIN:** program a custom numeric prefix before your standard code; entering it opens a benign decoy profile while silently purging confidential files in the background without triggering visual warnings.
 
-### 4. Engage hardware kill switches and anti-capture shields
+Emergency security PIN:** a dedicated standalone code entered on the lock screen that triggers immediate flash memory annihilation without confirmation prompts.
+
+### Engage hardware kill switches and anti-capture shields
 Commercial spyware routinely records ambient conversations through device microphones and monitors screen buffers.
-- **Hardware toggles:** cut power directly to camera and microphone modules through the quick control tile whenever voice calls are finished.
-- **System-level anti-grab:** the Zi0n display compositor systematically intercepts any screen capture, screen share, or video recording request, outputting an entirely blank black frame.
+Hardware toggles:** cut power directly to camera and microphone modules through the quick control tile whenever voice calls are finished.
 
-### 5. Program the no-signal countdown and inactivity timers
+System-level anti-grab:** the Zi0n display compositor systematically intercepts any screen capture, screen share, or video recording request, outputting an entirely blank black frame.
+
+### Program the no-signal countdown and inactivity timers
 Seized phones are often isolated inside Faraday bags to block remote management wiping signals.
-- **Radio monitoring:** define a maximum offline threshold (such as 4 or 8 hours); if no cellular or Wi-Fi beacon is acknowledged within this window, the phone assumes confiscation and executes autonomous local destruction.
-- **Inactivity wipe:** if the device remains locked for an extended multi-day period without authorized access, encryption keys are automatically zeroized.
+Radio monitoring:** define a maximum offline threshold (such as 4 or 8 hours); if no cellular or Wi-Fi beacon is acknowledged within this window, the phone assumes confiscation and executes autonomous local destruction.
+
+Inactivity wipe:** if the device remains locked for an extended multi-day period without authorized access, encryption keys are automatically zeroized.
 
 ## Practical habits for daily operation
 
 To maximize device defenses while preventing accidental lockouts:
-- **Offline physical backups:** Zi0n cryptographic destruction is permanent; always record mnemonic seeds and recovery phrases on offline paper or stamped metal plates.
-- **Transit adjustments:** extend the no-signal timer prior to long commercial flights or travel through known dead zones to prevent unintended resets.
-- **Distinct credentials:** never reuse patterns or numbers across your master PIN, Extra PIN, and emergency wipe PIN.
+Offline physical backups:** Zi0n cryptographic destruction is permanent; always record mnemonic seeds and recovery phrases on offline paper or stamped metal plates.
+
+Transit adjustments:** extend the no-signal timer prior to long commercial flights or travel through known dead zones to prevent unintended resets.
+
+Distinct credentials:** never reuse patterns or numbers across your master PIN, Extra PIN, and emergency wipe PIN.
 
 ## How can Zi0n help you?
 

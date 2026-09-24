@@ -21,35 +21,41 @@ Kwaadwillenden maken doelgericht gebruik van deze standaardconfiguraties. Wie he
 
 Elke ingebouwde Zi0n-functionaliteit neutraliseert een specifieke dreiging. Volg deze volgorde om uw apparaat optimaal te configureren.
 
-### 1. Hoofd-PIN instellen en systeem isoleren
+### Hoofd-PIN instellen en systeem isoleren
 Kies bij de eerste inschakeling een krachtige hoofd-PIN van minimaal acht willekeurige cijfers. Deze code leidt de cryptografische hoofdsleutel af die de gegevenspartities in rust beschermt. Zi0n vereist geen commerciële accounts, waardoor uw aanmeldingsgegevens te allen tijde binnen de beveiligde chip blijven.
 
-### 2. Cable Wipe activeren tegen fysieke extractie
+### Cable Wipe activeren tegen fysieke extractie
 Verbinding via een USB-kabel is de meest gebruikte methode van forensische systemen zoals Cellebrite of GrayKey om apparaten te klonen.
-- **Poortisolatie:** zodra het scherm vergrendelt, worden de datalijnen van de USB-poort op hardwareniveau uitgeschakeld.
-- **Noodwissing:** wanneer ongeautoriseerde hardware een dataverbinding afdwingt, vernietigt Cable Wipe onmiddellijk de AES-256-sleutels in de beveiligde chip, waardoor het geheugen verandert in onleesbare data.
+Poortisolatie:** zodra het scherm vergrendelt, worden de datalijnen van de USB-poort op hardwareniveau uitgeschakeld.
 
-### 3. Nood- en dwangcodes configureren
+Noodwissing:** wanneer ongeautoriseerde hardware een dataverbinding afdwingt, vernietigt Cable Wipe onmiddellijk de AES-256-sleutels in de beveiligde chip, waardoor het geheugen verandert in onleesbare data.
+
+### Nood- en dwangcodes configureren
 Als iemand onder fysieke dwang wordt gedwongen een toestel te ontgrendelen, kan weigeren gevaarlijk zijn voor de persoonlijke veiligheid.
-- **Extra PIN:** stel een numeriek voorvoegsel in vóór uw reguliere pincode; bij invoer opent een neutraal nepvenster terwijl op de achtergrond alle gevoelige gegevens geruisloos gewist worden.
-- **Veiligheids-PIN:** een afzonderlijke code op het vergrendelingsscherm die het geheugen binnen enkele seconden volledig formateert zonder bevestigingsvragen.
+Extra PIN:** stel een numeriek voorvoegsel in vóór uw reguliere pincode; bij invoer opent een neutraal nepvenster terwijl op de achtergrond alle gevoelige gegevens geruisloos gewist worden.
 
-### 4. Sensoren fysiek uitschakelen en schermopnames blokkeren
+Veiligheids-PIN:** een afzonderlijke code op het vergrendelingsscherm die het geheugen binnen enkele seconden volledig formateert zonder bevestigingsvragen.
+
+### Sensoren fysiek uitschakelen en schermopnames blokkeren
 Moderne spionagesoftware probeert vaak gesprekken via microfoons op te nemen en schermopnames te maken van financiële apps.
-- **Hardwareschakelaars:** schakel de stroomtoevoer naar microfoons en camera's uit via het snelle instellingenpaneel wanneer u geen gesprekken voert.
-- **Opnameblokkering:** de grafische interface van Zi0n onderschept elke poging tot schermopname of videoverzending en toont uitsluitend een leeg zwart vlak.
+Hardwareschakelaars:** schakel de stroomtoevoer naar microfoons en camera's uit via het snelle instellingenpaneel wanneer u geen gesprekken voert.
 
-### 5. Geen-signaaltimer en inactiviteitsvernietiging instellen
+Opnameblokkering:** de grafische interface van Zi0n onderschept elke poging tot schermopname of videoverzending en toont uitsluitend een leeg zwart vlak.
+
+### Geen-signaaltimer en inactiviteitsvernietiging instellen
 Inbeslaggenomen apparaten worden veelal in een kooi van Faraday geplaatst om wissen op afstand via het netwerk te verhinderen.
-- **Draadloze bewaking:** stel een maximale tijd zonder netwerk in (bijvoorbeeld 4 of 8 uur); detecteert het toestel binnen die periode geen signaal, dan start het zelfstandig de lokale gegevenswissing.
-- **Inactiviteitstimer:** ontgrendelt u het apparaat gedurende meerdere dagen niet, dan worden de encryptiesleutels automatisch vernietigd.
+Draadloze bewaking:** stel een maximale tijd zonder netwerk in (bijvoorbeeld 4 of 8 uur); detecteert het toestel binnen die periode geen signaal, dan start het zelfstandig de lokale gegevenswissing.
+
+Inactiviteitstimer:** ontgrendelt u het apparaat gedurende meerdere dagen niet, dan worden de encryptiesleutels automatisch vernietigd.
 
 ## Praktische richtlijnen voor dagelijks gebruik
 
 Om uw beveiliging optimaal te benutten zonder ongewenste vergrendelingen:
-- **Houd fysieke offline back-ups bij:** wissen door Zi0n is definitief; bewaar herstelzinnen altijd op papier of metalen platen buiten het internet.
-- **Anticipeer op vliegreizen:** verleng vóór lange vluchten zonder netwerkverbinding de timer voor geen-signaal om onbedoelde gegevenswissing te vermijden.
-- **Gebruik gescheiden codes:** combineer geen cijferreeksen tussen uw hoofd-PIN, Extra PIN en veiligheids-PIN.
+Houd fysieke offline back-ups bij:** wissen door Zi0n is definitief; bewaar herstelzinnen altijd op papier of metalen platen buiten het internet.
+
+Anticipeer op vliegreizen:** verleng vóór lange vluchten zonder netwerkverbinding de timer voor geen-signaal om onbedoelde gegevenswissing te vermijden.
+
+Gebruik gescheiden codes:** combineer geen cijferreeksen tussen uw hoofd-PIN, Extra PIN en veiligheids-PIN.
 
 ## Hoe kan Zi0n u helpen?
 

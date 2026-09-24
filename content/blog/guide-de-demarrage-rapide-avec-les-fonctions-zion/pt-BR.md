@@ -21,35 +21,41 @@ Atacantes qualificados exploram exatamente essas brechas de fábrica. Se você t
 
 Cada ferramenta do Zi0n neutraliza um vetor de ameaça específico. Siga este roteiro estruturado para iniciar suas operações com tranquilidade.
 
-### 1. Criação do PIN principal e isolamento do ambiente
+### Criação do PIN principal e isolamento do ambiente
 Ao ligar o dispositivo pela primeira vez, crie um código PIN principal com pelo menos oito dígitos aleatórios. Esse código deriva a chave criptográfica mestra que protege os dados em repouso. O Zi0n funciona sem serviços intrusivos de terceiros, garantindo que suas credenciais nunca saiam do chip seguro.
 
-### 2. Ativação do Cable Wipe contra extrações físicas
+### Ativação do Cable Wipe contra extrações físicas
 A conexão por cabo é o meio mais utilizado por laboratórios forenses como Cellebrite e GrayKey para descarregar a memória do aparelho.
-- **Isolamento do conector:** assim que a tela é bloqueada, as linhas de dados USB são desconectadas no nível físico do hardware.
-- **Destruição defensiva:** se um equipamento não autorizado tentar forçar comunicação, o protocolo Cable Wipe apaga imediatamente as chaves AES-256 no chip seguro, tornando o armazenamento um bloco ilegível.
+Isolamento do conector:** assim que a tela é bloqueada, as linhas de dados USB são desconectadas no nível físico do hardware.
 
-### 3. Configuração de códigos de emergência e coerção
+Destruição defensiva:** se um equipamento não autorizado tentar forçar comunicação, o protocolo Cable Wipe apaga imediatamente as chaves AES-256 no chip seguro, tornando o armazenamento um bloco ilegível.
+
+### Configuração de códigos de emergência e coerção
 Sob ameaça direta para desbloquear o celular, a recusa explícita pode colocar sua integridade física em perigo imediato.
-- **Extra PIN:** configure um prefixo numérico a ser digitado antes do seu PIN habitual; ao inseri-lo, o aparelho abre um perfil neutro enquanto apaga discretamente os dados confidenciais em segundo plano, sem emitir avisos.
-- **PIN de segurança:** um código exclusivo digitado na tela de bloqueio que formata totalmente o smartphone em instantes, sem pedir confirmação.
+Extra PIN:** configure um prefixo numérico a ser digitado antes do seu PIN habitual; ao inseri-lo, o aparelho abre um perfil neutro enquanto apaga discretamente os dados confidenciais em segundo plano, sem emitir avisos.
 
-### 4. Desativação física de sensores e bloqueio de tela
+PIN de segurança:** um código exclusivo digitado na tela de bloqueio que formata totalmente o smartphone em instantes, sem pedir confirmação.
+
+### Desativação física de sensores e bloqueio de tela
 Softwares espiões contemporâneos ativam microfones ocultos e gravam a tela durante transações em carteiras digitais.
-- **Chaves de hardware:** desligue a alimentação elétrica de câmeras e microfones no painel rápido quando não estiver em chamadas.
-- **Anti-captura de tela:** o compositor visual do Zi0n intercepta qualquer tentativa de gravação ou captura de tela, devolvendo apenas um quadro preto sólido.
+Chaves de hardware:** desligue a alimentação elétrica de câmeras e microfones no painel rápido quando não estiver em chamadas.
 
-### 5. Ajuste do modo sem sinal e contagem de inatividade
+Anti-captura de tela:** o compositor visual do Zi0n intercepta qualquer tentativa de gravação ou captura de tela, devolvendo apenas um quadro preto sólido.
+
+### Ajuste do modo sem sinal e contagem de inatividade
 Dispositivos apreendidos são frequentemente colocados em sacolas de Faraday para evitar comandos remotos de apagamento.
-- **Monitoramento de rádio:** estabeleça um período máximo sem sinal (como 4 ou 8 horas); se o telefone não detectar redes nesse intervalo, assume sequestro e aciona a autodestruição local.
-- **Contador de inatividade:** se o smartphone permanecer bloqueado por vários dias consecutivos, as chaves de criptografia são eliminadas.
+Monitoramento de rádio:** estabeleça um período máximo sem sinal (como 4 ou 8 horas); se o telefone não detectar redes nesse intervalo, assume sequestro e aciona a autodestruição local.
+
+Contador de inatividade:** se o smartphone permanecer bloqueado por vários dias consecutivos, as chaves de criptografia são eliminadas.
 
 ## Recomendações práticas para sua rotina operacional
 
 Para usufruir da segurança máxima sem bloqueios acidentais:
-- **Cópias físicas desconectadas:** o apagamento no Zi0n é irreversível; registre sempre suas palavras-semente em papel ou placas de metal fora da internet.
-- **Atenção em voos longos:** amplie o tempo limite do modo sem sinal antes de embarcar em viagens aéreas para evitar ativações involuntárias.
-- **Diferenciação rigorosa de PINs:** não reutilize sequências numéricas entre o PIN principal, o Extra PIN e o PIN de segurança.
+Cópias físicas desconectadas:** o apagamento no Zi0n é irreversível; registre sempre suas palavras-semente em papel ou placas de metal fora da internet.
+
+Atenção em voos longos:** amplie o tempo limite do modo sem sinal antes de embarcar em viagens aéreas para evitar ativações involuntárias.
+
+Diferenciação rigorosa de PINs:** não reutilize sequências numéricas entre o PIN principal, o Extra PIN e o PIN de segurança.
 
 ## Como o Zi0n pode ajudar você?
 

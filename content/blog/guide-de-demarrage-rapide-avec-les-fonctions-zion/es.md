@@ -21,35 +21,41 @@ Un atacante experimentado se aprovecha de estas configuraciones por defecto. Si 
 
 Cada funcionalidad integrada en Zi0n está pensada para neutralizar vectores de ataque concretos. Sigue esta secuencia para iniciar tu protección sin complicaciones.
 
-### 1. Creación del PIN principal y aislamiento del entorno
+### Creación del PIN principal y aislamiento del entorno
 Al iniciar el dispositivo por primera vez, define un código PIN principal de al menos ocho dígitos no consecutivos. Este código protege la clave maestra de cifrado del almacenamiento en reposo. Zi0n funciona sin capas de seguimiento ni cuentas comerciales obligatorias, asegurando que tus credenciales nunca viajen fuera del chip seguro.
 
-### 2. Configuración de Cable Wipe ante extracciones físicas
+### Configuración de Cable Wipe ante extracciones físicas
 La conexión por cable es el método preferido por estaciones forenses como Cellebrite o GrayKey para volcar la memoria interna.
-- **Aislamiento del puerto:** en cuanto la pantalla se bloquea, el bus de datos USB queda desactivado físicamente.
-- **Purga de emergencia:** si un equipo no autorizado intenta negociar comunicación o forzar comandos de bajo nivel, el protocolo Cable Wipe destruye al instante las claves AES-256 del chip seguro, convirtiendo la información en ruido ilegible.
+Aislamiento del puerto:** en cuanto la pantalla se bloquea, el bus de datos USB queda desactivado físicamente.
 
-### 3. Ajuste del Extra PIN y códigos de coacción
+Purga de emergencia:** si un equipo no autorizado intenta negociar comunicación o forzar comandos de bajo nivel, el protocolo Cable Wipe destruye al instante las claves AES-256 del chip seguro, convirtiendo la información en ruido ilegible.
+
+### Ajuste del Extra PIN y códigos de coacción
 Si sufres un asalto o una amenaza directa para que abras tu teléfono, negarte puede comprometer tu integridad física.
-- **Extra PIN:** programa un prefijo numérico previo a tu código regular; al marcarlo, el terminal desbloquea una sesión de fachada mientras borra en segundo plano todos los datos confidenciales sin emitir alertas.
-- **PIN de seguridad:** un código específico que, introducido en la pantalla de bloqueo, ejecuta el formateo fulminante del equipo sin pedir confirmaciones adicionales.
+Extra PIN:** programa un prefijo numérico previo a tu código regular; al marcarlo, el terminal desbloquea una sesión de fachada mientras borra en segundo plano todos los datos confidenciales sin emitir alertas.
 
-### 4. Corte físico de sensores y protección contra capturas
+PIN de seguridad:** un código específico que, introducido en la pantalla de bloqueo, ejecuta el formateo fulminante del equipo sin pedir confirmaciones adicionales.
+
+### Corte físico de sensores y protección contra capturas
 El software espía avanzado busca capturar audio ambiente y registrar la pantalla mientras operas tus cuentas bancarias o monederos.
-- **Interruptores de privacidad:** desconecta el suministro eléctrico de cámaras y micrófonos mediante el panel de control rápido cuando no estés en una llamada.
-- **Anti-captura del sistema:** el compositor gráfico de Zi0n impide cualquier grabación o captura de pantalla devolviendo una capa negra opaca.
+Interruptores de privacidad:** desconecta el suministro eléctrico de cámaras y micrófonos mediante el panel de control rápido cuando no estés en una llamada.
 
-### 5. Programación del temporizador sin señal y autodestrucción
+Anti-captura del sistema:** el compositor gráfico de Zi0n impide cualquier grabación o captura de pantalla devolviendo una capa negra opaca.
+
+### Programación del temporizador sin señal y autodestrucción
 Muchos asaltantes confinan los teléfonos en fundas de Faraday para evitar órdenes de rastreo o borrado remoto.
-- **Detector de falta de red:** fija un límite de horas sin conexión (por ejemplo 4 u 8 horas); si el móvil no detecta red en ese tiempo, asume su incautación y se autodestruye localmente.
-- **Contador de inactividad:** si el terminal permanece varios días sin ser desbloqueado por su dueño, purga automáticamente las claves.
+Detector de falta de red:** fija un límite de horas sin conexión (por ejemplo 4 u 8 horas); si el móvil no detecta red en ese tiempo, asume su incautación y se autodestruye localmente.
+
+Contador de inactividad:** si el terminal permanece varios días sin ser desbloqueado por su dueño, purga automáticamente las claves.
 
 ## Recomendaciones prácticas para el uso diario
 
 Para mantener tu entorno protegido sin incurrir en bloqueos accidentales:
-- **Respaldo físico desconectado:** el borrado de Zi0n es absoluto e irrecuperable; guarda siempre tus frases mnemónicas en papel o placas metálicas fuera de línea.
-- **Previsión en vuelos y viajes:** si vas a realizar un viaje largo en avión o permanecer en áreas sin cobertura, amplía la temporización del modo sin señal para evitar borrados involuntarios.
-- **Diferenciación de claves:** no compartas patrones ni números entre tu PIN habitual, tu Extra PIN y tu PIN de seguridad.
+Respaldo físico desconectado:** el borrado de Zi0n es absoluto e irrecuperable; guarda siempre tus frases mnemónicas en papel o placas metálicas fuera de línea.
+
+Previsión en vuelos y viajes:** si vas a realizar un viaje largo en avión o permanecer en áreas sin cobertura, amplía la temporización del modo sin señal para evitar borrados involuntarios.
+
+Diferenciación de claves:** no compartas patrones ni números entre tu PIN habitual, tu Extra PIN y tu PIN de seguridad.
 
 ## ¿Cómo puede ayudarte Zi0n?
 

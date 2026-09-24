@@ -21,35 +21,41 @@ Chi attacca sfrutta proprio queste vulnerabilità predefinite. Se trasferisci le
 
 Ogni funzione di Zi0n risponde a un vettore di attacco ben preciso. Segui questa sequenza ordinata per rendere operativo il tuo dispositivo.
 
-### 1. Creazione del PIN principale e isolamento del sistema
+### Creazione del PIN principale e isolamento del sistema
 Alla prima accensione imposta un codice PIN principale composto da almeno otto cifre non sequenziali. Questo codice genera la chiave crittografica primaria che protegge le partizioni utente a riposo. Zi0n opera senza servizi commerciali obbligatori, garantendo che le tue credenziali rimangano confinate nel processore sicuro.
 
-### 2. Attivazione di Cable Wipe contro l'estrazione forense
+### Attivazione di Cable Wipe contro l'estrazione forense
 Il collegamento via cavo rappresenta il metodo d'elezione di macchinari forensi come Cellebrite o GrayKey per clonare la memoria flash.
-- **Isolamento della porta:** non appena lo schermo si blocca, i canali dati USB vengono disconnessi fisicamente a livello hardware.
-- **Cancellazione difensiva:** se un dispositivo non autorizzato tenta di forzare una connessione dati, il protocollo Cable Wipe distrugge all'istante le chiavi AES-256 nel chip sicuro, rendendo i dati archiviati un residuo binario indecifrabile.
+Isolamento della porta:** non appena lo schermo si blocca, i canali dati USB vengono disconnessi fisicamente a livello hardware.
 
-### 3. Configurazione dei codici di emergenza e coercizione
+Cancellazione difensiva:** se un dispositivo non autorizzato tenta di forzare una connessione dati, il protocollo Cable Wipe distrugge all'istante le chiavi AES-256 nel chip sicuro, rendendo i dati archiviati un residuo binario indecifrabile.
+
+### Configurazione dei codici di emergenza e coercizione
 In caso di aggressione o minaccia fisica per sbloccare il terminale, opporre un rifiuto esplicito può mettere a rischio la propria incolumità.
-- **Extra PIN:** definisci un prefisso numerico da digitare prima del PIN normale; l'accesso apre un profilo fittizio mentre cancella silenziosamente i dati riservati in background, senza alcuna notifica visiva.
-- **PIN di sicurezza:** un codice dedicato da inserire nella schermata di blocco per avviare la formattazione totale del telefono in pochi secondi, senza richieste di conferma.
+Extra PIN:** definisci un prefisso numerico da digitare prima del PIN normale; l'accesso apre un profilo fittizio mentre cancella silenziosamente i dati riservati in background, senza alcuna notifica visiva.
 
-### 4. Disattivazione fisica dei sensori e protezione schermo
+PIN di sicurezza:** un codice dedicato da inserire nella schermata di blocco per avviare la formattazione totale del telefono in pochi secondi, senza richieste di conferma.
+
+### Disattivazione fisica dei sensori e protezione schermo
 Gli spyware moderni sfruttano i microfoni per registrare conversazioni ambientali e registrano lo schermo durante le operazioni bancarie.
-- **Interruttori hardware:** togli l'alimentazione a fotocamere e microfoni tramite il pannello rapido quando non stai effettuando chiamate.
-- **Anti-cattura visiva:** il compositore grafico di Zi0n blocca qualsiasi tentativo di screenshot o registrazione video restituendo sempre un fotogramma nero.
+Interruttori hardware:** togli l'alimentazione a fotocamere e microfoni tramite il pannello rapido quando non stai effettuando chiamate.
 
-### 5. Impostazione del timer senza segnale e autodistruzione
+Anti-cattura visiva:** il compositore grafico di Zi0n blocca qualsiasi tentativo di screenshot o registrazione video restituendo sempre un fotogramma nero.
+
+### Impostazione del timer senza segnale e autodistruzione
 Spesso i dispositivi sottratti vengono inseriti in buste schermate di Faraday per impedire ordini di cancellazione da remoto.
-- **Controllo radio:** imposta un limite massimo di tempo senza segnale (ad esempio 4 o 8 ore); se il telefono non rileva alcuna rete entro tale termine, avvia la cancellazione autonoma in locale.
-- **Timer di inattività:** se il dispositivo non viene sbloccato regolarmente per diversi giorni, le chiavi crittografiche vengono distrutte.
+Controllo radio:** imposta un limite massimo di tempo senza segnale (ad esempio 4 o 8 ore); se il telefono non rileva alcuna rete entro tale termine, avvia la cancellazione autonoma in locale.
+
+Timer di inattività:** se il dispositivo non viene sbloccato regolarmente per diversi giorni, le chiavi crittografiche vengono distrutte.
 
 ## Consigli pratici per l'uso quotidiano
 
 Per massimizzare la sicurezza senza incorrere in cancellazioni involontarie:
-- **Backup fisici disconnessi:** la cancellazione crittografica di Zi0n è definitiva; conserva sempre le seed phrase su metallo o carta fuori dalla rete.
-- **Pianificazione dei viaggi aerei:** prima di voli a lungo raggio o permanenze in zone senza copertura, aumenta il timer di assenza segnale per prevenire reset accidentali.
-- **Codici rigorosamente separati:** non condividere schemi numerici tra PIN principale, Extra PIN e PIN di sicurezza.
+Backup fisici disconnessi:** la cancellazione crittografica di Zi0n è definitiva; conserva sempre le seed phrase su metallo o carta fuori dalla rete.
+
+Pianificazione dei viaggi aerei:** prima di voli a lungo raggio o permanenze in zone senza copertura, aumenta il timer di assenza segnale per prevenire reset accidentali.
+
+Codici rigorosamente separati:** non condividere schemi numerici tra PIN principale, Extra PIN e PIN di sicurezza.
 
 ## Come può aiutarti Zi0n?
 

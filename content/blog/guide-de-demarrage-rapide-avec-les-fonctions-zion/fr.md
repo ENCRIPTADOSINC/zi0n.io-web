@@ -21,35 +21,41 @@ Un adversaire expérimenté exploite précisément ces failles de jeunesse. Si v
 
 Chaque fonctionnalité de Zi0n répond à un vecteur d'attaque précis. Voici la séquence recommandée pour initialiser votre sécurité opérationnelle.
 
-### 1. Initialisation du PIN principal et isolation du système
+### Initialisation du PIN principal et isolation du système
 Lors du premier allumage, choisissez un code PIN robuste d'au moins huit chiffres sans logique séquentielle. Ce code dérive la clé de chiffrement principale qui protège les partitions utilisateur au repos. Zi0n fonctionne sur une architecture sans services intrusifs, ce qui évite toute transmission d'identifiants vers des serveurs centraux.
 
-### 2. Activation du protocole Cable Wipe contre l'extraction physique
+### Activation du protocole Cable Wipe contre l'extraction physique
 La connexion par câble représente la méthode privilégiée des boîtiers forensiques comme Cellebrite ou GrayKey. 
-• **Protection du connecteur :** dès que le terminal se verrouille, les lignes de données du port USB sont matériellement isolées.
-• **Destruction défensive :** si un équipement hostile force une négociation de paquets sans autorisation, le protocole Cable Wipe supprime instantanément les clés maîtresses AES-256 de la puce sécurisée, rendant toute lecture impossible.
+Protection du connecteur :** dès que le terminal se verrouille, les lignes de données du port USB sont matériellement isolées.
 
-### 3. Définition des codes d'urgence et de sous-contrainte
+Destruction défensive :** si un équipement hostile force une négociation de paquets sans autorisation, le protocole Cable Wipe supprime instantanément les clés maîtresses AES-256 de la puce sécurisée, rendant toute lecture impossible.
+
+### Définition des codes d'urgence et de sous-contrainte
 Face à un agresseur exigeant l'accès immédiat à vos données, refuser d'obtempérer peut mettre votre vie en danger.
-• **Extra PIN :** saisissez un préfixe numérique spécifique avant votre mot de passe pour amorcer une purge silencieuse des profils confidentiels en arrière-plan, sans message d'alerte.
-• **PIN de sécurité :** un code dédié pour formater intégralement le smartphone directement depuis l'écran de verrouillage, sans confirmation secondaire.
+Extra PIN :** saisissez un préfixe numérique spécifique avant votre mot de passe pour amorcer une purge silencieuse des profils confidentiels en arrière-plan, sans message d'alerte.
 
-### 4. Coupure matérielle des capteurs et anti-capture d'écran
+PIN de sécurité :** un code dédié pour formater intégralement le smartphone directement depuis l'écran de verrouillage, sans confirmation secondaire.
+
+### Coupure matérielle des capteurs et anti-capture d'écran
 Les logiciels espions modernes ciblent l'écoute ambiante et la capture vidéo des applications bancaires.
-• **Commutateurs de confidentialité :** désactivez l'alimentation électrique des microphones et caméras lorsque vous n'êtes pas en appel.
-• **Blocage visuel :** le compositeur d'affichage de Zi0n neutralise toute tentative de capture ou d'enregistrement d'écran en renvoyant une image noire opaque.
+Commutateurs de confidentialité :** désactivez l'alimentation électrique des microphones et caméras lorsque vous n'êtes pas en appel.
 
-### 5. Réglage du mode sans signal et du temporisateur d'inactivité
+Blocage visuel :** le compositeur d'affichage de Zi0n neutralise toute tentative de capture ou d'enregistrement d'écran en renvoyant une image noire opaque.
+
+### Réglage du mode sans signal et du temporisateur d'inactivité
 Les voleurs isolent souvent les appareils dans des pochettes Faraday pour bloquer les signaux distants.
-• **Surveillance radio :** configurez le délai d'absence de réseau (par exemple 4 ou 8 heures). Si aucune connexion n'est établie dans ce laps de temps, le terminal déclenche son autodestruction locale.
-• **Compte à rebours d'inactivité :** si le téléphone n'enregistre aucun déverrouillage pendant plusieurs jours consécutifs, la mémoire est automatiquement effacée.
+Surveillance radio :** configurez le délai d'absence de réseau (par exemple 4 ou 8 heures). Si aucune connexion n'est établie dans ce laps de temps, le terminal déclenche son autodestruction locale.
+
+Compte à rebours d'inactivité :** si le téléphone n'enregistre aucun déverrouillage pendant plusieurs jours consécutifs, la mémoire est automatiquement effacée.
 
 ## Recommandations pratiques pour votre quotidien
 
 Pour tirer le meilleur parti de ces fonctionnalités sans fausse manipulation :
-• **Sauvegardes physiques déconnectées :** l'effacement opéré par Zi0n est cryptographiquement irréversible ; notez toujours vos phrases de récupération sur papier ou support métallique hors ligne.
-• **Anticipation des zones blanches :** augmentez la durée du mode sans signal avant d'embarquer pour un vol long-courrier ou une expédition en pleine nature.
-• **Séparation stricte des codes :** n'utilisez aucun chiffre commun entre votre PIN normal, votre Extra PIN et votre PIN de sécurité.
+Sauvegardes physiques déconnectées :** l'effacement opéré par Zi0n est cryptographiquement irréversible ; notez toujours vos phrases de récupération sur papier ou support métallique hors ligne.
+
+Anticipation des zones blanches :** augmentez la durée du mode sans signal avant d'embarquer pour un vol long-courrier ou une expédition en pleine nature.
+
+Séparation stricte des codes :** n'utilisez aucun chiffre commun entre votre PIN normal, votre Extra PIN et votre PIN de sécurité.
 
 ## Comment Zi0n peut vous aider ?
 
