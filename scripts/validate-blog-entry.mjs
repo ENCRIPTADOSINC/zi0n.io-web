@@ -291,6 +291,18 @@ async function validateBlog(slug, imageCache = new Map()) {
         }
       }
     }
+
+    // Advertencia de exceso de viñetas / listas numeradas (Anti-listitis)
+    const listItemsMatches = content.match(/^(\s*[-*•]|\s*\d+\.)\s+/gm) || [];
+    if (listItemsMatches.length > 6) {
+      warnings.push(`${lang}.md: detectado posible exceso de listas/viñetas (${listItemsMatches.length} elementos). Se recomienda priorizar prosa editorial fluida, párrafos explicativos y subtítulos H3, limitando las listas a un máximo de 3-4 puntos en todo el artículo.`);
+    }
+
+    // Advertencia de subtítulos H3 numerados innecesariamente (ej. "### 1. Concepto")
+    const numberedH3Matches = content.match(/^###\s+\d+[\.\)]\s+/gm) || [];
+    if (numberedH3Matches.length > 0) {
+      warnings.push(`${lang}.md: contiene subtítulos H3 numerados (${numberedH3Matches.length}). Usa subtítulos temáticos conceptuales sin numerar (ej. "### Exposición de claves privadas").`);
+    }
   }
 
   // Validar imagen y unicidad estricta (SHA-256 + Hash Perceptual dHash + Diferencia de Píxeles)
