@@ -15,10 +15,10 @@ Le protocole SMS a été conçu au début des années 1980 sans le moindre méca
 
 La fragilité des SMS ne relève pas d'un défaut ponctuel de configuration, mais de faiblesses structurelles inhérentes aux réseaux de télécommunications mondiaux :
 
-• **Échange de carte SIM (SIM swapping) :** les cybercriminels usurpent l'identité de la victime auprès du service client de son opérateur mobile. En exploitant la crédulité d'un employé ou des données personnelles issues de fuites publiques, ils transfèrent la ligne téléphonique vers une nouvelle carte SIM sous leur contrôle direct.
-• **Failles du protocole SS7 :** des vulnérabilités architecturales dans le système de signalisation SS7 permettent à des acteurs étatiques ou à des groupes criminels équipés de routeurs télécoms d'intercepter silencieusement les messages en transit, sans que l'appareil de la cible ne perde sa connexion.
-• **Hameçonnage ciblé par SMS (smishing) :** des messages frauduleux imitant à la perfection des alertes de sécurité urgentes incitent la victime à se connecter sur une fausse interface d'échange pour y renseigner ses identifiants et son jeton à usage unique.
-• **Notifications sur écran verrouillé :** laisser les aperçus de messages visibles lorsque le smartphone est verrouillé expose immédiatement les codes d'authentification temporaires aux regards indiscrets ou aux individus ayant un accès physique momentané au terminal.
+- **Échange de carte SIM (SIM swapping) :** les cybercriminels usurpent l'identité de la victime auprès du service client de son opérateur mobile. En exploitant la crédulité d'un employé ou des données personnelles issues de fuites publiques, ils transfèrent la ligne téléphonique vers une nouvelle carte SIM sous leur contrôle direct.
+- **Failles du protocole SS7 :** des vulnérabilités architecturales dans le système de signalisation SS7 permettent à des acteurs étatiques ou à des groupes criminels équipés de routeurs télécoms d'intercepter silencieusement les messages en transit, sans que l'appareil de la cible ne perde sa connexion.
+- **Hameçonnage ciblé par SMS (smishing) :** des messages frauduleux imitant à la perfection des alertes de sécurité urgentes incitent la victime à se connecter sur une fausse interface d'échange pour y renseigner ses identifiants et son jeton à usage unique.
+- **Notifications sur écran verrouillé :** laisser les aperçus de messages visibles lorsque le smartphone est verrouillé expose immédiatement les codes d'authentification temporaires aux regards indiscrets ou aux individus ayant un accès physique momentané au terminal.
 
 ## Anatomie d'une attaque : comment les pirates siphonnent les portefeuilles
 
@@ -33,18 +33,18 @@ Une fois la ligne téléphonique détournée ou les messages interceptés, le sc
 
 Protéger vos avoirs numériques requiert d'abandonner immédiatement toute dépendance au réseau téléphonique conventionnel :
 
-• **Éliminer définitivement le SMS comme méthode de 2FA :** basculer l'ensemble de vos comptes financiers vers des clés physiques FIDO2 (YubiKey) ou des applications d'authentification locales déconnectées du cloud public.
-• **Supprimer votre numéro de téléphone des plateformes crypto :** dissocier votre numéro personnel de vos profils d'échange et de vos adresses email de récupération.
-• **Verrouiller votre ligne auprès de l'opérateur :** configurer un mot de passe verbal ou un code PIN spécifique pour bloquer tout transfert non sollicité de votre carte SIM.
-• **Sanctuariser les clés privées hors ligne :** ne jamais copier de phrase de récupération sur un bloc-notes numérique ou une capture d'écran stockée sur un téléphone ordinaire.
+- **Éliminer définitivement le SMS comme méthode de 2FA :** basculer l'ensemble de vos comptes financiers vers des clés physiques FIDO2 (YubiKey) ou des applications d'authentification locales déconnectées du cloud public.
+- **Supprimer votre numéro de téléphone des plateformes crypto :** dissocier votre numéro personnel de vos profils d'échange et de vos adresses email de récupération.
+- **Verrouiller votre ligne auprès de l'opérateur :** configurer un mot de passe verbal ou un code PIN spécifique pour bloquer tout transfert non sollicité de votre carte SIM.
+- **Sanctuariser les clés privées hors ligne :** ne jamais copier de phrase de récupération sur un bloc-notes numérique ou une capture d'écran stockée sur un téléphone ordinaire.
 
 ## Comment Zi0n neutralise les vulnérabilités liées aux SMS
 
 Pour les traders, investisseurs et détenteurs d'actifs exigeant une sécurité sans faille, [Zi0n](https://zi0n.io) élimine à la racine les risques d'interception et de surveillance mobile :
 
-• **Environnement durci et isolation totale :** l'écosystème Zi0n isole les applications de gestion d'actifs et les clés d'authentification dans des profils étanches, empêchant tout logiciel espion de lire le presse-papiers ou d'intercepter les jetons d'accès.
-• **Connectivité sécurisée et anonymat :** les cartes eSIM internationales et les tunnels chiffrés de Zi0n protègent votre identité réseau, rendant les attaques ciblées de SIM swapping impossibles contre votre numéro professionnel.
-• **Défense matérielle contre l'espionnage :** le blocage natif des captures d'écran, la neutralisation des flux USB non autorisés et le code PIN de contrainte garantissent l'intégrité de vos transactions, même en cas de tentative d'accès forcé.
+- **Environnement durci et isolation totale :** l'écosystème Zi0n isole les applications de gestion d'actifs et les clés d'authentification dans des profils étanches, empêchant tout logiciel espion de lire le presse-papiers ou d'intercepter les jetons d'accès.
+- **Connectivité sécurisée et anonymat :** les cartes eSIM internationales et les tunnels chiffrés de Zi0n protègent votre identité réseau, rendant les attaques ciblées de SIM swapping impossibles contre votre numéro professionnel.
+- **Défense matérielle contre l'espionnage :** le blocage natif des captures d'écran, la neutralisation des flux USB non autorisés et le code PIN de contrainte garantissent l'intégrité de vos transactions, même en cas de tentative d'accès forcé.
 
 Sécurisez dès aujourd'hui vos investissements en adoptant un terminal durci conçu pour la souveraineté financière avec [Zi0n](https://zi0n.io).
 

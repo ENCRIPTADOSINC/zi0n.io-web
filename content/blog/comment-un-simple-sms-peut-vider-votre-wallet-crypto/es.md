@@ -15,10 +15,10 @@ El protocolo SMS fue concebido en la década de 1980 sin ningún tipo de cifrado
 
 La debilidad de los SMS no se debe a un error de usuario casual, sino a carencias arquitectónicas inherentes a la infraestructura tradicional de telecomunicaciones:
 
-• **Duplicado no autorizado de SIM (SIM swapping):** los atacantes engañan al soporte técnico de la compañía telefónica mediante ingeniería social o sobornos a empleados deshonestos, transfiriendo tu número a una nueva tarjeta SIM bajo su control.
-• **Vulnerabilidades del protocolo SS7:** los fallos en el sistema de señalización SS7 permiten a atacantes con acceso a nodos de telecomunicaciones interceptar mensajes SMS en tránsito sin levantar sospechas en el teléfono objetivo.
-• **Ataques de smishing de alta precisión:** mensajes fraudulentos que suplantan a servicios reconocidos alertan sobre supuestos accesos no autorizados e inducen a la víctima a introducir sus credenciales en portales falsos.
-• **Notificaciones en pantalla de bloqueo:** mostrar códigos temporales de acceso mientras el teléfono permanece bloqueado permite a cualquiera con proximidad física visualizar los códigos sin desbloquear el dispositivo.
+- **Duplicado no autorizado de SIM (SIM swapping):** los atacantes engañan al soporte técnico de la compañía telefónica mediante ingeniería social o sobornos a empleados deshonestos, transfiriendo tu número a una nueva tarjeta SIM bajo su control.
+- **Vulnerabilidades del protocolo SS7:** los fallos en el sistema de señalización SS7 permiten a atacantes con acceso a nodos de telecomunicaciones interceptar mensajes SMS en tránsito sin levantar sospechas en el teléfono objetivo.
+- **Ataques de smishing de alta precisión:** mensajes fraudulentos que suplantan a servicios reconocidos alertan sobre supuestos accesos no autorizados e inducen a la víctima a introducir sus credenciales en portales falsos.
+- **Notificaciones en pantalla de bloqueo:** mostrar códigos temporales de acceso mientras el teléfono permanece bloqueado permite a cualquiera con proximidad física visualizar los códigos sin desbloquear el dispositivo.
 
 ## Anatomía de un ataque: cómo los delincuentes vacían los monederos
 
@@ -33,18 +33,18 @@ Cuando los ciberdelincuentes consiguen redirigir tus mensajes telefónicos, ejec
 
 Blindar tus activos digitales exige eliminar por completo cualquier dependencia del canal telefónico tradicional:
 
-• **Desactivar el 2FA por SMS en todos los servicios:** migrar de inmediato hacia llaves físicas de seguridad FIDO2 (YubiKey) o aplicaciones autenticadoras locales sin sincronización pública en la nube.
-• **Desvincular el número de teléfono de las plataformas cripto:** eliminar el número de teléfono móvil de los perfiles de exchange y de los correos dedicados a operaciones financieras.
-• **Bloquear la cuenta telefónica con PIN de operador:** solicitar a la empresa proveedora de telefonía un código PIN verbal obligatorio para autorizar cualquier cambio de tarjeta SIM o trámite sobre la línea.
-• **Preservar las frases semilla fuera del entorno digital:** jamás almacenar capturas de pantalla, notas de texto o respaldos sin cifrar en smartphones convencionales.
+- **Desactivar el 2FA por SMS en todos los servicios:** migrar de inmediato hacia llaves físicas de seguridad FIDO2 (YubiKey) o aplicaciones autenticadoras locales sin sincronización pública en la nube.
+- **Desvincular el número de teléfono de las plataformas cripto:** eliminar el número de teléfono móvil de los perfiles de exchange y de los correos dedicados a operaciones financieras.
+- **Bloquear la cuenta telefónica con PIN de operador:** solicitar a la empresa proveedora de telefonía un código PIN verbal obligatorio para autorizar cualquier cambio de tarjeta SIM o trámite sobre la línea.
+- **Preservar las frases semilla fuera del entorno digital:** jamás almacenar capturas de pantalla, notas de texto o respaldos sin cifrar en smartphones convencionales.
 
 ## Cómo neutraliza Zi0n las vulnerabilidades basadas en SMS
 
 Para quienes operan con capitales significativos y no pueden tolerar brechas en su operativa, [Zi0n](https://zi0n.io) ofrece un entorno móvil ultraseguro que rompe la cadena de ataque del SIM swapping:
 
-• **Aislamiento absoluto en perfiles herméticos:** Zi0n ejecuta los monederos y las aplicaciones de autenticación dentro de bóvedas aisladas que impiden a cualquier troyano interceptar portapapeles o capturar tokens de acceso.
-• **Conectividad privada sin exposición de identidad:** gracias a las eSIM internacionales y redes cifradas de Zi0n, tu tráfico opera sin depender de números telefónicos públicos vulnerables a suplantación comercial.
-• **Protección contra accesos físicos y coacción:** el bloqueo de capturas de pantalla, la cancelación de puertos de datos USB al bloquear el teléfono y el PIN de coacción resguardan tu privacidad financiera en cualquier circunstancia.
+- **Aislamiento absoluto en perfiles herméticos:** Zi0n ejecuta los monederos y las aplicaciones de autenticación dentro de bóvedas aisladas que impiden a cualquier troyano interceptar portapapeles o capturar tokens de acceso.
+- **Conectividad privada sin exposición de identidad:** gracias a las eSIM internacionales y redes cifradas de Zi0n, tu tráfico opera sin depender de números telefónicos públicos vulnerables a suplantación comercial.
+- **Protección contra accesos físicos y coacción:** el bloqueo de capturas de pantalla, la cancelación de puertos de datos USB al bloquear el teléfono y el PIN de coacción resguardan tu privacidad financiera en cualquier circunstancia.
 
 Descubre cómo proteger tu patrimonio con la tecnología móvil para criptoactivos desarrollada por [Zi0n](https://zi0n.io).
 

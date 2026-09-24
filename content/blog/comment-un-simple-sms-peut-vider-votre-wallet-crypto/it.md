@@ -15,10 +15,10 @@ Il protocollo SMS è stato sviluppato negli anni '80 senza alcuna forma di critt
 
 La fragilità degli SMS non dipende da banali errori operativi, ma da carenze strutturali della rete globale di telecomunicazioni:
 
-• **Attacchi di SIM swapping:** i cybercriminali ingannano il servizio clienti dell'operatore telefonico tramite ingegneria sociale o dipendenti compiacenti, trasferendo il numero della vittima su una nuova scheda SIM sotto il proprio controllo.
-• **Vulnerabilità dell'infrastruttura SS7:** le falle nei protocolli di segnalazione SS7 consentono a gruppi dotati di accesso a nodi di rete di intercettare silenziosamente gli SMS in transito senza alcun segnale di anomalia sul dispositivo della vittima.
-• **Campagne mirate di smishing:** messaggi allarmistici riproducono comunicazioni bancarie o di exchange crittografici, inducendo l'utente a digitare credenziali e codici temporanei su portali civetta.
-• **Notifiche visualizzate a schermo bloccato:** consentire la lettura dei codici monouso direttamente dalla schermata di blocco espone le chiavi di accesso a chiunque si trovi in prossimità del terminale.
+- **Attacchi di SIM swapping:** i cybercriminali ingannano il servizio clienti dell'operatore telefonico tramite ingegneria sociale o dipendenti compiacenti, trasferendo il numero della vittima su una nuova scheda SIM sotto il proprio controllo.
+- **Vulnerabilità dell'infrastruttura SS7:** le falle nei protocolli di segnalazione SS7 consentono a gruppi dotati di accesso a nodi di rete di intercettare silenziosamente gli SMS in transito senza alcun segnale di anomalia sul dispositivo della vittima.
+- **Campagne mirate di smishing:** messaggi allarmistici riproducono comunicazioni bancarie o di exchange crittografici, inducendo l'utente a digitare credenziali e codici temporanei su portali civetta.
+- **Notifiche visualizzate a schermo bloccato:** consentire la lettura dei codici monouso direttamente dalla schermata di blocco espone le chiavi di accesso a chiunque si trovi in prossimità del terminale.
 
 ## Anatomia di un attacco: come i criminali svuotano i wallet
 
@@ -33,18 +33,18 @@ Non appena i criminali assumono il controllo del flusso degli SMS, procedono con
 
 Mettere al sicuro i propri asset digitali richiede la dismissione totale di ogni legame con la rete cellulare tradizionale:
 
-• **Eliminare il 2FA via SMS da tutti i conti:** passare a chiavi fisiche di sicurezza FIDO2 (YubiKey) o ad applicazioni di autenticazione locali che non si sincronizzano su cloud pubblici.
-• **Rimuovere il numero telefonico dalle piattaforme crypto:** eliminare il recapito mobile dai profili di trading e dagli indirizzi email di emergenza.
-• **Proteggere la SIM con codice PIN operatore:** richiedere al gestore telefonico l'attivazione di una password verbale per qualsiasi richiesta di duplicazione della scheda.
-• **Custodire le seed phrase rigorosamente offline:** evitare screenshot, note sul telefono o documenti non protetti su smartphone di largo consumo.
+- **Eliminare il 2FA via SMS da tutti i conti:** passare a chiavi fisiche di sicurezza FIDO2 (YubiKey) o ad applicazioni di autenticazione locali che non si sincronizzano su cloud pubblici.
+- **Rimuovere il numero telefonico dalle piattaforme crypto:** eliminare il recapito mobile dai profili di trading e dagli indirizzi email di emergenza.
+- **Proteggere la SIM con codice PIN operatore:** richiedere al gestore telefonico l'attivazione di una password verbale per qualsiasi richiesta di duplicazione della scheda.
+- **Custodire le seed phrase rigorosamente offline:** evitare screenshot, note sul telefono o documenti non protetti su smartphone di largo consumo.
 
 ## Come Zi0n neutralizza le vulnerabilità basate su SMS
 
 Per gli investitori e gli operatori finanziari che necessitano di una protezione senza compromessi, [Zi0n](https://zi0n.io) offre un ecosistema sicuro che neutralizza ogni vettore di attacco cellulare:
 
-• **Isolamento completo dei profili applicativi:** Zi0n confina le applicazioni di trading e i token di sicurezza in compartimenti stagni inaccessibili a malware o lettori di appunti.
-• **Connettività anonima e indipendente:** le eSIM internazionali e i tunnel cifrati di Zi0n consentono di navigare senza legare l'attività a numeri telefonici pubblici rintracciabili.
-• **Blocco hardware anti-spionaggio:** il blocco delle registrazioni dello schermo, la disattivazione del trasferimento dati via cavo USB e il PIN di coercizione salvaguardano i tuoi fondi anche in caso di aggressione fisica.
+- **Isolamento completo dei profili applicativi:** Zi0n confina le applicazioni di trading e i token di sicurezza in compartimenti stagni inaccessibili a malware o lettori di appunti.
+- **Connettività anonima e indipendente:** le eSIM internazionali e i tunnel cifrati di Zi0n consentono di navigare senza legare l'attività a numeri telefonici pubblici rintracciabili.
+- **Blocco hardware anti-spionaggio:** il blocco delle registrazioni dello schermo, la disattivazione del trasferimento dati via cavo USB e il PIN di coercizione salvaguardano i tuoi fondi anche in caso di aggressione fisica.
 
 Proteggi il tuo capitale digitale scegliendo la sicurezza integrata di [Zi0n](https://zi0n.io).
 

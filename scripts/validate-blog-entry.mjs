@@ -292,10 +292,16 @@ async function validateBlog(slug, imageCache = new Map()) {
       }
     }
 
-    // Advertencia de exceso de viñetas / listas numeradas (Anti-listitis)
+    // Detección de caracteres Unicode para viñetas en vez de sintaxis Markdown estándar
+    const unicodeBulletMatches = content.match(/(?:^|\n)[ \t]*[•●]\s+/g) || [];
+    if (unicodeBulletMatches.length > 0) {
+      warnings.push(`${lang}.md: contiene ${unicodeBulletMatches.length} viñetas con carácter Unicode ("•"). Usa siempre el guion estándar de Markdown ("- ") para que el navegador genere elementos <ul><li> y aplique la sangría a la derecha (padding-left: 24px) correctamente.`);
+    }
+
+    // Advertencia de saturación de viñetas / listas numeradas (Equilibrio y variedad)
     const listItemsMatches = content.match(/^(\s*[-*•]|\s*\d+\.)\s+/gm) || [];
-    if (listItemsMatches.length > 6) {
-      warnings.push(`${lang}.md: detectado posible exceso de listas/viñetas (${listItemsMatches.length} elementos). Se recomienda priorizar prosa editorial fluida, párrafos explicativos y subtítulos H3, limitando las listas a un máximo de 3-4 puntos en todo el artículo.`);
+    if (listItemsMatches.length > 10) {
+      warnings.push(`${lang}.md: detectado posible exceso de listas/viñetas (${listItemsMatches.length} elementos). Recuerda combinar variedad: prosa narrativa fluida, párrafos explicativos, destacados con "> " y limitar las listas a 1 o 2 bloques en todo el artículo para no saturar.`);
     }
 
     // Advertencia de subtítulos H3 numerados innecesariamente (ej. "### 1. Concepto")

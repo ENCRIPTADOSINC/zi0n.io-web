@@ -14,8 +14,8 @@ description: Genera un artículo de blog estandarizado, robusto y de alta calida
 > 4. **NO SE HACE PR A MENOS QUE SE PIDA LITERALMENTE EN EL CHAT / NO SE HACE PUSH A MAIN A MENOS QUE SE PIDA ESPECÍFICAMENTE:** ESTÁ ESTRICTAMENTE PROHIBIDO ABRIR PULL REQUESTS O HACER PUSH A LA RAMA `main` (O A CUALQUIER RAMA REMOTA) DE FORMA AUTOMÁTICA. SOLO SE HARÁ PUSH O PR SI EL USUARIO LO PIDE DE MANERA EXPRESA Y LITERAL EN EL CHAT.
 > 5. **MIENTRAS NO SE PIDA SUBIR AL REPO ESTAMOS EN FASE DE AJUSTES EN EL CONTENT:** MIENTRAS NO SE ORDENE EXPLÍCITAMENTE SUBIR AL REPOSITORIO, EL TRABAJO SE MANTIENE LOCALMENTE Y SE ASUME QUE ESTAMOS EN FASE DE ITERACIÓN, AJUSTES Y REVISIÓN DEL CONTENIDO Y DE LAS IMÁGENES.
 > 6. **PROHIBIDO REUTILIZAR UNA MISMA IMAGEN PARA VARIOS BLOGS (UNA IMAGEN NUEVA Y ÚNICA POR CADA BLOG):** CADA ARTÍCULO DE BLOG DEBE TENER OBLIGATORIAMENTE SU PROPIA IMAGEN ORIGINAL GENERADA EXCLUSIVAMENTE PARA ÉL. ESTÁ TOTALMENTE PROHIBIDO REUTILIZAR, DUPLICAR, RE-CODIFICAR, RECORTAR O COMPARTIR UNA MISMA IMAGEN BASE EN MÁS DE UN BLOG. EL VALIDADOR AUTOMATIZADO BLOQUEARÁ CUALQUIER IMAGEN QUE SEA VISUALMENTE IDÉNTICA O SIMILAR MEDIANTE HASH PERCEPTUAL (dHash) Y ANÁLISIS DE DIFERENCIA DE PÍXELES. CADA POST DEBE CONTAR CON UNA IMAGEN FOTOGRÁFICA INDIVIDUAL, ÚNICA Y CREADA ESPECÍFICAMENTE PARA SU TEMÁTICA.
-> 7. **MINÚSCULA OBLIGATORIA TRAS LOS DOS PUNTOS EN FRANCÉS (`fr.md`):** EN TODO EL CONTENIDO EN FRANCÉS, TRAS LOS DOS PUNTOS (`:` O `:**`) ESTÁ ESTRICTAMENTE PROHIBIDO PONER MAYÚSCULA INICIAL (VA SIEMPRE EN MINÚSCULA). EN LISTAS O EN EL CUERPO DEL TEXTO TRAS UN CONCEPTO EN NEGRITA (`• **Concept :** minúscula...` O `**Concept :** minúscula...`), EL TEXTO EXPLICATIVO SIEMPRE INICIA EN MINÚSCULA (`des...`, `conserver...`, `copier...`, `afficher...`, `lorsqu'un...`). ÚNICAS EXCEPCIONES: NOMBRES PROPIOS (`Zi0n`, `Android`) O CITAS ENTRE COMILLAS FRANCESAS `« »`.
-> 8. **PROSA EDITORIAL FLUIDA Y PROHIBICIÓN DEL ABUSO DE LISTAS, NÚMEROS Y PUNTOS ("CERO LISTITIS"):** QUEDA ESTRICTAMENTE PROHIBIDO CONVERTIR CADA SECCIÓN DEL ARTÍCULO EN UNA LISTA CON VIÑETAS (`•`, `-`) O NUMERADA (`1.`, `2.`, `3.`). NO ES NECESARIO NI ACEPTABLE QUE LAS IDEAS, AMENAZAS O RECOMENDACIONES COMIENCEN CON NÚMEROS O PUNTOS. EL ARTÍCULO DEBE LEERSE COMO UNA PIEZA DE ANÁLISIS EDITORIAL TÉCNICO Y PERIODISMO ESPECIALIZADO, CON PÁRRAFOS BIEN ARTICULADOS Y SUBTÍTULOS TEMÁTICOS H3 DESCRIPTIVOS (SIN ENUMERAR CON NÚMEROS). EN TODO EL ARTÍCULO SE PERMITE COMO MÁXIMO UNA SOLA LISTA BREVE (DE 3 A 4 ELEMENTOS) SI ES REALMENTE NECESARIA (POR EJEMPLO EN RECOMENDACIONES FINALES). TODAS LAS DEMÁS SECCIONES (DESAFÍO, ANÁLISIS DE ARQUITECTURA, INTEGRACIÓN CON ZI0N) DEBEN REDACTARSE OBLIGATORIAMENTE EN PROSA CONTINUA Y PÁRRAFOS NARRATIVOS.
+> 7. **MINÚSCULA OBLIGATORIA TRAS LOS DOS PUNTOS EN FRANCÉS (`fr.md`):** EN TODO EL CONTENIDO EN FRANCÉS, TRAS LOS DOS PUNTOS (`:` O `:**`) ESTÁ ESTRICTAMENTE PROHIBIDO PONER MAYÚSCULA INICIAL (VA SIEMPRE EN MINÚSCULA). TANTO EN LISTAS ESTÁNDAR CON GUION (`- **Concept :** minúscula...`) COMO EN EL CUERPO DEL TEXTO TRAS UN CONCEPTO EN NEGRITA (`**Concept :** minúscula...`), EL TEXTO EXPLICATIVO SIEMPRE INICIA EN MINÚSCULA (`des...`, `conserver...`, `copier...`, `afficher...`, `lorsqu'un...`). ÚNICAS EXCEPCIONES: NOMBRES PROPIOS (`Zi0n`, `Android`) O CITAS ENTRE COMILLAS FRANCESAS `« »`.
+> 8. **VARIEDAD VISUAL Y RITMO EDITORIAL (PUNTOS DE VEZ EN CUANDO, NÚMEROS SOLO EN CASOS ESPECIALES QUE LO REQUIERAN):** CADA ARTÍCULO DEBE TENER RITMO Y DINAMISMO VISUAL EQUILIBRADO. NI SATURAR CADA SECCIÓN CON LISTAS (EVITAR LISTITIS), NI PRESENTAR TODO COMO UN BLOQUE PLANO Y MONÓTONO. COMBINAR PÁRRAFOS NARRATIVOS FLUIDOS, 1 O 2 LISTAS CON GUION ESTÁNDAR (`- `) BIEN UBICADAS (CON SANGRÍA NATIVA A LA DERECHA) Y DESTACADOS (`> ` BLOCKQUOTE). LAS LISTAS NUMERADAS (`1.`, `2.`, `3.`) QUEDAN RESERVADAS EXCLUSIVAMENTE PARA CASOS ESPECIALES DONDE LA SECUENCIA TEMPORAL O PASO A PASO ESTRICTO REALMENTE LO REQUIERA (EJ. PROTOCOLO DE RESPUESTA A INCIDENTES EN 3 PASOS). PARA RECOMENDACIONES GENERALES O CARACTERÍSTICAS SIN ORDEN OBLIGATORIO, USAR SIEMPRE GUION (`- `) O PROSA. ESTÁ TOTALMENTE PROHIBIDO USAR EL CARÁCTER UNICODE `•`: EN MARKDOWN LAS VIÑETAS SE ESCRIBEN SIEMPRE CON GUION ESTÁNDAR (`- `) PARA QUE EL NAVEGADOR LAS RENDERICE CON SU SANGRÍA HACIA LA DERECHA (`padding-left: 24px`) Y NO SE APLASTEN EN UN PÁRRAFO.
 
 Esta Skill define el procedimiento estricto y resiliente para crear artículos de blog profesionales para Zi0n.io. Todo artículo generado debe cumplir con estándares rigurosos de seguridad, redacción técnica, multilenguaje, unicidad visual absoluta y validación automatizada antes de su publicación.
 
@@ -114,47 +114,68 @@ El validador automático bloqueará cualquier artículo que contenga estas frase
 | Chino (zh) | "在当今数字世界中...", "在我们生活的数字时代...", "总而言之,", "总的来说,", "希望的灯塔", "万花筒". |
 | Hindi (hi) | "आज के डिजिटल युग में...", "आज की डिजिटल दुनिया में...", "निष्कर्ष में,", "संक्षेप में,", "आशा की किरण", "कैलिडोस्कोप". |
 
-### ✍️ Prosa editorial fluida y eliminación del exceso de enumeraciones y viñetas ("Cero Listitis")
+### ✍️ Variedad visual y ritmo editorial: prosa fluida, listas equilibradas y formato estándar
 
-Uno de los patrones más recurrentes y delatores del texto generado por IA es la saturación de listas: convertir cada apartado del artículo en una sucesión mecánica de viñetas (`• **Concepto :** texto...`) o listas numeradas (`1. **Concepto :** texto...`). El resultado son artículos que parecen checklists de laboratorio o manuales esquemáticos, perdiendo el tono periodístico, analítico y envolvente que caracteriza a Zi0n.
+Un buen artículo de blog técnico no es una checklist monótona donde cada apartado es una lista, **pero tampoco es un bloque plano y uniforme de texto de pared a pared**. El diseño editorial exige **ritmo, dinamismo y variedad visual**, permitiendo que el lector escanee fácilmente y disfrute la lectura.
 
-> [!CAUTION]
-> #### 🚨 NO ES NECESARIO NI ACEPTABLE EMPEZAR CADA IDEA CON NÚMEROS O PUNTOS
-> No estructures el blog como una concatenación de listas. El lector busca un artículo técnico de fondo bien redactado, no una presentación de diapositivas en texto. Se debe priorizar la **prosa corrida, párrafos con desarrollo temático y subtítulos conceptuales**.
+> [!TIP]
+> #### 🎯 EL EQUILIBRIO PERFECTO: VARIEDAD DE RECURSOS EDITORIALES
+> **Los puntos y números SÍ pueden usarse de vez en cuando (1 o 2 listas bien ubicadas en el post)**. La clave es combinarlos armónicamente con párrafos continuos, subtítulos conceptuales y bloques destacados (`> `), evitando que el artículo caiga en cualquiera de los dos extremos: ni saturación de viñetas en cada sección ("listitis"), ni texto plano monótono sin sangría.
 
-#### 📌 Directrices de redacción editorial:
+#### 📌 1. ¿Cómo lograr que el texto tenga sangría hacia la derecha ("un poco a la derecha")?
 
-1. **No forzar listas numeradas ni viñetas en cada sección:**
-   - Queda terminantemente prohibido encadenar secciones consecutivas donde cada una sea una lista (`•` o `1., 2., 3.`).
-   - Si una sección presenta un desafío, vector de ataque o solución, desarróllalo en **párrafos narrativos continuos** (de 2 a 4 oraciones bien hiladas con causa, impacto y análisis técnico).
+En la maquetación web de Zi0n, las listas estándar (`<ul><li>`) y los bloques de cita (`<blockquote>`) tienen una sangría natural hacia la derecha (`padding-left: 24px` y `padding-left: 16px` respectivamente). Esa separación visual aporta orden y descanso al ojo del lector.
 
-2. **Subtítulos H3 temáticos y limpios en lugar de subtítulos numerados:**
-   - ❌ **Prohibido:** `### 1. Sauvegarde non sécurisée...`, `### 2. Malwares résidents...`, `### 3. Détournement SIM...`
-   - ✅ **Forma correcta:** `### Exposición y fuga de memoria en frases de recuperación`, `### Infección por malware residente y suplantadores de portapapeles`, `### Vulnerabilidad del canal celular y usurpación de SIM`
-   - Debajo de cada `###`, redacta prosa explicativa sin insertar una lista de viñetas adentro.
+Para que el navegador aplique correctamente esta sangría hacia la derecha:
+- ✅ **Usa SIEMPRE el guion estándar de Markdown (`- `) o números (`1. `):**
+  ```markdown
+  - **Aislamiento de procesos :** cada aplicación se ejecuta en una celda de memoria independiente...
+  - **Purga de memoria volátil :** las claves efímeras se destruyen al bloquear la pantalla...
+  ```
+- 🚫 **QUEDA TOTALMENTE PROHIBIDO usar el carácter tipográfico Unicode `•` o `●`:**
+  - En Markdown, el carácter `•` **NO es una lista**. El motor lo procesa como texto plano dentro de un párrafo (`<p>`).
+  - Como consecuencia: **pierde la sangría a la derecha**, queda pegado al margen izquierdo y los saltos de línea se colapsan, provocando que varios puntos se peguen en el mismo renglón (ej. `...suspecte. • Zéro télémétrie...`).
+  - Siempre se debe escribir `- ` (guion + espacio).
 
-3. **Límite estricto de listas en todo el post (Máximo UNA sola lista breve):**
-   - En todo el artículo se permite **como máximo UNA sola lista con viñetas** (de no más de 3 a 4 puntos sintéticos), idealmente en las recomendaciones prácticas finales si se requiere resumir acciones puntuales.
-   - Si no es estrictamente imprescindible, incluso las recomendaciones prácticas deben redactarse en párrafos narrativos.
-   - Si una sección ya contiene una lista, ninguna otra sección del artículo puede contener listas.
+#### 📌 2. Los cuatro recursos de variedad visual obligatorios en cada post:
 
-4. **Integración de Zi0n redactada en prosa arquitectónica:**
-   - ❌ **Evitar la lista mecánica de funciones:**
+1. **Párrafos de prosa narrativa fluida (para el análisis de fondo):**
+   - La introducción, la explicación profunda de la amenaza y la arquitectura de soluciones de Zi0n deben redactarse en **párrafos argumentativos de 2 a 4 oraciones bien construidas**, enlazadas con conectores lógicos ("Sin embargo,", "En este escenario,", "A diferencia de las arquitecturas comerciales...").
+
+2. **Listas con sangría hacia la derecha (de vez en cuando, 1 o 2 por post):**
+   - En secciones idóneas —como *Recomendaciones prácticas* o un *Checklist de verificación*— utiliza una lista estándar de **3 a 5 elementos con guion (`- `)**.
+   - Esto le da al artículo esa agradable indentación hacia la derecha (`padding-left: 24px`) y permite al lector retener acciones puntuales sin abrumarse.
+
+3. **Bloques destacados / Citas de autoridad (`> ` blockquote):**
+   - Incluye **1 bloque destacado (`> `)** en el cuerpo del post para resaltar una advertencia de seguridad crítica, un principio arquitectónico o una reflexión de impacto.
+   - En el frontend de Zi0n, estos bloques se renderizan con un elegante borde vertical izquierdo (`border-left: 3px solid ...`), texto en cursiva y sangría hacia la derecha, aportando un elemento visual distintivo:
      ```markdown
-     Zi0n neutralise les menaces grâce à :
-     • **Cable Wipe :** purge instantanée...
-     • **Duress PIN :** faux profil...
-     • **VPN décentralisé :** rotation d'IP...
-     ```
-   - ✅ **Redacción editorial integrada en párrafos:**
-     ```markdown
-     Frente a estos vectores de compromiso físico y lógico, la arquitectura de Zi0n plantea un enfoque de defensa en profundidad donde el hardware y el sistema operativo colaboran estrechamente. Al detectarse cualquier desconexión forzada o intento de acceso por cable, el protocolo de Cable Wipe interrumpe las líneas de datos USB y ejecuta la purga de claves en memoria volátil de forma instantánea.
-
-     De forma paralela, el entorno mitiga los escenarios de coacción física mediante el Duress PIN, que despliega una sesión de señuelo funcional preservando las áreas blindadas del dispositivo. Todo el tráfico hacia el ecosistema Web3 transita por una red descentralizada con rotación dinámica de direcciones IP, eliminando la correlación de metadatos celulares y blindando la identidad operativa del usuario.
+     > La verdadera seguridad móvil no reside en la complejidad de un código PIN, sino en la incapacidad física del hardware para entregar datos a un puerto no autorizado.
      ```
 
-5. **Eliminar el patrón repetitivo de IA `• **Palabra clave :** explicación extensa`:**
-   - Las ideas deben fluir con sintaxis natural mediante oraciones coordinadas, subordinadas y conectores argumentativos, en vez de fragmentar el pensamiento en etiquetas artificiales en negrita seguidas de dos puntos.
+4. **Subtítulos H3 temáticos limpios (sin numerar artificialmente):**
+   - ❌ **Evitar:** `### 1. Sauvegarde...`, `### 2. Malwares...`
+   - ✅ **Forma correcta:** `### Exposición y fuga de memoria en frases de recuperación`, `### Infección por malware residente y troyanos de portapapeles`
+   - Debajo de cada subtítulo, alterna entre 1 o 2 párrafos explicativos y, si aplica, algún elemento visual destacado.
+
+#### 🔢 4. Uso de números: reservado exclusivamente para casos especiales que lo requieran
+
+Las listas numeradas (`1.`, `2.`, `3.`) **NO deben usarse para enumerar conceptos ordinarios** (como características, funciones de Zi0n o recomendaciones independientes). Se reservan de manera puntual para casos especiales:
+- **Procedimientos paso a paso estrictos:** Donde el orden cronológico de ejecución es indispensable (ej. *"Protocolo inmediato ante sospecha de SIM swapping: 1. Activar modo avión y cortar enlaces de radio; 2. Comunicarse con el operador desde una línea segura; 3. Revocar permisos y sesiones de intercambio activas"*).
+- **Fases temporales de una auditoría o vector de ataque progresivo.**
+- **Rankings específicos o jerarquías de prioridad secuencial.**
+
+Para cualquier otro caso (recomendaciones generales, criterios de selección o características), se utiliza **el guion estándar (`- `)** con sangría a la derecha, o se redacta en prosa fluida.
+
+#### 📌 5. Integración de Zi0n: redactada en prosa arquitectónica
+
+En lugar de una simple enumeración mecánica (`- Función 1: ...`, `- Función 2: ...`), explica cómo las defensas físicas y lógicas colaboran como un sistema integral:
+
+```markdown
+Frente a estos vectores de compromiso físico y lógico, la arquitectura de Zi0n plantea un enfoque de defensa en profundidad donde el hardware y el sistema operativo colaboran estrechamente. Al detectarse cualquier desconexión forzada o intento de acceso por cable, el protocolo de Cable Wipe interrumpe las líneas de datos USB y ejecuta la purga de claves en memoria volátil de forma instantánea.
+
+De forma paralela, el entorno mitiga los escenarios de coacción física mediante el Duress PIN, que despliega una sesión de señuelo funcional preservando las áreas blindadas del dispositivo. Todo el tráfico hacia el ecosistema Web3 transita por una red descentralizada con rotación dinámica de direcciones IP, eliminando la correlación de metadatos celulares y blindando la identidad operativa del usuario.
+```
 
 ### 🔠 Regla global de mayúsculas en títulos — los 10 idiomas
 

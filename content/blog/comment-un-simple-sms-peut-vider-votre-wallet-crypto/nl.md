@@ -15,10 +15,10 @@ Het SMS-protocol werd begin jaren tachtig ontworpen zonder ingebouwde encryptie,
 
 De kwetsbaarheid van SMS is geen incidentele programmeerfout, maar een fundamenteel structureel gebrek in het traditionele telecomnetwerk:
 
-• **SIM-swapping aanvallen:** aanvallers misleiden medewerkers van telecomproviders via social engineering of omkoping om je telefoonnummer over te zetten naar een SIM-kaart in hun bezit.
-• **Lekken in het SS7-protocol:** ontwerpfouten in het wereldwijde SS7-signaleringsnetwerk stellen kwaadwillenden met telecomtoegang in staat om SMS-berichten geruisloos te onderscheppen.
-• **Gerichte smishing-campagnes:** frauduleuze berichten die betrouwbare beurzen nabootsen, bewegen gebruikers ertoe om inloggegevens en tijdelijke verificatiecodes op valse pagina's in te vullen.
-• **Meldingen op het vergrendelscherm:** het tonen van verificatiecodes op een vergrendeld toestel stelt omstanders in staat om inlogcodes zonder toestemming af te lezen.
+- **SIM-swapping aanvallen:** aanvallers misleiden medewerkers van telecomproviders via social engineering of omkoping om je telefoonnummer over te zetten naar een SIM-kaart in hun bezit.
+- **Lekken in het SS7-protocol:** ontwerpfouten in het wereldwijde SS7-signaleringsnetwerk stellen kwaadwillenden met telecomtoegang in staat om SMS-berichten geruisloos te onderscheppen.
+- **Gerichte smishing-campagnes:** frauduleuze berichten die betrouwbare beurzen nabootsen, bewegen gebruikers ertoe om inloggegevens en tijdelijke verificatiecodes op valse pagina's in te vullen.
+- **Meldingen op het vergrendelscherm:** het tonen van verificatiecodes op een vergrendeld toestel stelt omstanders in staat om inlogcodes zonder toestemming af te lezen.
 
 ## Anatomie van een aanval: hoe criminelen wallets leeghalen
 
@@ -33,18 +33,18 @@ Zodra cybercriminelen de controle over je inkomende SMS-berichten hebben overgen
 
 Het veiligstellen van je crypto-activa vereist het volledig beëindigen van elke afhankelijkheid van SMS:
 
-• **Verwijder SMS-2FA direct bij alle financiële diensten:** schakel direct over naar fysieke FIDO2-beveiligingssleutels (zoals YubiKey) of lokale authenticator-apps zonder cloud-synchronisatie.
-• **Ontkoppel je telefoonnummer van crypto-platforms:** verwijder je mobiele nummer uit handelsaccounts en herstelopties van je e-mail.
-• **Beveilig je telecomaccount met een extra PIN-code:** stel bij je mobiele provider een mondeling wachtwoord in dat vereist is voor elke SIM-wijziging.
-• **Bewaar herstelzinnen uitsluitend offline:** sla nooit screenshots, digitale notities of niet-versleutelde documenten op reguliere smartphones op.
+- **Verwijder SMS-2FA direct bij alle financiële diensten:** schakel direct over naar fysieke FIDO2-beveiligingssleutels (zoals YubiKey) of lokale authenticator-apps zonder cloud-synchronisatie.
+- **Ontkoppel je telefoonnummer van crypto-platforms:** verwijder je mobiele nummer uit handelsaccounts en herstelopties van je e-mail.
+- **Beveilig je telecomaccount met een extra PIN-code:** stel bij je mobiele provider een mondeling wachtwoord in dat vereist is voor elke SIM-wijziging.
+- **Bewaar herstelzinnen uitsluitend offline:** sla nooit screenshots, digitale notities of niet-versleutelde documenten op reguliere smartphones op.
 
 ## Hoe Zi0n SMS-kwetsbaarheden neutraliseert
 
 Voor handelaren en investeerders die maximale bescherming eisen tegen mobiele dreigingen, biedt [Zi0n](https://zi0n.io) een geharde mobiele omgeving die telecomaanvallen onschadelijk maakt:
 
-• **Hermetisch geïsoleerde profielen:** Zi0n voert financiële applicaties en authenticatie-apps uit in afgesloten kluizen, zodat malware het klembord niet kan uitlezen.
-• **Anonieme dataverbinding zonder blootgesteld nummer:** dankzij internationale eSIM-functionaliteiten en versleutelde datatunnels blijven je transacties losgekoppeld van kwetsbare publieke telefoonnummers.
-• **Hardwarematige privacybescherming:** het blokkeren van schermafbeeldingen, automatische uitschakeling van USB-datapoorten en de Duress PIN waarborgen je veiligheid onder alle omstandigheden.
+- **Hermetisch geïsoleerde profielen:** Zi0n voert financiële applicaties en authenticatie-apps uit in afgesloten kluizen, zodat malware het klembord niet kan uitlezen.
+- **Anonieme dataverbinding zonder blootgesteld nummer:** dankzij internationale eSIM-functionaliteiten en versleutelde datatunnels blijven je transacties losgekoppeld van kwetsbare publieke telefoonnummers.
+- **Hardwarematige privacybescherming:** het blokkeren van schermafbeeldingen, automatische uitschakeling van USB-datapoorten en de Duress PIN waarborgen je veiligheid onder alle omstandigheden.
 
 Bescherm je vermogen effectief tegen geavanceerde mobiele aanvallen met de beveiligde smartphones van [Zi0n](https://zi0n.io).
 

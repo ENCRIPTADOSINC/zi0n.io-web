@@ -15,10 +15,10 @@ O protocolo de SMS foi criado no início dos anos 1980 sem qualquer recurso de c
 
 A vulnerabilidade das mensagens de texto não decorre de falhas menores, mas da própria estrutura desatualizada das telecomunicações:
 
-• **Golpe do SIM swap (clonagem de chip):** criminosos convencem atendentes da operadora de telefonia por meio de engenharia social a transferir o seu número para um novo chip controlado pela quadrilha.
-• **Brechas no protocolo SS7:** falhas na arquitetura global de sinalização das operadoras permitem que invasores com acesso a nós de rede interceptem mensagens de texto em trânsito de forma imperceptível.
-• **Golpes de smishing direcionados:** mensagens fraudulentas simulam alertas urgentes de corretoras conhecidas, induzindo o investidor a inserir senhas e códigos descartáveis em páginas falsas.
-• **Códigos na tela de bloqueio:** a exibição de prévias de notificações em celulares travados permite que qualquer pessoa próxima visualize os códigos de verificação sem precisar desbloquear o dispositivo.
+- **Golpe do SIM swap (clonagem de chip):** criminosos convencem atendentes da operadora de telefonia por meio de engenharia social a transferir o seu número para um novo chip controlado pela quadrilha.
+- **Brechas no protocolo SS7:** falhas na arquitetura global de sinalização das operadoras permitem que invasores com acesso a nós de rede interceptem mensagens de texto em trânsito de forma imperceptível.
+- **Golpes de smishing direcionados:** mensagens fraudulentas simulam alertas urgentes de corretoras conhecidas, induzindo o investidor a inserir senhas e códigos descartáveis em páginas falsas.
+- **Códigos na tela de bloqueio:** a exibição de prévias de notificações em celulares travados permite que qualquer pessoa próxima visualize os códigos de verificação sem precisar desbloquear o dispositivo.
 
 ## Anatomia de um ataque: como os criminosos esvaziam as carteiras
 
@@ -33,18 +33,18 @@ Após capturar o fluxo de mensagens SMS da vítima, a quadrilha executa um rotei
 
 Garantir a integridade do seu patrimônio digital exige a eliminação total de senhas e códigos via rede celular:
 
-• **Substituir o 2FA por SMS imediatamente:** migrar todos os acessos financeiros para chaves físicas de segurança FIDO2 (YubiKey) ou aplicativos autenticadores locais desconectados da nuvem.
-• **Desvincular o número de celular das plataformas cripto:** remover o telefone de cadastros em corretoras e de opções de recuperação de e-mails críticos.
-• **Ativar PIN de segurança na operadora:** exigir o cadastro de uma senha verbal ou PIN específico para autorizar qualquer emissão de novo chip ou alteração cadastral.
-• **Guardar as palavras de recuperação estritamente offline:** jamais salvar fotos, notas de texto ou cópias digitais das chaves privadas em smartphones convencionais.
+- **Substituir o 2FA por SMS imediatamente:** migrar todos os acessos financeiros para chaves físicas de segurança FIDO2 (YubiKey) ou aplicativos autenticadores locais desconectados da nuvem.
+- **Desvincular o número de celular das plataformas cripto:** remover o telefone de cadastros em corretoras e de opções de recuperação de e-mails críticos.
+- **Ativar PIN de segurança na operadora:** exigir o cadastro de uma senha verbal ou PIN específico para autorizar qualquer emissão de novo chip ou alteração cadastral.
+- **Guardar as palavras de recuperação estritamente offline:** jamais salvar fotos, notas de texto ou cópias digitais das chaves privadas em smartphones convencionais.
 
 ## Como o Zi0n neutraliza as vulnerabilidades de SMS
 
 Para investidores e profissionais que não admitem riscos à sua soberania financeira, o [Zi0n](https://zi0n.io) entrega uma plataforma duradoura e impenetrável contra ataques cibernéticos:
 
-• **Ambiente blindado com isolamento de perfis:** o Zi0n mantém carteiras e ferramentas de autenticação em compartimentos herméticos, impedindo que aplicativos espiões monitorem telas ou leiam a área de transferência.
-• **Conexão privativa sem exposição de linha:** o uso de eSIMs internacionais e rotas criptografadas pelo Zi0n desvincula a sua navegação de linhas telefônicas públicas vulneráveis a clonagem.
-• **Mecanismos físicos de autodefesa:** bloqueio nativo de capturas de tela, proteção automática contra extração de dados via USB e o Duress PIN garantem proteção total contra coação.
+- **Ambiente blindado com isolamento de perfis:** o Zi0n mantém carteiras e ferramentas de autenticação em compartimentos herméticos, impedindo que aplicativos espiões monitorem telas ou leiam a área de transferência.
+- **Conexão privativa sem exposição de linha:** o uso de eSIMs internacionais e rotas criptografadas pelo Zi0n desvincula a sua navegação de linhas telefônicas públicas vulneráveis a clonagem.
+- **Mecanismos físicos de autodefesa:** bloqueio nativo de capturas de tela, proteção automática contra extração de dados via USB e o Duress PIN garantem proteção total contra coação.
 
 Eleve a proteção do seu patrimônio a um novo patamar com os smartphones seguros desenvolvidos pela [Zi0n](https://zi0n.io).
 

@@ -15,10 +15,10 @@ Das SMS-Protokoll wurde Anfang der 1980er Jahre ohne kryptografische Verschlüss
 
 Die Anfälligkeit von SMS beruht nicht auf einfachen Anwendungsfehlern, sondern auf grundlegenden Mängeln der weltweiten Telekommunikationsinfrastruktur:
 
-• **SIM-Swapping-Angriffe:** Kriminelle manipulieren den Kundenservice des Mobilfunkanbieters durch Social Engineering oder bestochene Mitarbeiter, um Ihre Rufnummer auf eine neue SIM-Karte unter ihrer Kontrolle zu übertragen.
-• **Schwachstellen im SS7-Netzwerk:** Konstruktionsfehler im Signaling System 7 ermöglichen es Akteuren mit Zugriff auf Netzwerkknoten, SMS-Nachrichten unbemerkt und ohne Unterbrechung der Verbindung auf dem Zielgerät abzufangen.
-• **Gezielte Smishing-Täuschungen:** Gefälschte Nachrichten imitieren Sicherheitswarnungen bekannter Handelsplattformen, um Anleger zur Eingabe von Zugangsdaten und Einmalpasswörtern auf gefälschten Webseiten zu verleiten.
-• **Sicherheitsrisiko Sperrbildschirm:** Wenn temporäre Einmalcodes auf dem gesperrten Bildschirm angezeigt werden, können anwesende Personen diese ohne Gerätezugriff mühelos ablesen.
+- **SIM-Swapping-Angriffe:** Kriminelle manipulieren den Kundenservice des Mobilfunkanbieters durch Social Engineering oder bestochene Mitarbeiter, um Ihre Rufnummer auf eine neue SIM-Karte unter ihrer Kontrolle zu übertragen.
+- **Schwachstellen im SS7-Netzwerk:** Konstruktionsfehler im Signaling System 7 ermöglichen es Akteuren mit Zugriff auf Netzwerkknoten, SMS-Nachrichten unbemerkt und ohne Unterbrechung der Verbindung auf dem Zielgerät abzufangen.
+- **Gezielte Smishing-Täuschungen:** Gefälschte Nachrichten imitieren Sicherheitswarnungen bekannter Handelsplattformen, um Anleger zur Eingabe von Zugangsdaten und Einmalpasswörtern auf gefälschten Webseiten zu verleiten.
+- **Sicherheitsrisiko Sperrbildschirm:** Wenn temporäre Einmalcodes auf dem gesperrten Bildschirm angezeigt werden, können anwesende Personen diese ohne Gerätezugriff mühelos ablesen.
 
 ## Anatomie eines Angriffs: wie Kriminelle Wallets leeren
 
@@ -33,18 +33,18 @@ Sobald Angreifer die Kontrolle über den SMS-Empfang erlangt haben, läuft der D
 
 Der Schutz Ihres digitalen Kapitals erfordert die vollständige Abkehr von unsicheren Telefonnetz-Verfahren:
 
-• **SMS-2FA bei allen Krypto-Diensten sofort deaktivieren:** Stellen Sie Ihre Konten auf physische FIDO2-Sicherheitsschlüssel (YubiKey) oder lokale Authentifikator-Apps ohne Cloud-Synchronisation um.
-• **Telefonnummer aus Krypto-Profilen entfernen:** Löschen Sie Ihre private Handynummer aus den Einstellungen aller Handelsbörsen und Wiederherstellungsoptionen.
-• **Konto beim Mobilfunkanbieter mit PIN absichern:** Hinterlegen Sie ein persönliches Passwort, ohne das kein Kartentausch oder Rufnummerntransfer vorgenommen werden darf.
-• **Seed-Phrasen ausschließlich offline verwahren:** Speichern Sie niemals Fotos, unverschlüsselte Notizen oder Screenshots Ihrer geheimen Wörter auf herkömmlichen Smartphones.
+- **SMS-2FA bei allen Krypto-Diensten sofort deaktivieren:** Stellen Sie Ihre Konten auf physische FIDO2-Sicherheitsschlüssel (YubiKey) oder lokale Authentifikator-Apps ohne Cloud-Synchronisation um.
+- **Telefonnummer aus Krypto-Profilen entfernen:** Löschen Sie Ihre private Handynummer aus den Einstellungen aller Handelsbörsen und Wiederherstellungsoptionen.
+- **Konto beim Mobilfunkanbieter mit PIN absichern:** Hinterlegen Sie ein persönliches Passwort, ohne das kein Kartentausch oder Rufnummerntransfer vorgenommen werden darf.
+- **Seed-Phrasen ausschließlich offline verwahren:** Speichern Sie niemals Fotos, unverschlüsselte Notizen oder Screenshots Ihrer geheimen Wörter auf herkömmlichen Smartphones.
 
 ## Wie Zi0n SMS-basierte Schwachstellen neutralisiert
 
 Für professionelle Anleger und sicherheitsbewusste Nutzer bietet [Zi0n](https://zi0n.io) ein hochgradig gehärtetes Mobilbetriebssystem, das Angriffen über das Mobilfunknetz wirksam vorbeugt:
 
-• **Strikte Profiltrennung in sicheren Bereichen:** Zi0n isoliert Krypto-Anwendungen und Authentifizierungswerkzeuge in versiegelten Umgebungen, wodurch Spyware keinen Zugriff auf Zwischenablage oder Bildschirmdaten erhält.
-• **Private Konnektivität ohne Identitätsbindung:** Durch weltweite eSIM-Optionen und verschlüsselte Datenkanäle trennt Zi0n Ihre sensiblen Aktivitäten von öffentlichen Rufnummern.
-• **Hardwarebasierte Schutzfunktionen:** Automatisches Blockieren von Bildschirmaufnahmen, Datenabschaltung an USB-Schnittstellen bei gesperrtem Display und der Duress-PIN schützen Ihre Bestände selbst bei physischem Zugriff.
+- **Strikte Profiltrennung in sicheren Bereichen:** Zi0n isoliert Krypto-Anwendungen und Authentifizierungswerkzeuge in versiegelten Umgebungen, wodurch Spyware keinen Zugriff auf Zwischenablage oder Bildschirmdaten erhält.
+- **Private Konnektivität ohne Identitätsbindung:** Durch weltweite eSIM-Optionen und verschlüsselte Datenkanäle trennt Zi0n Ihre sensiblen Aktivitäten von öffentlichen Rufnummern.
+- **Hardwarebasierte Schutzfunktionen:** Automatisches Blockieren von Bildschirmaufnahmen, Datenabschaltung an USB-Schnittstellen bei gesperrtem Display und der Duress-PIN schützen Ihre Bestände selbst bei physischem Zugriff.
 
 Schützen Sie Ihr Krypto-Vermögen nachhaltig mit den gehärteten Sicherheits-Smartphones von [Zi0n](https://zi0n.io).
 

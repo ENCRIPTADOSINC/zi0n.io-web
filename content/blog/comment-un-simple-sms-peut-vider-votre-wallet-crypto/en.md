@@ -15,10 +15,10 @@ The SMS protocol was developed in the early 1980s without any built-in encryptio
 
 The vulnerability of SMS does not stem from minor software bugs, but from intrinsic architectural deficiencies across traditional telecommunications networks:
 
-• **SIM swapping attacks:** criminals deceive telecom customer support representatives using social engineering or bribed insider employees, reassigning your phone number to a fraudulent SIM card under their direct possession.
-• **SS7 protocol vulnerabilities:** core design flaws in the Signaling System 7 network allow attackers with telecom routing privileges to intercept text messages in transit without any warning signs on the victim's phone.
-• **Targeted smishing campaigns:** sophisticated phishing messages mimic genuine security alerts from leading exchanges, prompting users to enter credentials and one-time passwords on malicious mirror websites.
-• **Lock screen notification leakage:** displaying temporary authentication codes on locked smartphone screens allows anyone in physical proximity to read one-time passcodes without unlocking the terminal.
+- **SIM swapping attacks:** criminals deceive telecom customer support representatives using social engineering or bribed insider employees, reassigning your phone number to a fraudulent SIM card under their direct possession.
+- **SS7 protocol vulnerabilities:** core design flaws in the Signaling System 7 network allow attackers with telecom routing privileges to intercept text messages in transit without any warning signs on the victim's phone.
+- **Targeted smishing campaigns:** sophisticated phishing messages mimic genuine security alerts from leading exchanges, prompting users to enter credentials and one-time passwords on malicious mirror websites.
+- **Lock screen notification leakage:** displaying temporary authentication codes on locked smartphone screens allows anyone in physical proximity to read one-time passcodes without unlocking the terminal.
 
 ## Anatomy of an attack: how criminals drain digital wallets
 
@@ -33,18 +33,18 @@ Once an adversary captures your mobile messaging flow, they execute an orchestra
 
 Safeguarding your digital wealth requires severing all ties between financial authentication and traditional cellular channels:
 
-• **Eliminate SMS 2FA across all financial services:** replace text-based codes with physical FIDO2 hardware security keys (such as YubiKey) or local, cloud-independent authenticator applications.
-• **Remove your phone number from crypto profiles:** disassociate your personal telephone number from all exchange settings and recovery workflows.
-• **Establish a carrier security verbal PIN:** require your cellular provider to enforce strict verbal passcodes before processing any SIM replacement or account modification.
-• **Never store private keys in unencrypted digital formats:** avoid storing screenshots, seed phrase backups, or plain-text notes on standard consumer smartphones.
+- **Eliminate SMS 2FA across all financial services:** replace text-based codes with physical FIDO2 hardware security keys (such as YubiKey) or local, cloud-independent authenticator applications.
+- **Remove your phone number from crypto profiles:** disassociate your personal telephone number from all exchange settings and recovery workflows.
+- **Establish a carrier security verbal PIN:** require your cellular provider to enforce strict verbal passcodes before processing any SIM replacement or account modification.
+- **Never store private keys in unencrypted digital formats:** avoid storing screenshots, seed phrase backups, or plain-text notes on standard consumer smartphones.
 
 ## How Zi0n neutralizes SMS vulnerabilities
 
 For cryptocurrency holders, active traders, and privacy-conscious professionals, [Zi0n](https://zi0n.io) provides a hardened operating environment engineered to neutralize telecom-based attack vectors:
 
-• **Sandboxed vault isolation:** Zi0n executes financial applications and authentication tools inside sealed, isolated workspaces that prevent rogue applications from reading clipboard data or capturing keystrokes.
-• **Anonymous, private data connectivity:** with international eSIM capabilities and encrypted routing, Zi0n decouples your sensitive operations from exposed personal phone numbers that attackers can target.
-• **Hardware-enforced defenses:** native screenshot blocking, physical port lockdown against unauthorized USB data extraction, and duress PIN capabilities guarantee resilience even during physical inspection attempts.
+- **Sandboxed vault isolation:** Zi0n executes financial applications and authentication tools inside sealed, isolated workspaces that prevent rogue applications from reading clipboard data or capturing keystrokes.
+- **Anonymous, private data connectivity:** with international eSIM capabilities and encrypted routing, Zi0n decouples your sensitive operations from exposed personal phone numbers that attackers can target.
+- **Hardware-enforced defenses:** native screenshot blocking, physical port lockdown against unauthorized USB data extraction, and duress PIN capabilities guarantee resilience even during physical inspection attempts.
 
 Take control of your financial security today by adopting a dedicated privacy smartphone powered by [Zi0n](https://zi0n.io).
 

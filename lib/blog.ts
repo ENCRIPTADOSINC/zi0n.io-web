@@ -63,14 +63,23 @@ function resolveLocaleFile(slug: string, locale: Locale): { filePath: string; us
   return null
 }
 
+function normalizeMarkdown(markdown: string): string {
+  return markdown
+    // Normalizar viñetas unicode al inicio de línea a guión estándar Markdown (- )
+    .replace(/(?:\r?\n|^)[ \t]*[•●][ \t]+/g, "\n- ")
+    // Separar viñetas inline pegadas en el mismo párrafo (ej. "texto. • Siguiente punto")
+    .replace(/([^\n])[ \t]+[•●][ \t]+/g, "$1\n\n- ")
+}
+
 function markdownToHtml(markdown: string): string {
+  const normalized = normalizeMarkdown(markdown)
   const file = unified()
     .use(remarkParse)
     .use(remarkGfm)
     .use(remarkRehype)
     .use(rehypeSlug)
     .use(rehypeStringify)
-    .processSync(markdown)
+    .processSync(normalized)
 
   return String(file)
 }
