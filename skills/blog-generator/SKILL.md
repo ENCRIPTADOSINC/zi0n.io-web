@@ -14,7 +14,8 @@ description: Genera un artículo de blog estandarizado, robusto y de alta calida
 > 4. **NO SE HACE PR A MENOS QUE SE PIDA LITERALMENTE EN EL CHAT / NO SE HACE PUSH A MAIN A MENOS QUE SE PIDA ESPECÍFICAMENTE:** ESTÁ ESTRICTAMENTE PROHIBIDO ABRIR PULL REQUESTS O HACER PUSH A LA RAMA `main` (O A CUALQUIER RAMA REMOTA) DE FORMA AUTOMÁTICA. SOLO SE HARÁ PUSH O PR SI EL USUARIO LO PIDE DE MANERA EXPRESA Y LITERAL EN EL CHAT.
 > 5. **MIENTRAS NO SE PIDA SUBIR AL REPO ESTAMOS EN FASE DE AJUSTES EN EL CONTENT:** MIENTRAS NO SE ORDENE EXPLÍCITAMENTE SUBIR AL REPOSITORIO, EL TRABAJO SE MANTIENE LOCALMENTE Y SE ASUME QUE ESTAMOS EN FASE DE ITERACIÓN, AJUSTES Y REVISIÓN DEL CONTENIDO Y DE LAS IMÁGENES.
 > 6. **PROHIBIDO REUTILIZAR UNA MISMA IMAGEN PARA VARIOS BLOGS (UNA IMAGEN NUEVA Y ÚNICA POR CADA BLOG):** CADA ARTÍCULO DE BLOG DEBE TENER OBLIGATORIAMENTE SU PROPIA IMAGEN ORIGINAL GENERADA EXCLUSIVAMENTE PARA ÉL. ESTÁ TOTALMENTE PROHIBIDO REUTILIZAR, DUPLICAR, RE-CODIFICAR, RECORTAR O COMPARTIR UNA MISMA IMAGEN BASE EN MÁS DE UN BLOG. EL VALIDADOR AUTOMATIZADO BLOQUEARÁ CUALQUIER IMAGEN QUE SEA VISUALMENTE IDÉNTICA O SIMILAR MEDIANTE HASH PERCEPTUAL (dHash) Y ANÁLISIS DE DIFERENCIA DE PÍXELES. CADA POST DEBE CONTAR CON UNA IMAGEN FOTOGRÁFICA INDIVIDUAL, ÚNICA Y CREADA ESPECÍFICAMENTE PARA SU TEMÁTICA.
-> 7. **MINÚSCULA OBLIGATORIA TRAS LOS DOS PUNTOS EN FRANCÉS (`fr.md`):** EN TODO EL CONTENIDO EN FRANCÉS, TRAS LOS DOS PUNTOS (`:` O `:**`) ESTÁ ESTRICTAMENTE PROHIBIDO PONER MAYÚSCULA INICIAL (VA SIEMPRE EN MINÚSCULA). EN LISTAS CON ENCABEZADOS EN NEGRITA (`• **Concept :** minúscula...` O `1. **Concept :** minúscula...`), EL TEXTO EXPLICATIVO SIEMPRE INICIA EN MINÚSCULA (`des...`, `conserver...`, `copier...`, `afficher...`, `lorsqu'un...`). ÚNICAS EXCEPCIONES: NOMBRES PROPIOS (`Zi0n`, `Android`) O CITAS ENTRE COMILLAS FRANCESAS `« »`.
+> 7. **MINÚSCULA OBLIGATORIA TRAS LOS DOS PUNTOS EN FRANCÉS (`fr.md`):** EN TODO EL CONTENIDO EN FRANCÉS, TRAS LOS DOS PUNTOS (`:` O `:**`) ESTÁ ESTRICTAMENTE PROHIBIDO PONER MAYÚSCULA INICIAL (VA SIEMPRE EN MINÚSCULA). EN LISTAS O EN EL CUERPO DEL TEXTO TRAS UN CONCEPTO EN NEGRITA (`• **Concept :** minúscula...` O `**Concept :** minúscula...`), EL TEXTO EXPLICATIVO SIEMPRE INICIA EN MINÚSCULA (`des...`, `conserver...`, `copier...`, `afficher...`, `lorsqu'un...`). ÚNICAS EXCEPCIONES: NOMBRES PROPIOS (`Zi0n`, `Android`) O CITAS ENTRE COMILLAS FRANCESAS `« »`.
+> 8. **PROSA EDITORIAL FLUIDA Y PROHIBICIÓN DEL ABUSO DE LISTAS, NÚMEROS Y PUNTOS ("CERO LISTITIS"):** QUEDA ESTRICTAMENTE PROHIBIDO CONVERTIR CADA SECCIÓN DEL ARTÍCULO EN UNA LISTA CON VIÑETAS (`•`, `-`) O NUMERADA (`1.`, `2.`, `3.`). NO ES NECESARIO NI ACEPTABLE QUE LAS IDEAS, AMENAZAS O RECOMENDACIONES COMIENCEN CON NÚMEROS O PUNTOS. EL ARTÍCULO DEBE LEERSE COMO UNA PIEZA DE ANÁLISIS EDITORIAL TÉCNICO Y PERIODISMO ESPECIALIZADO, CON PÁRRAFOS BIEN ARTICULADOS Y SUBTÍTULOS TEMÁTICOS H3 DESCRIPTIVOS (SIN ENUMERAR CON NÚMEROS). EN TODO EL ARTÍCULO SE PERMITE COMO MÁXIMO UNA SOLA LISTA BREVE (DE 3 A 4 ELEMENTOS) SI ES REALMENTE NECESARIA (POR EJEMPLO EN RECOMENDACIONES FINALES). TODAS LAS DEMÁS SECCIONES (DESAFÍO, ANÁLISIS DE ARQUITECTURA, INTEGRACIÓN CON ZI0N) DEBEN REDACTARSE OBLIGATORIAMENTE EN PROSA CONTINUA Y PÁRRAFOS NARRATIVOS.
 
 Esta Skill define el procedimiento estricto y resiliente para crear artículos de blog profesionales para Zi0n.io. Todo artículo generado debe cumplir con estándares rigurosos de seguridad, redacción técnica, multilenguaje, unicidad visual absoluta y validación automatizada antes de su publicación.
 
@@ -113,6 +114,48 @@ El validador automático bloqueará cualquier artículo que contenga estas frase
 | Chino (zh) | "在当今数字世界中...", "在我们生活的数字时代...", "总而言之,", "总的来说,", "希望的灯塔", "万花筒". |
 | Hindi (hi) | "आज के डिजिटल युग में...", "आज की डिजिटल दुनिया में...", "निष्कर्ष में,", "संक्षेप में,", "आशा की किरण", "कैलिडोस्कोप". |
 
+### ✍️ Prosa editorial fluida y eliminación del exceso de enumeraciones y viñetas ("Cero Listitis")
+
+Uno de los patrones más recurrentes y delatores del texto generado por IA es la saturación de listas: convertir cada apartado del artículo en una sucesión mecánica de viñetas (`• **Concepto :** texto...`) o listas numeradas (`1. **Concepto :** texto...`). El resultado son artículos que parecen checklists de laboratorio o manuales esquemáticos, perdiendo el tono periodístico, analítico y envolvente que caracteriza a Zi0n.
+
+> [!CAUTION]
+> #### 🚨 NO ES NECESARIO NI ACEPTABLE EMPEZAR CADA IDEA CON NÚMEROS O PUNTOS
+> No estructures el blog como una concatenación de listas. El lector busca un artículo técnico de fondo bien redactado, no una presentación de diapositivas en texto. Se debe priorizar la **prosa corrida, párrafos con desarrollo temático y subtítulos conceptuales**.
+
+#### 📌 Directrices de redacción editorial:
+
+1. **No forzar listas numeradas ni viñetas en cada sección:**
+   - Queda terminantemente prohibido encadenar secciones consecutivas donde cada una sea una lista (`•` o `1., 2., 3.`).
+   - Si una sección presenta un desafío, vector de ataque o solución, desarróllalo en **párrafos narrativos continuos** (de 2 a 4 oraciones bien hiladas con causa, impacto y análisis técnico).
+
+2. **Subtítulos H3 temáticos y limpios en lugar de subtítulos numerados:**
+   - ❌ **Prohibido:** `### 1. Sauvegarde non sécurisée...`, `### 2. Malwares résidents...`, `### 3. Détournement SIM...`
+   - ✅ **Forma correcta:** `### Exposición y fuga de memoria en frases de recuperación`, `### Infección por malware residente y suplantadores de portapapeles`, `### Vulnerabilidad del canal celular y usurpación de SIM`
+   - Debajo de cada `###`, redacta prosa explicativa sin insertar una lista de viñetas adentro.
+
+3. **Límite estricto de listas en todo el post (Máximo UNA sola lista breve):**
+   - En todo el artículo se permite **como máximo UNA sola lista con viñetas** (de no más de 3 a 4 puntos sintéticos), idealmente en las recomendaciones prácticas finales si se requiere resumir acciones puntuales.
+   - Si no es estrictamente imprescindible, incluso las recomendaciones prácticas deben redactarse en párrafos narrativos.
+   - Si una sección ya contiene una lista, ninguna otra sección del artículo puede contener listas.
+
+4. **Integración de Zi0n redactada en prosa arquitectónica:**
+   - ❌ **Evitar la lista mecánica de funciones:**
+     ```markdown
+     Zi0n neutralise les menaces grâce à :
+     • **Cable Wipe :** purge instantanée...
+     • **Duress PIN :** faux profil...
+     • **VPN décentralisé :** rotation d'IP...
+     ```
+   - ✅ **Redacción editorial integrada en párrafos:**
+     ```markdown
+     Frente a estos vectores de compromiso físico y lógico, la arquitectura de Zi0n plantea un enfoque de defensa en profundidad donde el hardware y el sistema operativo colaboran estrechamente. Al detectarse cualquier desconexión forzada o intento de acceso por cable, el protocolo de Cable Wipe interrumpe las líneas de datos USB y ejecuta la purga de claves en memoria volátil de forma instantánea.
+
+     De forma paralela, el entorno mitiga los escenarios de coacción física mediante el Duress PIN, que despliega una sesión de señuelo funcional preservando las áreas blindadas del dispositivo. Todo el tráfico hacia el ecosistema Web3 transita por una red descentralizada con rotación dinámica de direcciones IP, eliminando la correlación de metadatos celulares y blindando la identidad operativa del usuario.
+     ```
+
+5. **Eliminar el patrón repetitivo de IA `• **Palabra clave :** explicación extensa`:**
+   - Las ideas deben fluir con sintaxis natural mediante oraciones coordinadas, subordinadas y conectores argumentativos, en vez de fragmentar el pensamiento en etiquetas artificiales en negrita seguidas de dos puntos.
+
 ### 🔠 Regla global de mayúsculas en títulos — los 10 idiomas
 
 El campo `title` del frontmatter (y cualquier encabezado `##`/`###` dentro del cuerpo) DEBE usar **minúscula sostenida ("sentence case")** en TODOS los idiomas latinos/germánicos del set (`es`, `en`, `fr`, `it`, `nl`, `pt-BR`, `de`): se capitaliza únicamente la primera letra de la primera palabra del título, nunca cada palabra al estilo "Title Case" en inglés.
@@ -197,16 +240,16 @@ Cuando los dos puntos introducen una aclaración, relación causal o resultado d
 
 - **Tiempo de lectura objetivo:** Todo artículo generado debe tener una duración estimada de **aproximadamente 3 minutos de lectura** (~500 - 620 palabras en idiomas latinos, germánicos y eslavos; ~1000 - 1200 caracteres en chino simplificado).
 - **Redacción clara, didáctica y accesible:** Explicar las amenazas y soluciones técnicas con analogías cotidianas y comprensibles (ej. perfiles aislados como cajas fuertes independientes, llaves físicas, aislamiento de arena), evitando sobrecargar el texto con jerga técnica compleja o intimidante.
-- **Estructura ágil para lectura rápida:** Párrafos concisos, viñetas directas de acción y preguntas frecuentes breves para que cualquier usuario asimile la información esencial en 3 minutos exactos.
+- **Estructura ágil en prosa:** Párrafos concisos y fluidos (2 a 4 oraciones), transiciones lógicas entre ideas y preguntas frecuentes directas. Cero acumulación de listas con viñetas o números.
 
 ### 📐 Estructura obligatoria del Markdown (para cada uno de los 10 idiomas)
 
-1. **Entrada directa (2-3 líneas):** Plantea el problema o amenaza técnica sin rodeos ni saludos introductorios.
-2. **El Desafío / Amenaza Real (`## `):** Explicación técnica de vectores de ataque reales y relevantes para el dominio de Zi0n — SIM swapping, apps de mensajería/wallet no verificadas, malware/spyware en Android, extracción forense por cable (Cellebrite/GrayKey), captura de pantalla/grabación no autorizada, pérdida o incautación del dispositivo.
-3. **Análisis Técnico y Solución (`## ` y `### `):** Mecanismos reales que usa Zi0n — cifrado de extremo a extremo, verificación de integridad de apps, aislamiento del entorno, VPN dinámica sobre red descentralizada con rotación de IP, eSIM internacional, notas de seguridad encriptadas, restauración segura con credenciales importadas.
-4. **Recomendaciones Prácticas:** Puntos de acción concretos y aplicables, referenciando las funciones reales de Zi0n cuando aplique (auto-wipe por cable, PIN de seguridad, Extra PIN, protección SIM/eSIM, bloqueo de cámara/mic, bloqueo de capturas, autodestrucción por inactividad, botón de pánico).
-5. **Sección de Integración:** Encabezado equivalente a `## ¿Cómo puede ayudarte Zi0n?` (traducido a cada idioma) con enlaces contextuales a `https://zi0n.io`.
-6. **Preguntas Frecuentes:** Encabezado equivalente a `## Preguntas frecuentes` con 4-5 preguntas y respuestas concisas.
+1. **Entrada directa (1-2 párrafos, 2-3 líneas cada uno):** Plantea el problema o vector de ataque real sin rodeos ni saludos introductorios.
+2. **El Desafío / Amenaza Real (`## `):** Explicación en **prosa continua** (sin viñetas) de vectores de ataque reales y relevantes para el dominio de Zi0n — SIM swapping, apps no verificadas, malware/spyware en Android, extracción forense por cable (Cellebrite/GrayKey), captura de pantalla no autorizada, pérdida o incautación física.
+3. **Análisis Técnico y Solución (`## ` y `### ` temáticos):** Desarrollado mediante subtítulos temáticos H3 descriptivos (sin números `1.`, `2.`, `3.`) y **párrafos analíticos en prosa**, explicando mecanismos criptográficos, sandboxing, VPN dinámica sobre red descentralizada con rotación de IP, eSIM internacional o notas de seguridad.
+4. **Recomendaciones Prácticas (`## `):** Consejos y pautas de acción. Preferiblemente redactadas en prosa narrativa articulada. Si se decide utilizar una lista con viñetas, esta será la **ÚNICA lista en todo el post** y contendrá un **máximo de 3 a 4 puntos concisos**.
+5. **Sección de Integración (`## `):** Encabezado equivalente a `## ¿Cómo puede ayudarte Zi0n?` redactado en **párrafos fluidos** (sin listas de viñetas), explicando la convergencia de hardware blindado y software en la plataforma, con enlaces contextuales a `https://zi0n.io`.
+6. **Preguntas Frecuentes (`## `):** Encabezado equivalente a `## Preguntas frecuentes` con 4-5 preguntas (`### `) y respuestas directas en prosa breve.
 7. **Llamado a la Acción (CTA):** Enlace directo a `https://zi0n.io` (o `https://zi0n.io/{locale}` si aplica).
 
 ## 📄 3. Esquema exacto del frontmatter (por archivo `{locale}.md`)
